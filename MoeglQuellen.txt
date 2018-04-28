@@ -1,0 +1,15 @@
+Nandy, Abhishek (2009-) ; Biswas, Manisha
+Reinforcement Learning : With Open AI, TensorFlow and Keras Using Python
+Berkeley, CA : Apress, 2018
+
+Géron, Aurélien
+Hands-on machine learning with Scikit-Learn and TensorFlow : concepts, tools, and techniques to build intelligent systems
+First edition. - Beijing ; Boston ; Farnham ; Sebastopol ; Tokyo : O'Reilly Media, March 2017
+
+Müller, Andreas Christian [Verfasser] ; Guido, Sarah [Verfasser]
+Introduction to machine learning with Python : a guide for data scientists
+First edition. - Beijing ; Boston ; Farnham ; Sebastopol ; Tokyo : O'Reilly, October 2016
+
+Sarkar, Dipanjan ; Bali, Raghav ; Sharma, Tushar
+Practical Machine Learning with Python : A Problem-Solver's Guide to Building Real-World Intelligent Systems
+Berkeley, CA : Apress, 2018
