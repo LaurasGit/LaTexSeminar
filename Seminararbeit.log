@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600) (preloaded format=pdflatex 2018.4.16)  3 MAY 2018 14:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600) (preloaded format=pdflatex 2018.4.16)  5 MAY 2018 15:30
 entering extended mode
 **./Seminararbeit.tex
 (Seminararbeit.tex
@@ -304,13 +304,13 @@ Seminararbeit.toc)
 \openout3 = `Seminararbeit.toc'.
 
  [1] [1]
-Overfull \hbox (18.25127pt too wide) in paragraph at lines 45--50
+Overfull \hbox (18.25127pt too wide) in paragraph at lines 45--59
 \OT1/cmr/m/n/12 Multivariable Re-gres-sions Meth-o-d-en wer-den f[]ur Prob-leme
  mit mehreren input-Variablen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--50
+Underfull \hbox (badness 10000) in paragraph at lines 45--59
 
  []
 
@@ -322,13 +322,13 @@ Here is how much of TeX's memory you used:
  6214 multiletter control sequences out of 15000+200000
  12403 words of font info for 48 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,6n,26p,644b,192s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,6n,26p,729b,192s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Laura/Documents/portyTeX/MiK
 TeX_Portable/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Laura/Document
 s/portyTeX/MiKTeX_Portable/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/L
 aura/Documents/portyTeX/MiKTeX_Portable/fonts/type1/public/amsfonts/cm/cmr17.pf
 b>
-Output written on Seminararbeit.pdf (8 pages, 55142 bytes).
+Output written on Seminararbeit.pdf (8 pages, 57503 bytes).
 PDF statistics:
  41 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
