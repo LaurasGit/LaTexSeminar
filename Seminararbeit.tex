@@ -62,11 +62,22 @@ tmargin={2.5cm},bmargin = {2.5cm}]{geometry}
 	\section{Unsupervised Learning}
 	 Bei unsupervised Learning haben die Trainings-Daten keine Label. (Sarkar, S.38)Es ist also kein erwarteter/gewünschter Output bekannt und auch schwer feststellbar ob das Modell korrekte Ergebnisse erzielt.(Müller, S.132) Der Algorithmus bekommt nur die Input-Daten und muss anhand dessen Entscheidungen treffen und kategorisieren.(Müller, S.131)\newline
 	 Das Modell lernt inherente Strukturen, Muster und Beziehungen aus dem Datensatz ohne dabei Hilfe von außen zubekommen.(Sarkar, S.38) Hierbei werden Besonderheiten von Daten gefunden.(Kirk, S.16) Die Ergebnisse sind unsicherer als die von supervised Learning Algorithmen, eignen sich aber um weitere Informationen zu den Daten zu finden.(Sarkar, S.38) Weshalb diese Art des Machine Learnings oft in explorativen Bereichen eingesetzt wird um Daten besser zu verstehen. (Müller, S.132) Ein Einsatzgebiet ist als vorverarbeitungs Schritt des supervised Learnings, um neue Representatoren für die Daten zu finden und somit Genauigkeit, Speichernutzung und Geschwindigkeit zu verbessern.(Müller, S.132)
-	 Unsupervised Learning kann mit verschiedenen Methoden angewendet werden, diese sind: Clustering, Dimensionsreduktion, Anomalie Erkennung und Association rule-mining. (Sarkar, S.38)
+	 Unsupervised Learning kann mit verschiedenen Methoden angewendet werden, diese sind: Clusterbildung, Dimensionsreduktion, Anomalie Erkennung und Association rule-mining. (Sarkar, S.38)
 	 
-	 \subsection{Clustering}
+	 \subsection{Clusterbildung}
+	 Ziel der Clusterbildung ist es, dass sich in einem Cluster möglichst ähnliche Daten befinden und außerhalb zum Cluster unterschiedliche.(Müller, S.168) Die Cluster werden durch Muster von Ähnlichkeiten und Verbindungen zwischen den Datensätzen gebildet.(Sarkar, S.39) Die Clusterbildung kann in verschiedene Typen aufgeteilt werden: Centroid based, Hirachical clustering, distribution based und density based.(Sarkar, S.39)
+	 
 	 \subsection{Dimensionsreduktion}
+	 Die Komplexität des Machine Learning Modells ist abhängig von der Anzahl der Inputs. Sie bestimmen die Zeit- und Speicherkomplexität, sowie die Anzahl der zum Training benötigten Daten. (Alpaydin, S.105) Dimensionsreduktion wird genutzt um den überladenen Input-space zu verkleinern und somit die Anzahl der relevanten Features oder Attribute($\widehat{=}$ Dimensionen) für jeden Datensatz zu reduzieren.(Sarkar, S.40) Werden die Modelle einfach gehalten sind sie bei kleinen Datensätzen robuster aufgrund ihrer geringeren Varianz.(Alpaydin, S.105) Die Reduktion der Dimensionen erfolgt durch die Auswahl von Haupt- und bedarfsgesteuerten Features. Für diese gibt es zwei Methoden.(Sarkar, S.40)
+	 \newline
+	 Für die Feature Extraction werden neue Features, die Kombinationen aus der origninal Featureliste sind gesucht.(Alpaydin, S.106)
+	 \newline
+	 Bei der Feature Selection werden von d Dimensionen k, mit Hilfe von Subset Selection ausgewählt.(Alpaydin, S.106) Die Features die die meisten Informationen liefern werden aus der original Featureliste ausgewählt, der Rest wird verworfen, es kommen keine neuen Features hinzu.(Sarkar, S.40)
+	 Ziel der Subset Selection ist es das beste Subset aus der Featureliste mit einer möglichst geringen Anzahl von Dimensionen und der besten Genauigkeit zu finden. Es gibt $2^{d}$ mögliche Subsets aus denen ausgewählt werden kann, aufgrund der großen Menge können nicht alle getestet werden und es müssen geeignete Verfahren genutzt werden.(Alpaydin, S.106)
+	 
 	 \subsection{Anomalie Erkennung}
+	 Ziel der Anomalie Erkennung ist es seltene oder laut vorherigen Datensätzen untypische Ereignisse zu erkennen. Diese können auch nach bestimmten Mustern auftreten. In der Trainings-Phase sind alle Input-Daten ohne Anomalien, danach kann der Algorithmus zwischen normalen und anomalen Datensätzen unterscheiden.(Sarkar, S.40)
+	 
 	 \subsection{Association rule-mining}
 	
 	\newpage

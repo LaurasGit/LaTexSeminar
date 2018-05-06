@@ -4,9 +4,9 @@
 \contentsline {subsection}{\numberline {2.1}Klassifikation}{2}
 \contentsline {subsection}{\numberline {2.2}Regression}{2}
 \contentsline {section}{\numberline {3}Unsupervised Learning}{4}
-\contentsline {subsection}{\numberline {3.1}Clustering}{4}
+\contentsline {subsection}{\numberline {3.1}Clusterbildung}{4}
 \contentsline {subsection}{\numberline {3.2}Dimensionsreduktion}{4}
-\contentsline {subsection}{\numberline {3.3}Anomalie Erkennung}{4}
-\contentsline {subsection}{\numberline {3.4}Association rule-mining}{4}
-\contentsline {section}{\numberline {4}Reinforcement Learning}{5}
-\contentsline {section}{\numberline {5}Schluss}{6}
+\contentsline {subsection}{\numberline {3.3}Anomalie Erkennung}{5}
+\contentsline {subsection}{\numberline {3.4}Association rule-mining}{5}
+\contentsline {section}{\numberline {4}Reinforcement Learning}{6}
+\contentsline {section}{\numberline {5}Schluss}{7}
