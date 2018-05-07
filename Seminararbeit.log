@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600) (preloaded format=pdflatex 2018.4.16)  6 MAY 2018 16:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600) (preloaded format=pdflatex 2018.4.16)  7 MAY 2018 08:20
 entering extended mode
 **./Seminararbeit.tex
 (Seminararbeit.tex
@@ -328,10 +328,10 @@ tion based und den-si-ty based.(Sarkar,
 
 [4] [5] [6] [7] (Seminararbeit.aux) ) 
 Here is how much of TeX's memory you used:
- 2968 strings out of 495204
- 43297 string characters out of 3180427
+ 2975 strings out of 495204
+ 43390 string characters out of 3180427
  108343 words of memory out of 3000000
- 6214 multiletter control sequences out of 15000+200000
+ 6221 multiletter control sequences out of 15000+200000
  12403 words of font info for 48 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  41i,6n,26p,729b,192s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -342,7 +342,7 @@ a/Documents/portyTeX/MiKTeX_Portable/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
 C:/Users/Laura/Documents/portyTeX/MiKTeX_Portable/fonts/type1/public/amsfonts/c
 m/cmr12.pfb><C:/Users/Laura/Documents/portyTeX/MiKTeX_Portable/fonts/type1/publ
 ic/amsfonts/cm/cmr17.pfb>
-Output written on Seminararbeit.pdf (9 pages, 75917 bytes).
+Output written on Seminararbeit.pdf (9 pages, 76213 bytes).
 PDF statistics:
  52 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
