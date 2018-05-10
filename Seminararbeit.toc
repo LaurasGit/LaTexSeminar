@@ -8,5 +8,6 @@
 \contentsline {subsection}{\numberline {3.2}Dimensionsreduktion}{4}
 \contentsline {subsection}{\numberline {3.3}Anomalie Erkennung}{5}
 \contentsline {subsection}{\numberline {3.4}Association rule-mining}{5}
-\contentsline {section}{\numberline {4}Reinforcement Learning}{6}
-\contentsline {section}{\numberline {5}Schluss}{7}
+\contentsline {section}{\numberline {4}semi supervised?}{6}
+\contentsline {section}{\numberline {5}Reinforcement Learning}{7}
+\contentsline {section}{\numberline {6}Schluss}{8}

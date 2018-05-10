@@ -32,18 +32,26 @@ tmargin={2.5cm},bmargin = {2.5cm}]{geometry}
 	\newpage
 	\section{Supervised Learning}
 	Supervised Learning gehört zu den erfolgreichsten und meist verbreiteten Arten des Machine Learnings. (Müller, S.25)
-	Beim Supervised Learning werden bekannte Daten und Ausgaben während dem Trainieren und Prüfen des Modells genutzt, welche auch Training-Daten und Label genannt werden.(Sarkar, S.35) Diese optimieren das Modell, auf Basis der Vorhandenen Daten, durch anpassen der Parameter.(Suthaharan, S.140) Ein Modell besteht aus den in- und output-Paaren des Training Datensatzes. (Müller, S25) Das Hauptziel ist es die eingehenden Daten x auf die ausgehenden y Abzubilden(f(x) = y), um später für neue Daten x' die zugehörigen y' Daten zu bestimmen.(Sarkar, S.35)
-	Durch eine größere Menge an Traning-Daten ist eine bessere Abdeckung von Verschiedenen Fällen möglich, dies kann aber auch zu Overfitting führen.Um das zu verhindern muss das Training früh genug beendet werden.(Suthaharan, S.140)
-	Es gibt zwei Methoden für Supervised Learning, Klassifikation und Regression. Die Wahl der Methode hängt von der zu erfüllenden Aufgabe ab.(Sarkar, S.35)
+	Beim Supervised Learning werden bekannte Daten und Ausgaben während dem Trainieren und Prüfen des Modells genutzt, welche auch Trainings-Daten und Label genannt werden.(Sarkar, S.35) Diese optimieren das Modell, auf Basis der vorhandenen Daten, durch Anpassen der Parameter.(Suthaharan, S.140) Ein Modell besteht aus den in- und output-Paaren des Training Datensatzes. (Müller, S25) Das Hauptziel ist es die eingehenden Daten x auf die ausgehenden y Abzubilden(f(x) = y), um später für neue Daten x' die zugehörigen y' Daten zu bestimmen.(Sarkar, S.35)
+	Durch eine größere Menge an Traning-Daten ist eine bessere Abdeckung von verschiedenen Fällen möglich, dies kann aber auch zu Overfitting führen.Um das zu verhindern muss das Training früh genug beendet werden.(Suthaharan, S.140)
+	Es gibt zwei Methoden für Supervised Learning: Klassifikation und Regression. Die Wahl der Methode hängt von der zu erfüllenden Aufgabe ab.(Sarkar, S.35)
 	
 	\subsection{Klassifikation}
 	
-	Das Ziel der Klassifikation ist es ein Klassenlabel für die eingehenden Daten voraus zusagen. Die verschiedenen Label sind Teil einer vorgegebenen Liste. (Müller, S.25) Die Klassifikation kann in binäre und multiklassen Klassifkation aufgeteilt werden. Bei binärer Klassifikation sind nur zwei Klassen verfügbar, die Problemstellung lässt sich also auf eine Ja/Nein-Frage ableiten. In der multiklassen Klassifikation sind mehrere Klassen möglich.(Müller, S.25) Während der Trainings-Phase werden Regeln für das Zuteilen von Labels erstellt, die später dabei helfen Test-Daten Labels zu zuweisen. (Suthaharan, S.8)
+	Das Ziel der Klassifikation ist es ein Klassenlabel für die eingehenden Daten voraus zusagen. Die verschiedenen Label sind Teil einer vorgegebenen Liste. (Müller, S.25) Die Klassifikation kann in binäre und multiklassen Klassifkation aufgeteilt werden. Bei binärer Klassifikation sind nur zwei Klassen verfügbar, die Problemstellung lässt sich also auf eine Ja/Nein-Frage ableiten, die aussagt ob der Datensatz zu einer Klasse A gehört oder nicht und somit zu in Klasse B eingeordnet werden muss. Ein Beispiel hierfür ist das Verarbeiten von Daten einer Wettervorhersage(siehe \ref{fig:abb1}). Aus den eingehenden Daten(Temperatur und Luftfeuchtigkeit) entscheidet das Supervised Modell ob es sich um die Klasse Sonne oder Regen handelt.\newline 
+	In der multiklassen Klassifikation können die Inputdaten auf mehr als zwei Klassen aufgeteilt werden, es handelt sich also nicht mehr um eine Ja/Nein-Frage.(Müller, S.25) Während der Trainings-Phase werden Regeln für das Zuteilen von Labels erstellt, die später dabei helfen Test-Daten Labels zu zuweisen. (Suthaharan, S.8)
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=3.5cm]{Bilder/Label.png}
+		\caption{Beispiel Wettervorhersage}
+		\label{fig:abb1}
+	\end{figure}
+	
 	
 	
 	\subsection{Regression}
-	In Regressions-Problemen sollen oft Zahlen oder Werte ermittelt werden. Im Gegensatz zur Klassifikation gibt es keine Klassen oder Labels denen Daten zugeordnet werden können. Regressions-Modelle lernen den Zusammenhang aus Eingangs- und Ausgangsdaten, um für neue Daten den passenden Output vorherzusagen.(Sarkar, S.37) \newline
-	Simple linear regression-Modelle versuchen mit nur einer Variable x eine Output-Variable y zu bestimmen und können somit lineare Probleme lösen.(Sarkar, S.37)\newline
+	In Regressions-Problemen sollen oft Zahlen oder Werte ermittelt werden. Im Gegensatz zur Klassifikation gibt es keine Klassen oder Labels denen Daten zugeordnet werden können. Regressions-Modelle lernen stattdessen den Zusammenhang aus Eingangs- und Ausgangsdaten, um für neue Daten den passenden Output vorherzusagen.(Sarkar, S.37) \newline
+	Lineare Regressions Modelle versuchen mit nur einer Variable x eine Output-Variable y zu bestimmen und können somit lineare Probleme lösen.(Sarkar, S.37)\newline
 	Multivariable Regressions Methoden werden für Probleme mit mehreren input-Variablen in Form eines Vektors und nur einer Output-Variable verwendet.(Sarkar, S.38) \newline
 	Ein Sonderfall der Multivariablen Regression ist die Polynomiale Regression. Hier ist die Ausgabevariable Polynom n-ten Grades der Eingangsvariable  (Sarkar, S.38)\newline
 	Nichtlineare Regressions Modelle stellen zwischen Ein- und Ausgehendendaten eine Beziehung auf Basis einer Kombination aus nicht-linearen Funktionen her.(Sarkar, S.38)\newline
@@ -85,6 +93,8 @@ tmargin={2.5cm},bmargin = {2.5cm}]{geometry}
 	\section{semi supervised?}
 	\newpage
 	\section{Reinforcement Learning}
+	Beim Reinforcement Learning werden intelligente Programme, die Agenten genannt werden genutzt.(Nandy, S.1) Ein Agent trainiert um sich seiner Umgebung anzupassen und seine Leistung zu verbessern.(Sarkar, S.42) Die Umgebung kann eine 2D oder 3D Simulation eines Szenarios aus der echten Welt oder aus einem Spiel sein.(Nandy, S.2) Der Agent besitzt bereits zu beginn bestimmte Strategien und Richtlinien, diese werden verbessert und angepasst.(Sarkar, S.43)
+	
 	\newpage
 	\section{Schluss}
 	
