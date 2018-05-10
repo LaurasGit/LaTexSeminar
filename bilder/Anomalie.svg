@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8558"
+   inkscape:export-filename="C:\Users\Laura\Documents\GitHub\LaTexSeminar\bilder\Cluster.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   sodipodi:docname="Anomalie.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <defs
+     id="defs8552" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.82"
+     inkscape:cx="206.49404"
+     inkscape:cy="755.12195"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata8555">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.28995892px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 20.569653,31.136426 C 20.057124,164.70833 20.057124,164.70833 20.057124,164.70833 c 171.697356,0 171.697356,0 171.697356,0"
+       id="path8560"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 20.569653,31.136426 c -3.791198,5.474853 -3.791198,5.474853 -3.791198,5.474853"
+       id="path8562"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 20.569653,31.136426 c 3.952704,5.797518 3.952704,5.797518 3.952704,5.797518"
+       id="path8564"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 191.75448,164.70833 c -4.61017,-4.83994 -4.61017,-4.83994 -4.61017,-4.83994"
+       id="path8566"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 191.75448,164.70833 v 0 l -3.96485,5.1626"
+       id="path8568"
+       inkscape:connector-curvature="0" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot8570"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(-0.00440146,-0.26454672,0.26454672,-0.00440146,-62.062537,120.54723)"><flowRegion
+         id="flowRegion8572"><rect
+           id="rect8574"
+           width="98.780487"
+           height="54.878048"
+           x="35.365852"
+           y="262.76358" /></flowRegion><flowPara
+         id="flowPara8576"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">Wert</flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="141.00356"
+       y="173.74289"
+       id="text8580"><tspan
+         sodipodi:role="line"
+         id="tspan8578"
+         x="141.00356"
+         y="173.74289"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">Zeit</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.38253149px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 20.386729,141.78461 c 4.650009,-21.52835 7.905015,-16.84828 7.905015,-16.84828 l 0.930001,14.04022 4.185007,-8.89214 5.115009,3.74405 v -14.50823 l 7.905017,15.91227 3.255006,-18.2523 5.58001,21.52834 2.790008,-25.27241 3.255003,14.04024 2.325005,-8.42414 9.300019,7.02011 0.930001,-8.42413 5.580011,5.61607 5.580009,-5.61607 8.83502,8.42413 7.44002,-83.77337 0.92999,54.288896 -0.92999,19.656304 8.835,5.61609 0.46501,-11.70017 7.44001,8.42413 2.32501,-14.04023 c 0,0 4.65,10.76418 5.58001,12.63621 0.93,1.87203 11.16003,-16.8483 11.16003,-16.8483 l 15.81002,9.36018 2.79,-12.636207 7.90501,6.084087 0.46502,-12.636208 c 0,0 11.16002,8.424147 12.55501,10.764178 1.395,2.34003 3.72001,7.95614 3.72001,7.95614 l 5.58002,-9.360158 V 86.5597 l 6.97501,10.296173"
+       id="path8584"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ce1616;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path8586"
+       sodipodi:type="arc"
+       sodipodi:cx="101.29689"
+       sodipodi:cy="42.098969"
+       sodipodi:rx="4.3655286"
+       sodipodi:ry="4.1934013"
+       sodipodi:start="1.6210164"
+       sodipodi:end="1.6031512"
+       d="m 101.07775,46.287083 a 4.3655286,4.1934013 0 0 1 -4.14182,-4.379911 4.3655286,4.1934013 0 0 1 4.54115,-3.998031 4.3655286,4.1934013 0 0 1 4.18238,4.344199 4.3655286,4.1934013 0 0 1 -4.50379,4.036835 l 0.14122,-4.191206 z" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#da0a0a;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       x="102.28403"
+       y="36.611279"
+       id="text9133"><tspan
+         sodipodi:role="line"
+         id="tspan9131"
+         x="102.28403"
+         y="36.611279"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332;fill:#da0a0a;fill-opacity:1;">Anomalie</tspan></text>
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#ce1616;stroke-width:1.22143269;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 384.05502,166.31654 c 0,-9.96561 -1.91908,-10.35973 -3.04878,-0.62612 -0.99995,8.6156 -2.88872,9.40547 -8.76132,3.66392 -9.64693,-9.43167 -3.1508,-24.39563 10.59059,-24.39563 16.71758,0 21.16509,21.04306 5.79268,27.40762 l -4.57317,1.8934 z"
+       id="path9137"
+       inkscape:connector-curvature="0"
+       transform="scale(0.26458333)" />
+  </g>
+</svg>

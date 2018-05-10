@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600) (preloaded format=pdflatex 2018.4.16)  10 MAY 2018 10:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600) (preloaded format=pdflatex 2018.4.16)  10 MAY 2018 16:50
 entering extended mode
 **./Seminararbeit.tex
 (Seminararbeit.tex
@@ -164,36 +164,45 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 )
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
-) (Seminararbeit.aux)
+)
+(C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count92
+\float@exts=\toks25
+\float@box=\box26
+\@float@everytoks=\toks26
+\@floatcapt=\box27
+)
+(Seminararbeit.aux)
 \openout1 = `Seminararbeit.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 
 (C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\context\base\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count92
+\scratchcounter=\count93
 \scratchdimen=\dimen114
-\scratchbox=\box26
-\nofMPsegments=\count93
-\nofMParguments=\count94
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count95
+\scratchbox=\box28
+\nofMPsegments=\count94
+\nofMParguments=\count95
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count96
 \MPscratchDim=\dimen115
-\MPnumerator=\count96
-\makeMPintoPDFobject=\count97
-\everyMPtoPDFconversion=\toks26
+\MPnumerator=\count97
+\makeMPintoPDFobject=\count98
+\everyMPtoPDFconversion=\toks28
 )
 (C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\oberdiek\epstopdf-
 base.sty
@@ -287,11 +296,11 @@ G,.JBIG2,.JB2,.eps]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 23.
+LaTeX Font Info:    Try loading font information for U+msa on input line 24.
 (C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 23.
+LaTeX Font Info:    Try loading font information for U+msb on input line 24.
 
 (C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -307,60 +316,72 @@ Seminararbeit.toc)
 <Bilder/Label.png, id=14, 320.69812pt x 442.65375pt>
 File: Bilder/Label.png Graphic file (type png)
 <use Bilder/Label.png>
-Package pdftex.def Info: Bilder/Label.png  used on input line 45.
+Package pdftex.def Info: Bilder/Label.png  used on input line 46.
 (pdftex.def)             Requested size: 99.58464pt x 137.45088pt.
+ [2]
+<Bilder/Regression.png, id=19, 505.89pt x 680.5425pt>
+File: Bilder/Regression.png Graphic file (type png)
+<use Bilder/Regression.png>
+Package pdftex.def Info: Bilder/Regression.png  used on input line 71.
+(pdftex.def)             Requested size: 142.26378pt x 191.38133pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (60.23409pt too wide) in paragraph at lines 53--67
+Overfull \hbox (60.23409pt too wide) in paragraph at lines 54--75
 \OT1/cmr/m/n/12 Eingangs- und Aus-gangs-dat-en, um f[]ur neue Dat-en den passen
 den Out-put vorherzusagen.(Sarkar,
  []
 
 
-Overfull \hbox (18.25127pt too wide) in paragraph at lines 53--67
+Overfull \hbox (18.25127pt too wide) in paragraph at lines 54--75
 \OT1/cmr/m/n/12 Multivariable Re-gres-sions Meth-o-d-en wer-den f[]ur Prob-leme
  mit mehreren input-Variablen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--67
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
- []
+[3 <./Bilder/Label.png>]
+<Bilder/Cluster.png, id=24, 453.94594pt x 357.58594pt>
+File: Bilder/Cluster.png Graphic file (type png)
+<use Bilder/Cluster.png>
+Package pdftex.def Info: Bilder/Cluster.png  used on input line 87.
+(pdftex.def)             Requested size: 142.26378pt x 112.06178pt.
 
-[2] [3 <./Bilder/Label.png>]
-Overfull \hbox (4.05557pt too wide) in paragraph at lines 76--77
+Overfull \hbox (4.05557pt too wide) in paragraph at lines 84--91
 \OT1/cmr/m/n/12 wer-den durch Muster von []Ahnlichkeiten und Verbindun-gen zwis
 -chen den Datens[]atzen
  []
 
-
-Overfull \hbox (35.43816pt too wide) in paragraph at lines 76--77
-\OT1/cmr/m/n/12 wer-den: Cen-troid based, Hirachi-cal clus-ter-ing, dis-tri-bu-
-tion based und den-si-ty based.(Sarkar,
- []
-
-[4] [5] [6] [7] [8] (Seminararbeit.aux) ) 
+[4 <./Bilder/Regression.png>]
+<Bilder/Anomalie.png, id=29, 515.67656pt x 406.51875pt>
+File: Bilder/Anomalie.png Graphic file (type png)
+<use Bilder/Anomalie.png>
+Package pdftex.def Info: Bilder/Anomalie.png  used on input line 105.
+(pdftex.def)             Requested size: 142.26378pt x 112.14966pt.
+ [5 <./Bilder/Cluster.png>]
+<Bilder/rulemining.png, id=37, 556.32843pt x 338.76563pt>
+File: Bilder/rulemining.png Graphic file (type png)
+<use Bilder/rulemining.png>
+Package pdftex.def Info: Bilder/rulemining.png  used on input line 114.
+(pdftex.def)             Requested size: 142.26378pt x 86.62962pt.
+ [6 <./Bilder/Anomalie.png> <./Bilder/rulemining.png>] [7] [8] [9] (Seminararbe
+it.aux) ) 
 Here is how much of TeX's memory you used:
- 2983 strings out of 495204
- 43503 string characters out of 3180427
- 108351 words of memory out of 3000000
- 6226 multiletter control sequences out of 15000+200000
+ 3067 strings out of 495204
+ 44822 string characters out of 3180427
+ 108750 words of memory out of 3000000
+ 6302 multiletter control sequences out of 15000+200000
  12403 words of font info for 48 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,7n,26p,779b,226s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Laura/Documents/portyTeX/MiK
-TeX_Portable/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Laura/Document
-s/portyTeX/MiKTeX_Portable/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/
-Laura/Documents/portyTeX/MiKTeX_Portable/fonts/type1/public/amsfonts/cm/cmmi8.p
-fb><C:/Users/Laura/Documents/portyTeX/MiKTeX_Portable/fonts/type1/public/amsfon
-ts/cm/cmr12.pfb><C:/Users/Laura/Documents/portyTeX/MiKTeX_Portable/fonts/type1/
-public/amsfonts/cm/cmr17.pfb>
-Output written on Seminararbeit.pdf (10 pages, 93707 bytes).
+ 41i,7n,26p,779b,230s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Laura/Documents/portyTeX/MiKTeX_Portable/fonts/type1/public/
+amsfonts/cm/cmbx12.pfb><C:/Users/Laura/Documents/portyTeX/MiKTeX_Portable/fonts
+/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Laura/Documents/portyTeX/MiKTeX_
+Portable/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Laura/Documents/por
+tyTeX/MiKTeX_Portable/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Laura/
+Documents/portyTeX/MiKTeX_Portable/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on Seminararbeit.pdf (11 pages, 181318 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
+ 69 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
