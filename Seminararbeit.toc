@@ -10,4 +10,5 @@
 \contentsline {subsection}{\numberline {3.4}Association rule-mining}{6}
 \contentsline {section}{\numberline {4}semi supervised?}{7}
 \contentsline {section}{\numberline {5}Reinforcement Learning}{8}
+\contentsline {subsection}{\numberline {5.1}Umgebung}{8}
 \contentsline {section}{\numberline {6}Schluss}{9}

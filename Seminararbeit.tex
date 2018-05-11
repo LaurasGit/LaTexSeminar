@@ -119,7 +119,19 @@ tmargin={2.5cm},bmargin = {2.5cm}]{geometry}
 	\section{semi supervised?}
 	\newpage
 	\section{Reinforcement Learning}
-	Beim Reinforcement Learning werden intelligente Programme, die Agenten genannt werden genutzt.(Nandy, S.1) Ein Agent trainiert um sich seiner Umgebung anzupassen und seine Leistung zu verbessern.(Sarkar, S.42) Die Umgebung kann eine 2D oder 3D Simulation eines Szenarios aus der echten Welt oder aus einem Spiel sein.(Nandy, S.2) Der Agent besitzt bereits zu beginn bestimmte Strategien und Richtlinien, diese werden verbessert und angepasst.(Sarkar, S.43) Abhängig von der Interaktion mit der Umgebung erhält der Agent von der Umgebung Belohnungen und Bestrafungen, meist in vorm von plus und minus Punkten.(Nandy, S.2) Diese führen zu einem Update der Strategien um mehr Belohnungen zu erhalten.(Sarkar, S.42) 
+	Beim Reinforcement Learning werden intelligente Programme, die Agenten genannt werden genutzt.(Nandy, S.1) Hierbei gibt es keine Trainings-Daten.(Nandy, S.2)  Ein Agent trainiert um sich seiner Umgebung anzupassen und seine Leistung zu verbessern.(Sarkar, S.42) \newline
+	Er kennt den Zustand in dem sich seine Umgebung befindet und führt Aktionen aus die diesen verändern.(Alpaydin, S.376) Das Ausführen von Aktionen von einem Start- bis zu einem Endzustand nennt man Episode oder Prozess.(Alpaydin, S.377)\newline  
+	Die Umgebung kann eine 2D oder 3D Simulation eines Szenarios aus der echten Welt oder aus einem Spiel sein. (Nandy, S.2) 
+	Die Aktionen erfolgen durch Ausprobieren, da es sehr schwer ist von beginn an vorauszusagen welche Aktion in welchen Zustand ausgeführt werden muss.(Nandy, S.5) Der Agent besitzt bereits zu beginn bestimmte Strategien und Richtlinien, diese werden verbessert und angepasst.(Sarkar, S.43) 
+	Abhängig von der Interaktion mit der Umgebung erhält der Agent von der Umgebung Belohnungen und Bestrafungen, meist in vorm von plus und minus Punkten.(Nandy, S.2) Diese führen zu einem Update der Strategien um mehr Belohnungen zu erhalten.(Sarkar, S.42)\newline
+	Reinforcement Learning wird auch lernen mir einem Kritiker genannt, da dem Modell nicht gesagt wird was es tun soll, sondern erst nach dem ausführen der Aktionen eine Rückmeldung über diese an das Modell weitergegeben wird.(Alpaydin, S.374)
+	
+	\subsection{Umgebung}
+	Die Umgebung des Agenten kann mit bestimmten Eigenschaften beschrieben werden, diese werden im folgenden erläutert.(Nandy, S.14) \newline
+	Ist die Umgebung deterministisch gibt es für jede Aktion nur einen Übergang zu einem anderen Zustand, wenn nicht ist die Umgebung nicht-deterministisch und es sind mehrere Übergänge für jede Aktion möglich.(Nandy, S.14f)\newline
+	Ist die Umgebung beobachtbar können wie bei zum Beispiel einem Schachspiel alle Informationen über die Umgebung wahrgenommen werden. Wenn die Umgebung nur teilweise beobachtbar ist sind bestimmte Informationen versteckt wie zum Besipiel beim Poker die Handkarten der anderen Mitspieler.(Nandy, S.15)\newline
+	
+	beschränkt oder fortlaufend und single oder multiagent
 	
 	\newpage
 	\section{Schluss}
