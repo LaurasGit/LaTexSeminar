@@ -1,0 +1,9 @@
+[0] Config.pm:302> INFO - This is Biber 2.10
+[0] Config.pm:305> INFO - Logfile is 'Seminararbeit.blg'
+[40] biber-MSWIN32:313> INFO - === 
+[67] Biber.pm:371> INFO - Reading 'Seminararbeit.bcf'
+[157] Biber.pm:857> INFO - Found 1 citekeys in bib section 0
+[170] Biber.pm:3976> INFO - Processing section 0
+[183] Biber.pm:4136> INFO - Looking for bibtex format file 'ref/ref_ liste .bib' for section 0
+[280] Utils.pm:209> ERROR - Cannot find 'ref/ref_ liste .bib'!
+[280] Biber.pm:114> INFO - ERRORS: 1
