@@ -44,16 +44,16 @@ tmargin={2.5cm},bmargin = {2.5cm}]{geometry}
 	Am Beispiel des Spam-Filters würde das also bedeuten, dass das Programm aus vorgegebenen Spam-E-Mails, die zum Beispiel von Usern geflaggt wurden, und normalen E-Mails lernt. Die zum lernen verwendeten Daten oder in diesem Fall E-Mails nennt man Trainings-Daten. Die Aufgabe ist es in diesem Fall Spam-Mails zu flaggen, die Erfahrung sind die Trainings-Daten und die Leistung könnte zum Beispiel an der Anzahl richtig geflaggter E-Mails gemessen werden. \cite{Geron2017} \newline
 	Warum wird Machine Learning eingesetzt?
 	Es bietet Vorteile bei Problemen mit vielen Regeln. Der Machine Learning Algorithmus kann den Code wesentlich vereinfachen und führt zu einer besseren Performanz gegenüber herkömmlichen Programmieren. Würde man den Spam-Filter ohne Machine Learning programmieren, müssten Regeln für die in Spam-Mails oft vorkommenden Begriffe wie Kredikarte, kostenlos und viele weitere, Absender-E-Mail-Adresse und vieles mehr geschrieben werden. Diese würden zu einem sehr langen Code führen. Der Machine Learning Algorithmus lernt diese Regeln selbst. Ein kurzes Programm ist leichter zu pflegen und weniger Fehler anfällig.\newline
-	Bei Komplexen Problemen gibt es teilweise mit traditionellen Algorithmen noch keine oder keine gute Lösung. Machine Learning kann diese Probleme lösen.
-	Verändert sich die Umgebung eines Problems kann sich ein Machine Learning System mit Hilfe von neuen Daten an die Umgebung anpassen.
+	Bei Komplexen Problemen gibt es teilweise mit traditionellen Algorithmen noch keine oder keine gute Lösung. Machine Learning kann diese Probleme lösen.\newline
+	Verändert sich die Umgebung eines Problems kann sich ein Machine Learning System mit Hilfe von neuen Daten an die Umgebung anpassen.\newline
 	Durch die Verwendung von Machine Learning können auch neue Erkenntnisse in großen Datenmengen und komplexen Problemen gemacht werden. \cite{Geron2017}\newline
 	Das Ziel von Machine Learning ist es Daten in etwas bedeutsames zu manipulieren, was generell immer wichtiger wird. \cite{Kirk2014} Um einen besseren Einblick in dieses Thema zu gewinnen werden in dieser Seminararbeit die grundlegenden Arten des maschinellen Lernens beschrieben und schließlich verglichen.
 	
 	\newpage
 	\section{Supervised Learning}
 	Supervised Learning gehört zu den erfolgreichsten und meist verbreiteten Arten des Machine Learnings. \cite{Mueller2016}
-	Beim Supervised Learning werden bekannte Daten und Ausgaben während dem Trainieren und Prüfen des Modells genutzt, welche auch Trainings-Daten und Label genannt werden. \cite{Sarkar2018} Diese optimieren das Modell, auf Basis der vorhandenen Daten, durch Anpassen der Parameter. \cite{Suthaharan2016} Ein Modell besteht aus den in- und output-Paaren des Training Datensatzes. \cite{Mueller2016} Das Hauptziel ist es die eingehenden Daten x auf die ausgehenden y Abzubilden(f(x) = y), um später für neue Daten x' die zugehörigen y' Daten zu bestimmen.\cite{Sarkar 2018}
-	Durch eine größere Menge an Trainings-Daten ist eine bessere Abdeckung von verschiedenen Fällen möglich, dies kann aber auch zu Overfitting führen. Um das zu verhindern muss das Training früh genug beendet werden. \cite{Suthaharan.2016}
+	Beim Supervised Learning werden bekannte Daten und Ausgaben während dem Trainieren und Prüfen des Modells genutzt, welche auch Trainings-Daten und Label genannt werden. \cite{Sarkar2018} Diese optimieren das Modell, auf Basis der vorhandenen Daten, durch Anpassen der Parameter. \cite{Suthaharan2016} Ein Modell besteht aus den in- und output-Paaren des Training Datensatzes. \cite{Mueller2016} Das Hauptziel ist es die eingehenden Daten x auf die ausgehenden y Abzubilden(f(x) = y), um später für neue Daten x' die zugehörigen y' Daten zu bestimmen.\cite{Sarkar2018}
+	Durch eine größere Menge an Trainings-Daten ist eine bessere Abdeckung von verschiedenen Fällen möglich, dies kann aber auch zu Overfitting führen. Um das zu verhindern muss das Training früh genug beendet werden. \cite{Suthaharan2016} Bei Overfitting werden die Daten sozusagen auswendig gelernt. Sollen neue Daten analysiert werden kommt es hierbei oft zu Fehlern. \cite{Kirk2014} Overfitting entsteht durch zu viele Parameter. Der Gegensatz zu Overfitting ist Underfitting. Hier ist das Modell zu einfach, es hat also zu wenig oder schlechte Parameter. \cite{Geron2017} Das Modell kann somit keine akkurate Nachbildung liefern. Sind von einer Exponentialfunktion nur zwei Punkte gegeben könnte die Funktion als Gerade interpretiert werden. Alle anderen Punkte die das Modell liefert sind dadurch nicht korrekt. \cite{Kirk2014}
 	Es gibt zwei Methoden für Supervised Learning: Klassifikation und Regression. Die Wahl der Methode hängt von der zu erfüllenden Aufgabe ab.\cite{Sarkar2018}
 	
 	\subsection{Klassifikation}
@@ -103,12 +103,12 @@ tmargin={2.5cm},bmargin = {2.5cm}]{geometry}
 	
 	\newpage
 	\section{Unsupervised Learning}
-	 Bei Unsupervised Learning haben die Trainings-Daten keine Label. \cite{Sarkar 2018} Es ist also kein erwarteter Output bekannt und auch schwer feststellbar ob das Modell korrekte Ergebnisse erzielt. Der Algorithmus bekommt nur die Input-Daten. Er muss anhand dieser Entscheidungen treffen und kategorisieren. \cite{Mueller 2016}\newline
-	 Das Modell lernt inherente Strukturen, Muster und Beziehungen aus dem Datensatz, ohne dabei Hilfe von außen zu bekommen. \cite{Sarkar 2018} Hierbei werden Besonderheiten von Daten gefunden. \cite{Kirk 2014} Die Ergebnisse sind unsicherer als die von Supervised Learning Algorithmen. Sie eignen sich aber, um weitere Informationen zu den Daten zu finden. \cite{Sarkar 2018} Deshalb wird diese Art des Machine Learnings oft in explorativen Bereichen eingesetzt, um Daten besser zu verstehen. Unsupervised Learning kann als Vorverarbeitungsschritt des Supervised Learnings eingesetzt werden. Hierbei sollen neue Representatoren für die Daten gefunden werden, um Genauigkeit, Speichernutzung und Geschwindigkeit zu verbessern. \cite{Mueller 2016}
-	 Unsupervised Learning kann durch verschiedene Methoden angewendet werden: Clusterbildung, Dimensionsreduktion, Anomalie Erkennung und Association rule-mining. \cite{Sarkar 2018} Diese werden im folgenden behandelt.
+	 Bei Unsupervised Learning haben die Trainings-Daten keine Label. \cite{Sarkar2018} Es ist also kein erwarteter Output bekannt und auch schwer feststellbar ob das Modell korrekte Ergebnisse erzielt. Der Algorithmus bekommt nur die Input-Daten. Er muss anhand dieser Entscheidungen treffen und kategorisieren. \cite{Mueller2016}\newline
+	 Das Modell lernt inherente Strukturen, Muster und Beziehungen aus dem Datensatz, ohne dabei Hilfe von außen zu bekommen. \cite{Sarkar2018} Hierbei werden Besonderheiten von Daten gefunden. \cite{Kirk2014} Die Ergebnisse sind unsicherer als die von Supervised Learning Algorithmen. Sie eignen sich aber, um weitere Informationen zu den Daten zu finden. \cite{Sarkar2018} Deshalb wird diese Art des Machine Learnings oft in explorativen Bereichen eingesetzt, um Daten besser zu verstehen. Unsupervised Learning kann als Vorverarbeitungsschritt des Supervised Learnings eingesetzt werden. Hierbei sollen neue Representatoren für die Daten gefunden werden, um Genauigkeit, Speichernutzung und Geschwindigkeit zu verbessern. \cite{Mueller2016}
+	 Unsupervised Learning kann durch verschiedene Methoden angewendet werden: Clusterbildung, Dimensionsreduktion, Anomalie Erkennung und Association rule-mining. \cite{Sarkar2018} Diese werden im folgenden behandelt.
 	 
 	 \subsection{Clusterbildung}
-	 Ziel der Clusterbildung ist es, dass sich in einem Cluster möglichst ähnliche Daten befinden, dies sich zu den Daten, außerhalb des Clusters unterscheiden. \cite{Mueller 2016} Die Cluster werden durch Muster, Ähnlichkeiten und Verbindungen zwischen den Datensätzen gebildet. \cite{Sarkar 2018} Zum Beispiel werden die Elemente in Abbildung \ref{fig:abb3} nach Formen in die Cluster rot, grün und blau eingeordnet. Die Clusterbildung kann in verschiedene Typen aufgeteilt werden: Centroid based, Hirachical clustering, distribution based und density based. \cite{Sarkar 2018}
+	 Ziel der Clusterbildung ist es, dass sich in einem Cluster möglichst ähnliche Daten befinden, dies sich zu den Daten, außerhalb des Clusters unterscheiden. \cite{Mueller2016} Die Cluster werden durch Muster, Ähnlichkeiten und Verbindungen zwischen den Datensätzen gebildet. \cite{Sarkar2018} Zum Beispiel werden die Elemente in Abbildung \ref{fig:abb3} nach Formen in die Cluster rot, grün und blau eingeordnet. Die Clusterbildung kann in verschiedene Typen aufgeteilt werden: Centroid based, Hirachical clustering, distribution based und density based. \cite{Sarkar2018}
 	 \begin{figure}[h!]
 	 	\centering
 	 	\includegraphics[width=5cm]{Bilder/Cluster.png}
@@ -118,15 +118,15 @@ tmargin={2.5cm},bmargin = {2.5cm}]{geometry}
 	 
 	 
 	 \subsection{Dimensionsreduktion}
-	 Die Komplexität des Machine Learning Modells ist abhängig von der Anzahl der Inputs. Sie bestimmen die Zeit- und Speicherkomplexität, sowie die Anzahl der zum Training benötigten Daten. \cite{Alpaydin 2004} Dimensionsreduktion wird genutzt um den überladenen Input-Space zu verkleinern. Somit wird die Anzahl der relevanten Features oder Attribute($\widehat{=}$ Dimensionen) für jeden Datensatz reduziert. \cite{Sarkar 2018} Wenn die Modelle einfach gehalten werden, sind sie, aufgrund ihrer geringeren Varianz, bei kleinen Datensätzen robuster. \cite{Alpaydin 2004} Die Reduktion der Dimensionen erfolgt durch die Auswahl von Hauptfeatures und bedarfsgesteuerten Features. Für diese gibt es zwei Methoden. \cite{Sarkar 2018}
+	 Die Komplexität des Machine Learning Modells ist abhängig von der Anzahl der Inputs. Sie bestimmen die Zeit- und Speicherkomplexität, sowie die Anzahl der zum Training benötigten Daten. \cite{Alpaydin2004} Dimensionsreduktion wird genutzt um den überladenen Input-Space zu verkleinern. Somit wird die Anzahl der relevanten Features oder Attribute($\widehat{=}$ Dimensionen) für jeden Datensatz reduziert. \cite{Sarkar2018} Wenn die Modelle einfach gehalten werden, sind sie, aufgrund ihrer geringeren Varianz, bei kleinen Datensätzen robuster. \cite{Alpaydin2004} Die Reduktion der Dimensionen erfolgt durch die Auswahl von Hauptfeatures und bedarfsgesteuerten Features. Für diese gibt es zwei Methoden. \cite{Sarkar2018}
 	 \newline
-	 Für die Feature Extraction werden neue Features, die Kombinationen aus der origninal Featureliste sind, gesucht. \cite{Alpaydin 2004}
+	 Für die Feature Extraction werden neue Features, die Kombinationen aus der origninal Featureliste sind, gesucht. \cite{Alpaydin2004}
 	 \newline
-	 Bei der Feature Selection werden von d Dimensionen k, mit Hilfe von Subset Selection, ausgewählt. \cite{Alpaydin 2004} Die Features die die meisten Informationen liefern, werden aus der original Featureliste ausgewählt, der Rest wird verworfen. Es kommen keine neuen Features hinzu. \cite{Sarkar 2018}
-	 Ziel der Subset Selection ist es das beste Subset aus der Featureliste mit einer möglichst geringen Anzahl von Dimensionen und der besten Genauigkeit zu finden. Es gibt $2^{d}$ mögliche Subsets aus denen ausgewählt werden kann. Aufgrund der großen Menge können nicht alle getestet werden, deswegen müssen geeignete Verfahren für die Auswahl genutzt werden. \cite{Alpaydin 2004}
+	 Bei der Feature Selection werden von d Dimensionen k, mit Hilfe von Subset Selection, ausgewählt. \cite{Alpaydin2004} Die Features die die meisten Informationen liefern, werden aus der original Featureliste ausgewählt, der Rest wird verworfen. Es kommen keine neuen Features hinzu. \cite{Sarkar2018}
+	 Ziel der Subset Selection ist es das beste Subset aus der Featureliste mit einer möglichst geringen Anzahl von Dimensionen und der besten Genauigkeit zu finden. Es gibt $2^{d}$ mögliche Subsets aus denen ausgewählt werden kann. Aufgrund der großen Menge können nicht alle getestet werden, deswegen müssen geeignete Verfahren für die Auswahl genutzt werden. \cite{Alpaydin2004}
 	 
 	 \subsection{Anomalie Erkennung}
-	 Ziel der Anomalie Erkennung ist es, seltene oder laut vorherigen Datensätzen untypische Ereignisse zu erkennen, wie in Abbildung \ref{fig:abb4}. Diese können auch nach bestimmten Mustern auftreten. In der Trainings-Phase sind alle Input-Daten ohne Anomalien. Danach kann der Algorithmus zwischen normalen und anomalen Datensätzen unterscheiden. \cite{Sarkar 2018}
+	 Ziel der Anomalie Erkennung ist es, seltene oder laut vorherigen Datensätzen untypische Ereignisse zu erkennen, wie in Abbildung \ref{fig:abb4}. Diese können auch nach bestimmten Mustern auftreten. In der Trainings-Phase sind alle Input-Daten ohne Anomalien. Danach kann der Algorithmus zwischen normalen und anomalen Datensätzen unterscheiden. \cite{Sarkar2018}
 	 \begin{figure}[h!]
 	 	\centering
 	 	\includegraphics[width=5cm]{Bilder/Anomalie.png}
@@ -135,34 +135,35 @@ tmargin={2.5cm},bmargin = {2.5cm}]{geometry}
 	 \end{figure}
 	 
 	 \subsection{Association rule-mining}
-	 Beim Association rule-mining werden Transaktionsdaten untersucht und analysiert um Muster und mögliche Regeln zu bestimmen. Diese Methode wird auch "market basket analysis" genannt, da sie oft genutzt wird um Einkaufsmuster zu erkennen. \cite{Sarkar 2018} In Abbildung \ref{fig:abb5} werden die verschiedenen Formen mit Association rule-mining analysiert. Das Ergebnis ist, dass der Kreis und das Quadrat häufig zusammen auftreten. Als neue Regel kann also zum Beispiel festgehalten werden, dass es sehr wahrscheinlich ist, dass sich ein Quadrat in einem Bereich befindet, wenn sich dort auch ein Kreis befindet. 
-	\begin{figure}[h!]
+	 Beim Association rule-mining werden Transaktionsdaten untersucht und analysiert um Muster und mögliche Regeln zu bestimmen. Diese Methode wird auch "market basket analysis" genannt, da sie oft genutzt wird um Einkaufsmuster zu erkennen. \cite{Sarkar2018} In Abbildung \ref{fig:abb5} werden die verschiedenen Formen mit Association rule-mining analysiert. Das Ergebnis ist, dass der Kreis und das Quadrat häufig zusammen auftreten. Als neue Regel kann also zum Beispiel festgehalten werden, dass es sehr wahrscheinlich ist, dass sich ein Quadrat in einem Bereich befindet, wenn sich dort auch ein Kreis befindet. 
+	\begin{figure}[H]
 		\centering
 		\includegraphics[width=5cm]{Bilder/rulemining.png}
 		\caption{Association rule-mining}
 		\label{fig:abb5}
 	\end{figure}
+	
 	\newpage
 	\section{Reinforcement Learning}
-	Beim Reinforcement Learning werden intelligente Programme, auch genannt Agenten, eingesetzt. Hierbei gibt es keine Trainings-Daten. \cite{Nandy 2018} Ein Agent trainiert um sich seiner Umgebung anzupassen und seine Leistung zu verbessern. \cite{Sarkar 2018} \newline
-	Er kennt den Zustand in dem sich seine Umgebung befindet und führt Aktionen aus die diesen verändern. Das Ausführen von Aktionen von einem Start- bis zu einem Endzustand nennt man Episode oder Prozess. \cite{Alpaydin 2004}\newline  
+	Beim Reinforcement Learning werden intelligente Programme, auch genannt Agenten, eingesetzt. Hierbei gibt es keine Trainings-Daten. \cite{Nandy2018} Ein Agent trainiert um sich seiner Umgebung anzupassen und seine Leistung zu verbessern. \cite{Sarkar2018} \newline
+	Er kennt den Zustand in dem sich seine Umgebung befindet und führt Aktionen aus die diesen verändern. Das Ausführen von Aktionen von einem Start- bis zu einem Endzustand nennt man Episode oder Prozess. \cite{Alpaydin2004}\newline  
 	Die Umgebung kann eine 2D oder 3D Simulation eines Szenarios aus der echten Welt oder aus einem Spiel sein.  
-	Die Wahl der Aktionen erfolgt durch Ausprobieren, da es sehr schwer ist von beginn an vorauszusagen welche Aktion in welchen Zustand ausgeführt werden muss. \cite{Nandy 2018} Der Agent besitzt bereits zu beginn bestimmte Strategien und Richtlinien, diese werden verbessert und angepasst. \cite{Sarkar 2018}
-	Abhängig von der Interaktion mit der Umgebung erhält der Agent von der Umgebung Belohnungen und Bestrafungen, meist in vorm von plus und minus Punkten. \cite{Nandy 2018} Diese führen zu einem Update der Strategien, um später mehr Belohnungen zu erhalten. \cite{Sarkar 2018}\newline
+	Die Wahl der Aktionen erfolgt durch Ausprobieren, da es sehr schwer ist von beginn an vorauszusagen welche Aktion in welchen Zustand ausgeführt werden muss. \cite{Nandy2018} Der Agent besitzt bereits zu beginn bestimmte Strategien und Richtlinien, diese werden verbessert und angepasst. \cite{Sarkar2018}
+	Abhängig von der Interaktion mit der Umgebung erhält der Agent von der Umgebung Belohnungen und Bestrafungen, meist in vorm von plus und minus Punkten. \cite{Nandy2018} Diese führen zu einem Update der Strategien, um später mehr Belohnungen zu erhalten. \cite{Sarkar2018}\newline
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=5cm]{Bilder/Reinforcement.png}
 		\caption{Umgebung mit Agent}
 		\label{fig:abb6}
 	\end{figure}
-	Reinforcement Learning wird auch lernen mir einem Kritiker genannt, da dem Modell im Lernprozess nicht vorgegeben wird was es tun soll, sondern erst nach dem ausführen der Aktionen eine Rückmeldung über diese an das Modell weitergegeben wird. \cite{Alpaydin 2004}
+	Reinforcement Learning wird auch lernen mir einem Kritiker genannt, da dem Modell im Lernprozess nicht vorgegeben wird was es tun soll, sondern erst nach dem ausführen der Aktionen eine Rückmeldung über diese an das Modell weitergegeben wird. \cite{Alpaydin2004}
 	
 	\subsection{Umgebung}
-	Die Umgebung des Agenten kann mit bestimmten Eigenschaften beschrieben werden, diese werden im folgenden erläutert. \cite{Nandy 2018} \newline
-	Ist die Umgebung deterministisch gibt es für jede Aktion nur einen Übergang zu einem anderen Zustand, wenn nicht ist die Umgebung nicht-deterministisch und es sind mehrere Übergänge für jede Aktion möglich. \cite{Nandy 2018}\newline
-	Ist die Umgebung beobachtbar können wie bei zum Beispiel einem Schachspiel alle Informationen über die Umgebung wahrgenommen werden. Wenn die Umgebung nur teilweise beobachtbar ist sind bestimmte Informationen versteckt wie zum Besipiel beim Poker die Handkarten der anderen Mitspieler. \cite{Nandy 2018}\newline
-	Eine Umgebung ist fortlaufend, wenn es mehr als eine Aktion gibt um zum nächsten Zustand zu gelangen. Ist sie beschränkt gibt es nur eine Aktion die zum nächsten Zustand führt. \cite{Nandy 2018} \newline
-	Es gibt multi-agent Umgebungen, die für Problemstellungen mit mehrere Umgebungen, verschiedenen Aufgaben und ähnlichen Entscheidungen geeignet sind. Hier gibt es oft mehr als eine Aktion um zum nächsten Status zu gelangen. Dies wird durch Kommunikation zwischen den Agenten ermöglicht. Die Umgebung kann bei einer multi-agent Problemstellung dynamisch sein, das heißt, dass es Veränderungen der Umgebung an Interaktionsstellen geben kann. In single-agent Umgebungen gibt es nur eine Umgebung, da keine Kommunikation zwischen Agenten möglich ist. \cite{Nandy 2018}
+	Die Umgebung des Agenten kann mit bestimmten Eigenschaften beschrieben werden, diese werden im folgenden erläutert. \cite{Nandy2018} \newline
+	Ist die Umgebung deterministisch gibt es für jede Aktion nur einen Übergang zu einem anderen Zustand, wenn nicht ist die Umgebung nicht-deterministisch und es sind mehrere Übergänge für jede Aktion möglich. \cite{Nandy2018}\newline
+	Ist die Umgebung beobachtbar können wie bei zum Beispiel einem Schachspiel alle Informationen über die Umgebung wahrgenommen werden. Wenn die Umgebung nur teilweise beobachtbar ist sind bestimmte Informationen versteckt wie zum Besipiel beim Poker die Handkarten der anderen Mitspieler. \cite{Nandy2018}\newline
+	Eine Umgebung ist fortlaufend, wenn es mehr als eine Aktion gibt um zum nächsten Zustand zu gelangen. Ist sie beschränkt gibt es nur eine Aktion die zum nächsten Zustand führt. \cite{Nandy2018} \newline
+	Es gibt multi-agent Umgebungen, die für Problemstellungen mit mehrere Umgebungen, verschiedenen Aufgaben und ähnlichen Entscheidungen geeignet sind. Hier gibt es oft mehr als eine Aktion um zum nächsten Status zu gelangen. Dies wird durch Kommunikation zwischen den Agenten ermöglicht. Die Umgebung kann bei einer multi-agent Problemstellung dynamisch sein, das heißt, dass es Veränderungen der Umgebung an Interaktionsstellen geben kann. In single-agent Umgebungen gibt es nur eine Umgebung, da keine Kommunikation zwischen Agenten möglich ist. \cite{Nandy2018}
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=5cm]{Bilder/multiagent.png}
@@ -171,7 +172,7 @@ tmargin={2.5cm},bmargin = {2.5cm}]{geometry}
 	\end{figure}
 
 	\subsection{Einsatzbereiche}	
-	Reinforcement Learning wird in der Produktion von Robotern genutzt um Objekte von einer Box in eine andere zu befördern. In der Lagerverwaltung werden Transportzeiten zwischen Lagern verringert und die Platznutzung im Lager optimiert mit Hilfe von Reinforcement Learning. Die Fahrzeugnutzung in der Lieferverwaltung kann damit ebenfalls optimiert werden. Im Finanzbereich wird unter Verwendung von Handelsstrategien die Buchhaltung unterstützt. \cite{Nandy 2018}
+	Reinforcement Learning wird in der Produktion von Robotern genutzt um Objekte von einer Box in eine andere zu befördern. In der Lagerverwaltung werden Transportzeiten zwischen Lagern verringert und die Platznutzung im Lager optimiert mit Hilfe von Reinforcement Learning. Die Fahrzeugnutzung in der Lieferverwaltung kann damit ebenfalls optimiert werden. Im Finanzbereich wird unter Verwendung von Handelsstrategien die Buchhaltung unterstützt. \cite{Nandy2018}
 	
 	\newpage
 	\section{Schluss}

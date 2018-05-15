@@ -19,10 +19,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4}Association rule-mining}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Reinforcement Learning}{6}
+\contentsline {section}{\numberline {4}Reinforcement Learning}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Umgebung}{6}
+\contentsline {subsection}{\numberline {4.1}Umgebung}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Einsatzbereiche}{7}
+\contentsline {subsection}{\numberline {4.2}Einsatzbereiche}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Schluss}{8}
+\contentsline {section}{\numberline {5}Schluss}{9}
