@@ -13,16 +13,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1}Clusterbildung}{4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Dimensionsreduktion}{5}
+\contentsline {subsection}{\numberline {3.2}Dimensionsreduktion}{4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3}Anomalie Erkennung}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4}Association rule-mining}{6}
+\contentsline {subsection}{\numberline {3.4}Association rule-mining}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Reinforcement Learning}{7}
+\contentsline {section}{\numberline {4}Reinforcement Learning}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Umgebung}{7}
+\contentsline {subsection}{\numberline {4.1}Umgebung}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Einsatzbereiche}{8}
+\contentsline {subsection}{\numberline {4.2}Einsatzbereiche}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Schluss}{9}
+\contentsline {section}{\numberline {5}Schluss}{8}

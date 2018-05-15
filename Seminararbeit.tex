@@ -13,16 +13,13 @@ tmargin={2.5cm},bmargin = {2.5cm}]{geometry}
 \usepackage[style = numeric - comp, 
 			backend = biber,
 			sorting =nty ]{ biblatex }
-\addbibresource{ref/ref_ liste .bib } % Quellen laden
+\addbibresource{./Quellen.bib} % Quellen laden
 
 
 %für zitieren 
 \usepackage[T1]{fontenc}
 \usepackage[babel , german = quotes ]{csquotes}
 
-
-
-\linespread{1.25} %Zeilenabstand
 
 
 \begin{document}
@@ -41,16 +38,27 @@ tmargin={2.5cm},bmargin = {2.5cm}]{geometry}
 	\setcounter{page}{1}
 	
 	\section{Einleitung}
+	Machine Learning ist ein wesentlicher teil von vielen kommerziellen Anwendungen und Forschungsprojekten. \cite{Mueller2016} Es wird für Gesichtserkennung und Handschrifterkennung verwendet \cite{Kirk2014}, hat aber auch Einzug in noch alltäglichere Dinge wie Film-, Essens- und Produktvorschläge genommen. Machine Learning ist weit verbreitet und wird zum Beispiel in der medizinischen Diagnose und Behandlung sowie im Finden von Freunden in Sozialen Netzen genutzt. \cite{Mueller2016} Die erste weitverbreitete Anwendung gab es bereits in den neunzigern, den Spam-Filter. \cite{Geron2017}\newline
+	Aber was ist Machine Learning eigentlich?
+	Es ist die Schnittmenge aus Statistik, Künstlicher Intelligenz und Informatik. \cite{Muller2016} Beim Machine Learning soll der Computer aus Daten lernen können ohne explizit für das Lernziel programmiert zu sein. Das Programm soll also aus Erfahrung, bezüglich einer bestimmten Aufgabe und Leistungsmessung, lernen. Die erzielte Leistung soll sich mit der Erfahrung verbessern.
+	Am Beispiel des Spam-Filters würde das also bedeuten, dass das Programm aus vorgegebenen Spam-E-Mails, die zum Beispiel von Usern geflaggt wurden, und normalen E-Mails lernt. Die zum lernen verwendeten Daten oder in diesem Fall E-Mails nennt man Trainings-Daten. Die Aufgabe ist es in diesem Fall Spam-Mails zu flaggen, die Erfahrung sind die Trainings-Daten und die Leistung könnte zum Beispiel an der Anzahl richtig geflaggter E-Mails gemessen werden. \cite{Geron2017} \newline
+	Warum wird Machine Learning eingesetzt?
+	Es bietet Vorteile bei Problemen mit vielen Regeln. Der Machine Learning Algorithmus kann den Code wesentlich vereinfachen und führt zu einer besseren Performanz gegenüber herkömmlichen Programmieren. Würde man den Spam-Filter ohne Machine Learning programmieren, müssten Regeln für die in Spam-Mails oft vorkommenden Begriffe wie Kredikarte, kostenlos und viele weitere, Absender-E-Mail-Adresse und vieles mehr geschrieben werden. Diese würden zu einem sehr langen Code führen. Der Machine Learning Algorithmus lernt diese Regeln selbst. Ein kurzes Programm ist leichter zu pflegen und weniger Fehler anfällig.\newline
+	Bei Komplexen Problemen gibt es teilweise mit traditionellen Algorithmen noch keine oder keine gute Lösung. Machine Learning kann diese Probleme lösen.
+	Verändert sich die Umgebung eines Problems kann sich ein Machine Learning System mit Hilfe von neuen Daten an die Umgebung anpassen.
+	Durch die Verwendung von Machine Learning können auch neue Erkenntnisse in großen Datenmengen und komplexen Problemen gemacht werden. \cite{Geron2017}\newline
+	Das Ziel von Machine Learning ist es Daten in etwas bedeutsames zu manipulieren, was generell immer wichtiger wird. \cite{Kirk2014} Um einen besseren Einblick in dieses Thema zu gewinnen werden in dieser Seminararbeit die grundlegenden Arten des maschinellen Lernens beschrieben und schließlich verglichen.
+	
 	\newpage
 	\section{Supervised Learning}
-	Supervised Learning gehört zu den erfolgreichsten und meist verbreiteten Arten des Machine Learnings. \cite{Mueller 2016}
-	Beim Supervised Learning werden bekannte Daten und Ausgaben während dem Trainieren und Prüfen des Modells genutzt, welche auch Trainings-Daten und Label genannt werden. \cite{Sarkar 2018} Diese optimieren das Modell, auf Basis der vorhandenen Daten, durch Anpassen der Parameter. \cite{Suthaharan.2016} Ein Modell besteht aus den in- und output-Paaren des Training Datensatzes. \cite{Mueller 2016} Das Hauptziel ist es die eingehenden Daten x auf die ausgehenden y Abzubilden(f(x) = y), um später für neue Daten x' die zugehörigen y' Daten zu bestimmen.\cite{Sarkar 2018}
+	Supervised Learning gehört zu den erfolgreichsten und meist verbreiteten Arten des Machine Learnings. \cite{Mueller2016}
+	Beim Supervised Learning werden bekannte Daten und Ausgaben während dem Trainieren und Prüfen des Modells genutzt, welche auch Trainings-Daten und Label genannt werden. \cite{Sarkar2018} Diese optimieren das Modell, auf Basis der vorhandenen Daten, durch Anpassen der Parameter. \cite{Suthaharan2016} Ein Modell besteht aus den in- und output-Paaren des Training Datensatzes. \cite{Mueller2016} Das Hauptziel ist es die eingehenden Daten x auf die ausgehenden y Abzubilden(f(x) = y), um später für neue Daten x' die zugehörigen y' Daten zu bestimmen.\cite{Sarkar 2018}
 	Durch eine größere Menge an Trainings-Daten ist eine bessere Abdeckung von verschiedenen Fällen möglich, dies kann aber auch zu Overfitting führen. Um das zu verhindern muss das Training früh genug beendet werden. \cite{Suthaharan.2016}
-	Es gibt zwei Methoden für Supervised Learning: Klassifikation und Regression. Die Wahl der Methode hängt von der zu erfüllenden Aufgabe ab.\cite{Sarkar 2018}
+	Es gibt zwei Methoden für Supervised Learning: Klassifikation und Regression. Die Wahl der Methode hängt von der zu erfüllenden Aufgabe ab.\cite{Sarkar2018}
 	
 	\subsection{Klassifikation}
 	
-	Das Ziel der Klassifikation ist es ein Klassenlabel für die eingehenden Daten voraus zusagen. Die verschiedenen Label sind Teil einer vorgegebenen Liste. \cite{Mueller 2016} Die Klassifikation kann in binäre und multiklassen Klassifkation aufgeteilt werden. Bei binärer Klassifikation sind nur zwei Klassen verfügbar, die Problemstellung lässt sich also auf eine Ja/Nein-Frage ableiten, die aussagt ob der Datensatz zu einer Klasse A gehört oder nicht und somit in Klasse B eingeordnet werden muss. Ein Beispiel hierfür ist das Verarbeiten von Daten einer Wettervorhersage(siehe \ref{fig:abb1}). Aus den eingehenden Daten(Temperatur und Luftfeuchtigkeit) entscheidet das Supervised Modell ob es sich um die Klasse Sonne oder Regen handelt.  \cite{Mueller 2016}\newline 
+	Das Ziel der Klassifikation ist es ein Klassenlabel für die eingehenden Daten voraus zusagen. Die verschiedenen Label sind Teil einer vorgegebenen Liste. \cite{Mueller2016} Die Klassifikation kann in binäre und multiklassen Klassifkation aufgeteilt werden. Bei binärer Klassifikation sind nur zwei Klassen verfügbar, die Problemstellung lässt sich also auf eine Ja/Nein-Frage ableiten, die aussagt ob der Datensatz zu einer Klasse A gehört oder nicht und somit in Klasse B eingeordnet werden muss. Ein Beispiel hierfür ist das Verarbeiten von Daten einer Wettervorhersage(siehe \ref{fig:abb1}). Aus den eingehenden Daten(Temperatur und Luftfeuchtigkeit) entscheidet das Supervised Modell ob es sich um die Klasse Sonne oder Regen handelt.  \cite{Mueller2016}\newline 
 		\begin{figure}[H]
 			\centering
 			\includegraphics[width=3.5cm]{Bilder/Label.png}
@@ -58,13 +66,13 @@ tmargin={2.5cm},bmargin = {2.5cm}]{geometry}
 			\label{fig:abb1}
 		\end{figure}
 		
-	In der multiklassen Klassifikation können die Inputdaten auf mehr als zwei Klassen aufgeteilt werden, es handelt sich also nicht mehr um eine Ja/Nein-Frage. \cite{Mueller 2016} Während der Trainings-Phase werden Regeln für das Zuteilen von Labels erstellt, die später dabei helfen Test-Daten Labels zu zuweisen.  \cite{Suthaharan.2016}
+	In der multiklassen Klassifikation können die Inputdaten auf mehr als zwei Klassen aufgeteilt werden, es handelt sich also nicht mehr um eine Ja/Nein-Frage. \cite{Mueller2016} Während der Trainings-Phase werden Regeln für das Zuteilen von Labels erstellt, die später dabei helfen Test-Daten Labels zu zuweisen.  \cite{Suthaharan2016}
 	
 	
 	\subsection{Regression}
-	In Regressions-Problemen sollen oft Zahlen oder Werte ermittelt werden. Im Gegensatz zur Klassifikation gibt es keine Klassen oder Label, denen Daten zugeordnet werden können. Regressions-Modelle lernen stattdessen den Zusammenhang aus Eingangs- und Ausgangsdaten, um für neue Daten den passenden Output vorherzusagen. \cite{Sarkar 2018}
+	In Regressions-Problemen sollen oft Zahlen oder Werte ermittelt werden. Im Gegensatz zur Klassifikation gibt es keine Klassen oder Label, denen Daten zugeordnet werden können. Regressions-Modelle lernen stattdessen den Zusammenhang aus Eingangs- und Ausgangsdaten, um für neue Daten den passenden Output vorherzusagen. \cite{Sarkar2018}
 	 \newline
-	Abbildung \ref{fig:abb2} zeigt ein Beispiel bei dem mit Hilfe von Datensätzen, die Informationen zu Eiskäufen pro Minute und der Temperatur enthalten, eine Funktion gelernt werden konnte, um für zukünftige Temperaturen die passende Anzahl an Eiskäufen pro Minute auszugeben. \cite{Sarkar 2018}
+	Abbildung \ref{fig:abb2} zeigt ein Beispiel bei dem mit Hilfe von Datensätzen, die Informationen zu Eiskäufen pro Minute und der Temperatur enthalten, eine Funktion gelernt werden konnte, um für zukünftige Temperaturen die passende Anzahl an Eiskäufen pro Minute auszugeben. \cite{Sarkar2018}
 	\newline
 	
 	\begin{figure}[H]
@@ -74,13 +82,13 @@ tmargin={2.5cm},bmargin = {2.5cm}]{geometry}
 		\label{fig:abb2}
 	\end{figure}
 	
-	Lineare Regressions Modelle versuchen mit nur einer Variable x eine Output-Variable y zu bestimmen und können somit lineare Probleme lösen. \cite{Sarkar 2018}
+	Lineare Regressions Modelle versuchen mit nur einer Variable x eine Output-Variable y zu bestimmen und können somit lineare Probleme lösen. \cite{Sarkar2018}
 	\newline
-	Multivariable Regressions Methoden werden für Probleme mit mehreren input-Variablen in Form eines Vektors und nur einer output-Variable verwendet. \cite{Sarkar 2018}
+	Multivariable Regressions Methoden werden für Probleme mit mehreren input-Variablen in Form eines Vektors und nur einer output-Variable verwendet. \cite{Sarkar2018}
 	 \newline
-	Ein Sonderfall der Multivariablen Regression ist die Polynomiale Regression. Hier ist die Ausgabevariable Polynom n-ten Grades der Eingangsvariable. \cite{Sarkar 2018}
+	Ein Sonderfall der Multivariablen Regression ist die Polynomiale Regression. Hier ist die Ausgabevariable Polynom n-ten Grades der Eingangsvariable. \cite{Sarkar2018}
 	\newline
-	Nichtlineare Regressions Modelle stellen zwischen ein- und ausgehenden Daten eine Beziehung auf Basis einer Kombination aus nicht-linearen Funktionen her. \cite{Sarkar 2018}
+	Nichtlineare Regressions Modelle stellen zwischen ein- und ausgehenden Daten eine Beziehung auf Basis einer Kombination aus nicht-linearen Funktionen her. \cite{Sarkar2018}
 	\newline
 	%Lasso regression is a special form of regression that performs normal regression and generalizes the
 	%model well by performing regularization as well as feature or variable selection. Lasso stands for least absolute
@@ -169,6 +177,6 @@ tmargin={2.5cm},bmargin = {2.5cm}]{geometry}
 	\section{Schluss}
 	
 	\newpage
-	%\bibliography{Quellen}
+	\printbibliography
 	
 \end{document}
