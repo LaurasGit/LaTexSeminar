@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600) (preloaded format=pdflatex 2018.4.16)  17 MAY 2018 13:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600) (preloaded format=pdflatex 2018.4.16)  19 MAY 2018 17:56
 entering extended mode
 **./Seminararbeit.tex
 (Seminararbeit.tex
@@ -648,12 +648,6 @@ LaTeX Warning: Citation 'Geron2017' on page 1 undefined on input line 49.
 
 LaTeX Warning: Citation 'Kirk2014' on page 1 undefined on input line 50.
 
-
-Overfull \hbox (34.98949pt too wide) in paragraph at lines 41--51
-\T1/cmr/m/n/12 Es ist die Schnittmenge aus Statis-tik, Kün-stlich-er In-tel-li-
-genz und In-for-matik. [[]]
- []
-
 [1]
 
 LaTeX Warning: Citation 'Mueller2016' on page 2 undefined on input line 54.
@@ -839,31 +833,34 @@ atz re-duziert. [[]]
 
 [4 <./Bilder/Cluster.png>]
 
-LaTeX Warning: Citation 'Sarkar2018' on page 5 undefined on input line 130.
+LaTeX Warning: Citation 'Sarkar2018' on page 5 undefined on input line 131.
 
 <Bilder/Anomalie.png, id=35, 515.67656pt x 406.51875pt>
 File: Bilder/Anomalie.png Graphic file (type png)
 <use Bilder/Anomalie.png>
-Package pdftex.def Info: Bilder/Anomalie.png  used on input line 133.
+Package pdftex.def Info: Bilder/Anomalie.png  used on input line 134.
 (pdftex.def)             Requested size: 142.26378pt x 112.14966pt.
 
-LaTeX Warning: Citation 'Sarkar2018' on page 5 undefined on input line 139.
+LaTeX Warning: Citation 'Sarkar2018' on page 5 undefined on input line 140.
 
 <Bilder/rulemining.png, id=36, 556.32843pt x 338.76563pt>
 File: Bilder/rulemining.png Graphic file (type png)
 <use Bilder/rulemining.png>
-Package pdftex.def Info: Bilder/rulemining.png  used on input line 142.
+Package pdftex.def Info: Bilder/rulemining.png  used on input line 145.
 (pdftex.def)             Requested size: 142.26378pt x 86.62962pt.
+
+Overfull \hbox (18.37766pt too wide) in paragraph at lines 140--148
+\T1/cmr/m/n/12 In Ab-bil-dung 5[] wer-den die ver-schiede-nen For-men mit As-so
+-ci-a-tion rule-mining analysiert.
+ []
+
+
+Overfull \hbox (5.45586pt too wide) in paragraph at lines 140--148
+\T1/cmr/m/n/12 Anhand von Ergeb-nis-sen dieser Art kön-nen zum Beispiel Pro-duk
+-tvorschläge basierend
+ []
+
 [5 <./Bilder/Anomalie.png>] [6 <./Bilder/rulemining.png>]
-
-LaTeX Warning: Citation 'Nandy2018' on page 7 undefined on input line 149.
-
-
-LaTeX Warning: Citation 'Sarkar2018' on page 7 undefined on input line 149.
-
-
-LaTeX Warning: Citation 'Alpaydin2004' on page 7 undefined on input line 150.
-
 
 LaTeX Warning: Citation 'Nandy2018' on page 7 undefined on input line 152.
 
@@ -871,27 +868,38 @@ LaTeX Warning: Citation 'Nandy2018' on page 7 undefined on input line 152.
 LaTeX Warning: Citation 'Sarkar2018' on page 7 undefined on input line 152.
 
 
-LaTeX Warning: Citation 'Nandy2018' on page 7 undefined on input line 153.
+LaTeX Warning: Citation 'Alpaydin2004' on page 7 undefined on input line 153.
 
 
-LaTeX Warning: Citation 'Sarkar2018' on page 7 undefined on input line 153.
+LaTeX Warning: Citation 'Nandy2018' on page 7 undefined on input line 155.
+
+
+LaTeX Warning: Citation 'Sarkar2018' on page 7 undefined on input line 155.
+
+
+LaTeX Warning: Citation 'Nandy2018' on page 7 undefined on input line 156.
+
+
+LaTeX Warning: Citation 'Sarkar2018' on page 7 undefined on input line 156.
 
 <Bilder/Reinforcement.png, id=47, 483.30562pt x 134.00063pt>
 File: Bilder/Reinforcement.png Graphic file (type png)
 <use Bilder/Reinforcement.png>
-Package pdftex.def Info: Bilder/Reinforcement.png  used on input line 156.
+Package pdftex.def Info: Bilder/Reinforcement.png  used on input line 159.
 (pdftex.def)             Requested size: 142.26378pt x 39.44395pt.
 
-LaTeX Warning: Citation 'Alpaydin2004' on page 7 undefined on input line 160.
+Overfull \hbox (9.50632pt too wide) in paragraph at lines 152--162
+\T1/cmr/m/n/12 Agent trainiert um sich sein-er Umge-bung anzu-passen und seine 
+Leis-tung zu verbessern.
+ []
 
 
-LaTeX Warning: Citation 'Nandy2018' on page 7 undefined on input line 163.
+Underfull \hbox (badness 10000) in paragraph at lines 152--162
+
+ []
 
 
-LaTeX Warning: Citation 'Nandy2018' on page 7 undefined on input line 164.
-
-
-LaTeX Warning: Citation 'Nandy2018' on page 7 undefined on input line 165.
+LaTeX Warning: Citation 'Alpaydin2004' on page 7 undefined on input line 163.
 
 
 LaTeX Warning: Citation 'Nandy2018' on page 7 undefined on input line 166.
@@ -899,18 +907,35 @@ LaTeX Warning: Citation 'Nandy2018' on page 7 undefined on input line 166.
 
 LaTeX Warning: Citation 'Nandy2018' on page 7 undefined on input line 167.
 
-<Bilder/multiagent.png, id=48, 483.30562pt x 460.72125pt>
+
+LaTeX Warning: Citation 'Nandy2018' on page 7 undefined on input line 168.
+
+
+LaTeX Warning: Citation 'Nandy2018' on page 7 undefined on input line 169.
+
+<Bilder/Umgebung.png, id=48, 597.17842pt x 105.74242pt>
+File: Bilder/Umgebung.png Graphic file (type png)
+<use Bilder/Umgebung.png>
+Package pdftex.def Info: Bilder/Umgebung.png  used on input line 172.
+(pdftex.def)             Requested size: 142.26378pt x 25.18991pt.
+
+LaTeX Warning: Citation 'Nandy2018' on page 7 undefined on input line 176.
+
+<Bilder/multiagent.png, id=49, 483.30562pt x 460.72125pt>
 File: Bilder/multiagent.png Graphic file (type png)
 <use Bilder/multiagent.png>
-Package pdftex.def Info: Bilder/multiagent.png  used on input line 170.
+Package pdftex.def Info: Bilder/multiagent.png  used on input line 179.
 (pdftex.def)             Requested size: 142.26378pt x 135.61632pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 [7 <./Bilder/Reinforcement.png>]
 
-LaTeX Warning: Citation 'Nandy2018' on page 8 undefined on input line 176.
+LaTeX Warning: Citation 'Nandy2018' on page 8 undefined on input line 185.
 
-[8 <./Bilder/multiagent.png>] [9]
+[8 <./Bilder/Umgebung.png> <./Bilder/multiagent.png>] [9]
 
-LaTeX Warning: Empty bibliography on input line 182.
+LaTeX Warning: Empty bibliography on input line 191.
 
 (Seminararbeit.aux)
 
@@ -926,13 +951,13 @@ Package logreq Info: Writing requests to 'Seminararbeit.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 10506 strings out of 495204
- 180217 string characters out of 3180427
- 620405 words of memory out of 3000000
- 13650 multiletter control sequences out of 15000+200000
+ 10512 strings out of 495204
+ 180334 string characters out of 3180427
+ 620413 words of memory out of 3000000
+ 13655 multiletter control sequences out of 15000+200000
  16284 words of font info for 50 fonts, out of 3000000 for 9000
  16 hyphenation exceptions out of 8191
- 36i,7n,35p,904b,2180s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,7n,35p,906b,2180s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\fonts\pk\ljfour\jknappen\
 ec\dpi600\ecbx1440.pk> <C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\fonts
 \pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Laura\Documents\portyTeX\M
@@ -945,9 +970,9 @@ iKTeX_Portable/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Laura/Docume
 nts/portyTeX/MiKTeX_Portable/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users
 /Laura/Documents/portyTeX/MiKTeX_Portable/fonts/type1/public/amsfonts/cm/cmr12.
 pfb>
-Output written on Seminararbeit.pdf (11 pages, 254863 bytes).
+Output written on Seminararbeit.pdf (11 pages, 265568 bytes).
 PDF statistics:
- 315 PDF objects out of 1000 (max. 8388607)
+ 317 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

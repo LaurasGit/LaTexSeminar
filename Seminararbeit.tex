@@ -40,7 +40,7 @@ tmargin={2.5cm},bmargin = {2.5cm}]{geometry}
 	\section{Einleitung}
 	Machine Learning ist ein wesentlicher Teil von vielen kommerziellen Anwendungen und Forschungsprojekten. \cite{Mueller2016} Es wird für Gesichtserkennung und Handschrifterkennung verwendet \cite{Kirk2014}, hat aber auch Einzug in noch alltäglichere Dinge, wie Film-, Essens- und Produktvorschläge genommen. Machine Learning ist weit verbreitet und wird zum Beispiel in der medizinischen Diagnose und Behandlung, sowie im Finden von Freunden in Sozialen Netzen genutzt. \cite{Mueller2016} Die erste weitverbreitete Anwendung gab es bereits in den Neunzigern, den Spam-Filter. \cite{Geron2017}\newline
 	\textbf{Aber was ist Machine Learning eigentlich?}\newline
-	Es ist die Schnittmenge aus Statistik, Künstlicher Intelligenz und Informatik. \cite{Muller2016} Beim Machine Learning soll der Computer aus Daten lernen können ohne explizit für das Lernziel programmiert zu sein. Das Programm soll also aus Erfahrung, bezüglich einer bestimmten Aufgabe und Leistungsmessung, lernen. Die erzielte Leistung soll sich mit der Erfahrung verbessern.
+	Es ist die Schnittmenge aus Statistik, Künstlicher Intelligenz und Informatik. \\ \cite{Muller2016} Beim Machine Learning soll der Computer aus Daten lernen können ohne explizit für das Lernziel programmiert zu sein. Das Programm soll also aus Erfahrung, bezüglich einer bestimmten Aufgabe und Leistungsmessung, lernen. Die erzielte Leistung soll sich mit der Erfahrung verbessern.
 	Am Beispiel des Spam-Filters würde das also bedeuten, dass das Programm aus vorgegebenen Spam-E-Mails, die zum Beispiel von Usern markiert wurden, und normalen E-Mails lernt. Die zum Lernen verwendeten Daten oder in diesem Fall E-Mails nennt man Trainings-Daten. In diesem Fall wäre die Aufgabe Spam-Mails zu flaggen, die Erfahrung Trainings-Daten lässt sich aus den Trainings-Daten ableiten und die Leistung könnte zum Beispiel an der Anzahl richtig geflaggter E-Mails gemessen werden. \cite{Geron2017} \newline
 	\textbf{Warum wird Machine Learning eingesetzt?}\newline
 	Es bietet Vorteile bei Problemen mit vielen Regeln. Der Machine Learning Algorithmus kann den Code wesentlich vereinfachen und führt zu einer besseren Performanz gegenüber herkömmlichen Programmieren. Würde man den Spam-Filter ohne Machine Learning programmieren, müssten Regeln für die  Absender-E-Mail-Adresse, in Spam-Mails oft vorkommenden Begriffe wie Kredikarte und kostenlos und vieles mehr programmiert werden. Diese würden zu einem sehr langen Code führen. Der Machine Learning Algorithmus lernt diese Regeln selbst. Ein kurzes Programm ist leichter zu pflegen und weniger weniger anfällig für Fehler.\newline
@@ -53,7 +53,7 @@ tmargin={2.5cm},bmargin = {2.5cm}]{geometry}
 	\section{Supervised Learning}
 	Supervised Learning gehört zu den erfolgreichsten und meist verbreiteten Arten des Machine Learnings. \cite{Mueller2016}
 	Beim Supervised Learning werden bekannte Daten und Ausgaben während dem Trainieren und Prüfen des Modells genutzt, welche auch Trainings-Daten und Label genannt werden. \cite{Sarkar2018} Diese optimieren das Modell, auf Basis der vorhandenen Daten, durch Anpassen der Parameter. \cite{Suthaharan2016} Ein Modell besteht aus den in- und output-Paaren des Training Datensatzes. \cite{Mueller2016} Das Hauptziel ist es die eingehenden Daten x auf die ausgehenden y Abzubilden(f(x) = y), um später für neue Daten x' die zugehörigen y' Daten zu bestimmen.\cite{Sarkar2018}
-	Durch eine größere Menge an Trainings-Daten ist eine bessere Abdeckung von verschiedenen Fällen möglich, dies kann aber auch zu Overfitting führen. Um das zu verhindern muss das Training früh genug beendet werden. \cite{Suthaharan2016} Bei Overfitting werden die Daten sozusagen auswendig gelernt. Sollen neue Daten analysiert werden kommt es hierbei oft zu Fehlern. \cite{Kirk2014} Overfitting entsteht durch zu viele Parameter. Der Gegensatz zu Overfitting ist Underfitting. Hier ist das Modell zu einfach, es hat also zu wenig oder schlechte Parameter. \cite{Geron2017} Das Modell kann somit keine akkurate Nachbildung liefern. Sind von einer Exponentialfunktion nur zwei Punkte gegeben könnte die Funktion als Gerade interpretiert werden. Alle anderen Punkte die das Modell liefert sind dadurch nicht korrekt. \cite{Kirk2014}
+	Durch eine größere Menge an Trainings-Daten ist eine bessere Abdeckung von verschiedenen Fällen möglich, dies kann aber auch zu Overfitting führen. Um das zu verhindern muss das Training früh genug beendet werden. \cite{Suthaharan2016} Bei Overfitting werden die Daten sozusagen auswendig gelernt. Sollen neue Daten analysiert werden kommt es hierbei oft zu Fehlern. \cite{Kirk2014} Overfitting entsteht durch zu viele Parameter. Der Gegensatz zu Overfitting ist Underfitting. Hier ist das Modell zu einfach, es hat also zu wenige oder schlechte Parameter. \cite{Geron2017} Das Modell kann somit keine akkurate Nachbildung liefern. Sind von einer Exponentialfunktion nur zwei Punkte gegeben, könnte die Funktion als Gerade interpretiert werden. Alle anderen Punkte die das Modell liefert sind dadurch nicht korrekt. \cite{Kirk2014}
 	Es gibt zwei Methoden für Supervised Learning: Klassifikation und Regression. Die Wahl der Methode hängt von der zu erfüllenden Aufgabe ab.\cite{Sarkar2018}
 	
 	\subsection{Klassifikation}
@@ -123,11 +123,12 @@ tmargin={2.5cm},bmargin = {2.5cm}]{geometry}
 	 \newline
 	 Für die Feature Extraction werden neue Features, die Kombinationen aus der origninal Featureliste sind, gesucht. \cite{Alpaydin2004}
 	 \newline
-	 Bei der Feature Selection werden von d Dimensionen k, mit Hilfe von Subset Selection, ausgewählt. \cite{Alpaydin2004} Die Features die die meisten Informationen liefern, werden aus der original Featureliste ausgewählt, der Rest wird verworfen. Es kommen keine neuen Features hinzu. \cite{Sarkar2018}
+	 Bei der Feature Selection werden von d Dimensionen k, mit Hilfe von Subset Selection, ausgewählt. \cite{Alpaydin2004} Die Features die die meisten Informationen liefern, werden aus der originalen Featureliste ausgewählt, der Rest wird verworfen. Es kommen keine neuen Features hinzu. \cite{Sarkar2018}\newline
 	 Ziel der Subset Selection ist es das beste Subset aus der Featureliste mit einer möglichst geringen Anzahl von Dimensionen und der besten Genauigkeit zu finden. Es gibt $2^{d}$ mögliche Subsets aus denen ausgewählt werden kann. Aufgrund der großen Menge können nicht alle getestet werden, deswegen müssen geeignete Verfahren für die Auswahl genutzt werden. \cite{Alpaydin2004}
 	 
 	 \subsection{Anomalie Erkennung}
-	 Ziel der Anomalie Erkennung ist es, seltene oder laut vorherigen Datensätzen untypische Ereignisse zu erkennen, wie in Abbildung \ref{fig:abb4}. Diese können auch nach bestimmten Mustern auftreten. In der Trainings-Phase sind alle Input-Daten ohne Anomalien. Danach kann der Algorithmus zwischen normalen und anomalen Datensätzen unterscheiden. \cite{Sarkar2018}
+	 Ziel der Anomalie Erkennung ist es, seltene oder laut vorherigen Datensätzen untypische Ereignisse zu erkennen, wie in Abbildung. \ref{fig:abb4} Hier fällt auf, dass ein Wert stark von den Anderen abweicht. \newline
+	 Anomalien können auch nach bestimmten Mustern auftreten. In der Trainings-Phase haben alle Input-Daten keine Anomalien, um später Abweichungen von der Norm zu erkennen. Danach kann der Algorithmus zwischen normalen und anomalen Datensätzen unterscheiden. \cite{Sarkar2018}
 	 \begin{figure}[h!]
 	 	\centering
 	 	\includegraphics[width=5cm]{Bilder/Anomalie.png}
@@ -136,7 +137,9 @@ tmargin={2.5cm},bmargin = {2.5cm}]{geometry}
 	 \end{figure}
 	 
 	 \subsection{Association rule-mining}
-	 Beim Association rule-mining werden Transaktionsdaten untersucht und analysiert um Muster und mögliche Regeln zu bestimmen. Diese Methode wird auch "market basket analysis" genannt, da sie oft genutzt wird um Einkaufsmuster zu erkennen. \cite{Sarkar2018} In Abbildung \ref{fig:abb5} werden die verschiedenen Formen mit Association rule-mining analysiert. Das Ergebnis ist, dass der Kreis und das Quadrat häufig zusammen auftreten. Als neue Regel kann also zum Beispiel festgehalten werden, dass es sehr wahrscheinlich ist, dass sich ein Quadrat in einem Bereich befindet, wenn sich dort auch ein Kreis befindet. 
+	 Beim Association rule-mining werden Transaktionsdaten untersucht und analysiert, um Muster, sowie mögliche Regeln zu bestimmen. Diese Methode wird auch "market basket analysis" genannt, da sie oft genutzt wird um Einkaufsmuster zu erkennen. \cite{Sarkar2018} \newline
+	 In Abbildung \ref{fig:abb5} werden die verschiedenen Formen mit Association rule-mining analysiert. Das Ergebnis ist, dass der Kreis und das Quadrat häufig zusammen auftreten. Als neue Regel kann also zum Beispiel festgehalten werden, dass es sehr wahrscheinlich ist, dass sich ein Quadrat in einem Bereich befindet, wenn sich dort auch ein Kreis befindet. \newline
+	 Anhand von Ergebnissen dieser Art können zum Beispiel Produktvorschläge basierend auf dem eigenen Warenkorb und den Käufen anderer Nutzer gemacht werden.
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=5cm]{Bilder/rulemining.png}
@@ -146,34 +149,40 @@ tmargin={2.5cm},bmargin = {2.5cm}]{geometry}
 	
 	\newpage
 	\section{Reinforcement Learning}
-	Beim Reinforcement Learning werden intelligente Programme, auch genannt Agenten, eingesetzt. Hierbei gibt es keine Trainings-Daten. \cite{Nandy2018} Ein Agent trainiert um sich seiner Umgebung anzupassen und seine Leistung zu verbessern. \cite{Sarkar2018} \newline
-	Er kennt den Zustand in dem sich seine Umgebung befindet und führt Aktionen aus die diesen verändern. Das Ausführen von Aktionen von einem Start- bis zu einem Endzustand nennt man Episode oder Prozess. \cite{Alpaydin2004}\newline  
+	Beim Reinforcement Learning setzt man intelligente Programme, welche auch Agenten genannt werden, ein. Hierbei gibt es keine Trainings-Daten. \cite{Nandy2018} Ein Agent trainiert um sich seiner Umgebung anzupassen und seine Leistung zu verbessern. \cite{Sarkar2018} \newline
+	Er kennt den Zustand, in dem sich seine Umgebung befindet und führt Aktionen aus, um diesen zu verändern. Das Ausführen von Aktionen von einem Start- bis zu einem Endzustand nennt man Episode oder Prozess. \cite{Alpaydin2004}\newline  
 	Die Umgebung kann eine 2D oder 3D Simulation eines Szenarios aus der echten Welt oder aus einem Spiel sein.  
-	Die Wahl der Aktionen erfolgt durch Ausprobieren, da es sehr schwer ist von beginn an vorauszusagen welche Aktion in welchen Zustand ausgeführt werden muss. \cite{Nandy2018} Der Agent besitzt bereits zu beginn bestimmte Strategien und Richtlinien, diese werden verbessert und angepasst. \cite{Sarkar2018}
-	Abhängig von der Interaktion mit der Umgebung erhält der Agent von der Umgebung Belohnungen und Bestrafungen, meist in vorm von plus und minus Punkten. \cite{Nandy2018} Diese führen zu einem Update der Strategien, um später mehr Belohnungen zu erhalten. \cite{Sarkar2018}\newline
-	\begin{figure}[h!]
+	Die Wahl der Aktionen erfolgt durch Ausprobieren, da es sehr schwer ist von Beginn an vorauszusagen, welche Aktion in welchem Zustand ausgeführt werden muss. \cite{Nandy2018} Der Agent besitzt bereits zu beginn bestimmte Strategien und Richtlinien, diese werden verbessert und angepasst. \cite{Sarkar2018}
+	Abhängig von der Interaktion mit der Umgebung erhält der Agent von der Umgebung Belohnungen und Bestrafungen, meist in Form von plus und minus Punkten. \cite{Nandy2018} Diese führen zu einem Update der Strategien, um später mehr Belohnungen zu erhalten. \cite{Sarkar2018}\newline
+	\begin{figure}[H]
 		\centering
 		\includegraphics[width=5cm]{Bilder/Reinforcement.png}
 		\caption{Umgebung mit Agent}
 		\label{fig:abb6}
 	\end{figure}
-	Reinforcement Learning wird auch lernen mir einem Kritiker genannt, da dem Modell im Lernprozess nicht vorgegeben wird was es tun soll, sondern erst nach dem ausführen der Aktionen eine Rückmeldung über diese an das Modell weitergegeben wird. \cite{Alpaydin2004}
+	Reinforcement Learning wird auch lernen mit einem Kritiker genannt, da dem Modell im Lernprozess nicht vorgegeben wird was es tun soll. Erst nach dem ausführen der Aktionen, wird eine Rückmeldung über diese an das Modell weitergegeben wird. \cite{Alpaydin2004}
 	
 	\subsection{Umgebung}
-	Die Umgebung des Agenten kann mit bestimmten Eigenschaften beschrieben werden, diese werden im folgenden erläutert. \cite{Nandy2018} \newline
-	Ist die Umgebung deterministisch gibt es für jede Aktion nur einen Übergang zu einem anderen Zustand, wenn nicht ist die Umgebung nicht-deterministisch und es sind mehrere Übergänge für jede Aktion möglich. \cite{Nandy2018}\newline
-	Ist die Umgebung beobachtbar können wie bei zum Beispiel einem Schachspiel alle Informationen über die Umgebung wahrgenommen werden. Wenn die Umgebung nur teilweise beobachtbar ist sind bestimmte Informationen versteckt wie zum Besipiel beim Poker die Handkarten der anderen Mitspieler. \cite{Nandy2018}\newline
-	Eine Umgebung ist fortlaufend, wenn es mehr als eine Aktion gibt um zum nächsten Zustand zu gelangen. Ist sie beschränkt gibt es nur eine Aktion die zum nächsten Zustand führt. \cite{Nandy2018} \newline
-	Es gibt multi-agent Umgebungen, die für Problemstellungen mit mehrere Umgebungen, verschiedenen Aufgaben und ähnlichen Entscheidungen geeignet sind. Hier gibt es oft mehr als eine Aktion um zum nächsten Status zu gelangen. Dies wird durch Kommunikation zwischen den Agenten ermöglicht. Die Umgebung kann bei einer multi-agent Problemstellung dynamisch sein, das heißt, dass es Veränderungen der Umgebung an Interaktionsstellen geben kann. In single-agent Umgebungen gibt es nur eine Umgebung, da keine Kommunikation zwischen Agenten möglich ist. \cite{Nandy2018}
+	Die Umgebung des Agenten kann mit bestimmten Eigenschaften beschrieben werden, diese werden im Folgenden erläutert. \cite{Nandy2018} \newline
+	Ist die Umgebung deterministisch gibt es für jede Aktion nur einen Übergang zu einem anderen Zustand. Ist sie nicht-deterministisch sind mehrere Übergänge für jede Aktion möglich. \cite{Nandy2018}\newline
+	Ist die Umgebung beobachtbar können, wie bei einem Schachspiel alle Informationen über die Umgebung wahrgenommen werden. Wenn die Umgebung nur teilweise beobachtbar ist, sind bestimmte Informationen versteckt, wie zum Besipiel beim Poker die Handkarten der anderen Mitspieler. \cite{Nandy2018}\newline
+	Eine Umgebung ist fortlaufend, wenn es mehr als eine Aktion gibt, um zum nächsten Zustand zu gelangen. Ist sie beschränkt, gibt es nur eine Aktion, die zum nächsten Zustand führt. \cite{Nandy2018}
 	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=5cm]{Bilder/Umgebung.png}
+		\caption{beschränkte und fortlaufende Umgebung}
+		\label{fig:abb7}
+	\end{figure} \newline
+	Es gibt multi-agent Umgebungen, die für Problemstellungen mit mehrere Umgebungen, verschiedenen Aufgaben und ähnlichen Entscheidungen geeignet sind. Hier gibt es oft mehr als eine Aktion, um zum nächsten Status zu gelangen. Dies wird durch Kommunikation zwischen den Agenten ermöglicht. Die Umgebung kann bei einer multi-agent Problemstellung dynamisch sein, was bedeutet, dass es Veränderungen der Umgebung an Interaktionsstellen geben kann. In single-agent Umgebungen gibt es nur eine Umgebung, da keine Kommunikation zwischen Agenten möglich ist. \cite{Nandy2018}
+	\begin{figure}[H]
 		\centering
 		\includegraphics[width=5cm]{Bilder/multiagent.png}
 		\caption{Umgebung mit zwei Agenten}
-		\label{fig:abb7}
+		\label{fig:abb8}
 	\end{figure}
 
 	\subsection{Einsatzbereiche}	
-	Reinforcement Learning wird in der Produktion von Robotern genutzt um Objekte von einer Box in eine andere zu befördern. In der Lagerverwaltung werden Transportzeiten zwischen Lagern verringert und die Platznutzung im Lager optimiert mit Hilfe von Reinforcement Learning. Die Fahrzeugnutzung in der Lieferverwaltung kann damit ebenfalls optimiert werden. Im Finanzbereich wird unter Verwendung von Handelsstrategien die Buchhaltung unterstützt. \cite{Nandy2018}
+	Reinforcement Learning wird in der Produktion von Robotern genutzt, um Objekte von einer Box in eine andere zu befördern. In der Lagerverwaltung werden Transportzeiten zwischen Lagern verringert und die Platznutzung im Lager durch Reinforcement Learning optimiert. Die Fahrzeugnutzung in der Lieferverwaltung kann damit ebenfalls optimiert werden. Im Finanzbereich wird unter Verwendung von Handelsstrategien die Buchhaltung unterstützt. \cite{Nandy2018}
 	
 	\newpage
 	\section{Schluss}
