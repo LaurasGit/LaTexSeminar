@@ -8,6 +8,8 @@
 tmargin={2.5cm},bmargin = {2.5cm}]{geometry}
 \usepackage{amssymb}
 \usepackage{amsthm}
+\usepackage{listings} %für Code 
+\usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{float} %für bild platzierung H
 \usepackage[style = numeric - comp, 
@@ -19,6 +21,19 @@ tmargin={2.5cm},bmargin = {2.5cm}]{geometry}
 %für zitieren 
 \usepackage[T1]{fontenc}
 \usepackage[babel , german = quotes ]{csquotes}
+
+\lstdefinestyle{code}{
+	basicstyle=\footnotesize,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2
+}
 
 
 
@@ -116,6 +131,27 @@ tmargin={2.5cm},bmargin = {2.5cm}]{geometry}
 	 	\caption{Cluster}
 	 	\label{fig:abb3}
 	 \end{figure}
+	 
+	 	\subsubsection{K-Means Algorithmus}
+	 	Der K-Means Algorithmus verwendet die Clusterbildung. K steht hierbei für die Anzahl der Cluster die gebildet werden sollen. \cite{Kirk2014} Es wird versucht einen Mittelpunkt in jedem Cluster zu finden. Dieser ist der Punkt, der den geringsten Abstand zu allen anderen Punkten in der Region hat. \cite{Muller2016} Vorteile dieses Algorithmus sind, dass die Cluster sehr genau und kugelförmig sind und der Algorithmus sich einer Lösung annähert. \cite{Kirk2014} \newline
+	 	Zu beginn werden k zufällige Punkte aus dem Datensatz ausgewählt und als Mittelpunkt verwendet. \cite{Kirk2014} Danach werden die verbleibenden Datensätze dem Mittelpunkt mit dem geringsten Abstand zugeordnet und neue Mittelpunkte bestimmt. Diese haben den jeweils geringsten Abstand zu allen anderen Punkten im Cluster. Die Punkte werden so lange neuen Clustern zu geordnet und es werden so lange neue Mittelpunkte bestimmt bis es keine Veränderung mehr gibt. \cite{Muller2016} Der Abstand der Punkte kann mit verschiedenen Methoden berechnet werden. Eine davon ist die Euklidische Distanz, siehe Formel (1). \cite{Kirk2014}
+	 	\begin{equation}
+	 	d_{euklid}(x,y)= \sqrt{\sum_{i=1}^{n}(x_i - y_i)^2}
+	 	\end{equation}
+	 	
+	 	Im Folgenden wird Beispiel-Code für den Algorithmus erklärt und gezeigt. Hierzu wir die Programmiersprache Python verwendet. Es handelt sich hierbei nur um einen Codeauszug und nicht um ein ganzes Programm.
+	 	
+	 	\lstset{style=code}
+	 	\begin{lstlisting}[language=Python]
+	 		kmeans = KMeans(n_clusters = 3)
+	 		kmeans.fit(X)
+	 	\end{lstlisting}
+	 	In diesem Abschnitt wird ein K-Means Modell erzeugt und mit Hilfe der Funktion fit trainiert. X enthält die zweidimensionalen Datensätze. Das Modell und die Funktion werden bereits von der scikit-learn Bibliothek bereitgestellt.
+	 		\begin{lstlisting}[language=Python]
+	 		kmeans.predict(Z)
+	 		\end{lstlisting}
+	 	Mit predict können nach dem Training neue Datensätze Y den Clustern hinzugefügt werden. Die Mittelpunkte und damit auch die Cluster werden dabei nicht mehr verändert. \cite{Muller2016}
+	 	
 	 
 	 
 	 \subsection{Dimensionsreduktion}
