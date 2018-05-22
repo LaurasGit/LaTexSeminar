@@ -83,6 +83,30 @@ tmargin={2.5cm},bmargin = {2.5cm}]{geometry}
 		
 	In der multiklassen Klassifikation können die Inputdaten auf mehr als zwei Klassen aufgeteilt werden, es handelt sich also nicht mehr um eine Ja/Nein-Frage. \cite{Mueller2016} Während der Trainings-Phase werden Regeln für das Zuteilen von Labels erstellt, die später dabei helfen Test-Daten Labels zu zuweisen.  \cite{Suthaharan2016}
 	
+	\subsubsection{Support Vector Machines}
+	Support Vector Maschinen oder auch kurz SVMs, sind vielseitige und mächtige Machine Learning Modelle. Sie zählen zu den beliebtesten Modellen und eignen sich für lineare, nicht-lineare Klassifikation, Regression und Anomalie Erkennung. \cite{Geron2017} SVMs können mathematisch sehr komplex sein und eine hohe Rechenleistung erfordern. \cite{Suthaharan.2016} Im Folgenden wird nur lineare Klassifikation betrachtet.\newline
+	Hier ist es möglich zwei Klassen durch eine lineare Trennline eindeutig zu trennen. Diese soll einen Möglichst großen Abstand zu den Datensätzen haben, um später beim Einfügen neuer Daten weniger Fehler zu erzielen.\cite{Geron2017} Da die Trennlinie linear ist lässt sie sich durch den Term 
+		\begin{equation}
+		0 = wx^{'} + \gamma
+		\end{equation}
+	beschreiben. \cite{Suthaharan.2016} Der Abstand der Trennlinie zu den beiden nächsten Punkten, die aus verschiedenen Klassen stammen, nennt sich Margin. Die Geraden parallel zu Trennline über die zwei Punkte die, diese Grenze bilden heißen Support Vektoren. In Abblidung \ref{fig:abb10} ist die Trennline die durchgezogene Linie und der Margin befidet sich zwischen den gestrichelten Linien. Werden während dem Training neue Daten hinzugefügt die sich außerhalb des Margins befinden wird das Modell nicht geändert. \cite{Geron2017} Beim Training werden w und $\gamma$ optimiert. \cite{Suthaharan.2016}\newline
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=5cm]{Bilder/SVM.png}
+		\caption{SVM Trennline und Datensätze}
+		\label{fig:abb10}
+	\end{figure}
+	
+	Im Folgenden wird mit der scikit-learn Bibliothek ein SVM-Modell erstellt und mit fit trainiert. X\_train und y\_train beinhalten die Trainings-Datensätze. Mit Hilfe von predict kann ein neuer Datensatz klassifiziert werden.
+	\lstset{style=code}
+	\begin{lstlisting}[language=Python]
+	def_svc = SVC()
+	def_svc.fit(X_train, y_train)
+	def_y_pred = def_svc.predict(X_test)
+	\end{lstlisting}
+	\cite{Sarkar2018}	
+	 
 	
 	\subsection{Regression}
 	In Regressions-Problemen sollen oft Zahlen oder Werte ermittelt werden. Im Gegensatz zur Klassifikation gibt es keine Klassen oder Label, denen Daten zugeordnet werden können. Regressions-Modelle lernen stattdessen den Zusammenhang aus Eingangs- und Ausgangsdaten, um für neue Daten den passenden Output vorherzusagen. \cite{Sarkar2018}
@@ -133,15 +157,14 @@ tmargin={2.5cm},bmargin = {2.5cm}]{geometry}
 	 \end{figure}
 	 
 	 	\subsubsection{K-Means Algorithmus}
-	 	Der K-Means Algorithmus verwendet die Clusterbildung. K steht hierbei für die Anzahl der Cluster die gebildet werden sollen. \cite{Kirk2014} Es wird versucht einen Mittelpunkt in jedem Cluster zu finden. Dieser ist der Punkt, der den geringsten Abstand zu allen anderen Punkten in der Region hat. \cite{Muller2016} Vorteile dieses Algorithmus sind, dass die Cluster sehr genau und kugelförmig sind und der Algorithmus sich einer Lösung annähert. \cite{Kirk2014} \newline
-	 	Zu beginn werden k zufällige Punkte aus dem Datensatz ausgewählt und als Mittelpunkt verwendet. \cite{Kirk2014} Danach werden die verbleibenden Datensätze dem Mittelpunkt mit dem geringsten Abstand zugeordnet und neue Mittelpunkte bestimmt. Diese haben den jeweils geringsten Abstand zu allen anderen Punkten im Cluster. Die Punkte werden so lange neuen Clustern zu geordnet und es werden so lange neue Mittelpunkte bestimmt bis es keine Veränderung mehr gibt. \cite{Muller2016} Der Abstand der Punkte kann mit verschiedenen Methoden berechnet werden. Eine davon ist die Euklidische Distanz, siehe Formel (1). \cite{Kirk2014}
+	 	Der K-Means Algorithmus verwendet die Clusterbildung. K steht hierbei für die Anzahl der Cluster, die gebildet werden sollen. \cite{Kirk2014} Es wird versucht, einen Mittelpunkt in jedem Cluster zu finden. Dieser ist der Punkt, der den geringsten Abstand zu allen anderen Punkten in der Region hat. \cite{Muller2016} Vorteile dieses Algorithmus sind, dass die Cluster sehr genau und kugelförmig sind und der Algorithmus sich einer Lösung annähert. \cite{Kirk2014} \newline
+	 	Zu Beginn werden K zufällige Punkte aus dem Datensatz ausgewählt und als Mittelpunkt verwendet. \cite{Kirk2014} Danach werden die verbleibenden Datensätze dem Mittelpunkt mit dem geringsten Abstand zugeordnet und neue Mittelpunkte bestimmt. Diese haben den jeweils geringsten Abstand zu allen anderen Punkten im Cluster. Es werden so lange neue Mittelpunkte bestimmt und Punkte zu neue Clustern zugeordnet, bis es keine Veränderung mehr gibt. \cite{Muller2016} Der Abstand der Punkte kann mit verschiedenen Methoden berechnet werden. Eine davon ist die Euklidische Distanz, siehe Formel (2). \cite{Kirk2014}
 	 	\begin{equation}
 	 	d_{euklid}(x,y)= \sqrt{\sum_{i=1}^{n}(x_i - y_i)^2}
 	 	\end{equation}
 	 	
 	 	Im Folgenden wird Beispiel-Code für den Algorithmus erklärt und gezeigt. Hierzu wir die Programmiersprache Python verwendet. Es handelt sich hierbei nur um einen Codeauszug und nicht um ein ganzes Programm.
 	 	
-	 	\lstset{style=code}
 	 	\begin{lstlisting}[language=Python]
 	 		kmeans = KMeans(n_clusters = 3)
 	 		kmeans.fit(X)
@@ -150,7 +173,7 @@ tmargin={2.5cm},bmargin = {2.5cm}]{geometry}
 	 		\begin{lstlisting}[language=Python]
 	 		kmeans.predict(Z)
 	 		\end{lstlisting}
-	 	Mit predict können nach dem Training neue Datensätze Y den Clustern hinzugefügt werden. Die Mittelpunkte und damit auch die Cluster werden dabei nicht mehr verändert. \cite{Muller2016}
+	 	Mit predict können nach dem Training den Clustern neue Datensätze Y zugeordnet werden. Die Mittelpunkte und damit auch die Cluster werden dabei nicht mehr verändert. \cite{Muller2016}
 	 	
 	 
 	 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600) (preloaded format=pdflatex 2018.4.16)  21 MAY 2018 11:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600) (preloaded format=pdflatex 2018.4.16)  22 MAY 2018 12:05
 entering extended mode
 **./Seminararbeit.tex
 (Seminararbeit.tex
@@ -799,265 +799,296 @@ Overfull \hbox (26.65562pt too wide) in paragraph at lines 84--85
 
 [2 <./Bilder/Label.png>]
 
-LaTeX Warning: Citation 'Sarkar2018' on page 3 undefined on input line 88.
+LaTeX Warning: Citation 'Geron2017' on page 3 undefined on input line 87.
 
 
-LaTeX Warning: Citation 'Sarkar2018' on page 3 undefined on input line 90.
+LaTeX Warning: Citation 'Suthaharan.2016' on page 3 undefined on input line 87.
 
 
-Overfull \hbox (19.33168pt too wide) in paragraph at lines 88--92
-\T1/cmr/m/n/12 Eingangs- und Aus-gangs-dat-en, um für neue Dat-en den passenden
- Out-put vorherzusagen.
- []
+
+LaTeX Warning: Citation 'Geron2017' on page 3 undefined on input line 88.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--92
-
- []
-
-<Bilder/Regression.png, id=23, 505.89pt x 680.5425pt>
-File: Bilder/Regression.png Graphic file (type png)
-<use Bilder/Regression.png>
-Package pdftex.def Info: Bilder/Regression.png  used on input line 95.
-(pdftex.def)             Requested size: 142.26378pt x 191.38133pt.
-
-LaTeX Warning: Citation 'Sarkar2018' on page 3 undefined on input line 100.
+LaTeX Warning: Citation 'Suthaharan.2016' on page 3 undefined on input line 92.
 
 
-LaTeX Warning: Citation 'Sarkar2018' on page 3 undefined on input line 102.
+
+LaTeX Warning: Citation 'Geron2017' on page 3 undefined on input line 92.
 
 
-LaTeX Warning: Citation 'Sarkar2018' on page 3 undefined on input line 104.
+LaTeX Warning: Citation 'Suthaharan.2016' on page 3 undefined on input line 92.
 
 
-LaTeX Warning: Citation 'Sarkar2018' on page 3 undefined on input line 106.
 
-
-Overfull \hbox (18.14728pt too wide) in paragraph at lines 100--117
-\T1/cmr/m/n/12 Multivariable Re-gres-sions Meth-o-d-en wer-den für Prob-leme mi
-t mehreren input-Variablen
- []
-
-
-Overfull \hbox (19.05333pt too wide) in paragraph at lines 100--117
-\T1/cmr/m/n/12 Beziehung auf Ba-sis ein-er Kom-bi-na-tion aus nicht-linearen Fu
-nk-tio-nen her. [[]] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 100--117
+Underfull \hbox (badness 10000) in paragraph at lines 91--93
 
  []
 
-[3 <./Bilder/Regression.png>]
+<Bilder/SVM.png, id=23, 175.73021pt x 169.64432pt>
+File: Bilder/SVM.png Graphic file (type png)
+<use Bilder/SVM.png>
+Package pdftex.def Info: Bilder/SVM.png  used on input line 96.
+(pdftex.def)             Requested size: 142.26378pt x 137.34383pt.
 
-LaTeX Warning: Citation 'Sarkar2018' on page 4 undefined on input line 121.
-
-
-LaTeX Warning: Citation 'Mueller2016' on page 4 undefined on input line 121.
-
-
-LaTeX Warning: Citation 'Sarkar2018' on page 4 undefined on input line 122.
-
-
-LaTeX Warning: Citation 'Kirk2014' on page 4 undefined on input line 122.
-
-
-LaTeX Warning: Citation 'Sarkar2018' on page 4 undefined on input line 122.
-
-
-LaTeX Warning: Citation 'Mueller2016' on page 4 undefined on input line 122.
-
-
-LaTeX Warning: Citation 'Sarkar2018' on page 4 undefined on input line 123.
-
-
-LaTeX Warning: Citation 'Mueller2016' on page 4 undefined on input line 126.
-
-
-LaTeX Warning: Citation 'Sarkar2018' on page 4 undefined on input line 126.
-
-
-LaTeX Warning: Citation 'Sarkar2018' on page 4 undefined on input line 126.
-
-<Bilder/Cluster.png, id=28, 453.94594pt x 357.58594pt>
-File: Bilder/Cluster.png Graphic file (type png)
-<use Bilder/Cluster.png>
-Package pdftex.def Info: Bilder/Cluster.png  used on input line 130.
-(pdftex.def)             Requested size: 142.26378pt x 112.06178pt.
-
-Overfull \hbox (10.22758pt too wide) in paragraph at lines 126--134
-\T1/cmr/m/n/12 befind-en, dies sich zu den Dat-en, auÿer-halb des Clus-ters un-
-ter-schei-den. [[]]
- []
-
-
-LaTeX Warning: Citation 'Kirk2014' on page 4 undefined on input line 136.
-
-
-LaTeX Warning: Citation 'Muller2016' on page 4 undefined on input line 136.
-
-
-LaTeX Warning: Citation 'Kirk2014' on page 4 undefined on input line 136.
-
-
-LaTeX Warning: Citation 'Kirk2014' on page 4 undefined on input line 137.
-
-
-LaTeX Warning: Citation 'Muller2016' on page 4 undefined on input line 137.
-
-
-LaTeX Warning: Citation 'Kirk2014' on page 4 undefined on input line 137.
-
-
-Overfull \hbox (3.37534pt too wide) in paragraph at lines 136--138
-\T1/cmr/m/n/12 lange neue Mit-telpunk-te bes-timmt bis es keine Verän-derung me
-hr gibt. [[]]
- []
-
-[4 <./Bilder/Cluster.png>]
 (C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\listings\lstlang1.
 sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 
-LaTeX Warning: Citation 'Muller2016' on page 5 undefined on input line 153.
+LaTeX Warning: Citation 'Sarkar2018' on page 3 undefined on input line 108.
 
 
-LaTeX Warning: Citation 'Alpaydin2004' on page 5 undefined on input line 158.
+LaTeX Warning: Citation 'Sarkar2018' on page 3 undefined on input line 112.
 
 
-LaTeX Warning: Citation 'Sarkar2018' on page 5 undefined on input line 158.
+LaTeX Warning: Citation 'Sarkar2018' on page 3 undefined on input line 114.
 
 
-LaTeX Warning: Citation 'Alpaydin2004' on page 5 undefined on input line 158.
+Overfull \hbox (19.33168pt too wide) in paragraph at lines 112--116
+\T1/cmr/m/n/12 Eingangs- und Aus-gangs-dat-en, um für neue Dat-en den passenden
+ Out-put vorherzusagen.
+ []
 
 
-LaTeX Warning: Citation 'Sarkar2018' on page 5 undefined on input line 158.
+Underfull \hbox (badness 10000) in paragraph at lines 112--116
+
+ []
+
+[3 <./Bilder/SVM.png>]
+<Bilder/Regression.png, id=32, 505.89pt x 680.5425pt>
+File: Bilder/Regression.png Graphic file (type png)
+<use Bilder/Regression.png>
+Package pdftex.def Info: Bilder/Regression.png  used on input line 119.
+(pdftex.def)             Requested size: 142.26378pt x 191.38133pt.
 
 
-LaTeX Warning: Citation 'Alpaydin2004' on page 5 undefined on input line 160.
+LaTeX Warning: Citation 'Sarkar2018' on page 4 undefined on input line 124.
 
 
-LaTeX Warning: Citation 'Alpaydin2004' on page 5 undefined on input line 162.
+LaTeX Warning: Citation 'Sarkar2018' on page 4 undefined on input line 126.
 
 
-LaTeX Warning: Citation 'Sarkar2018' on page 5 undefined on input line 162.
+LaTeX Warning: Citation 'Sarkar2018' on page 4 undefined on input line 128.
 
 
-LaTeX Warning: Citation 'Alpaydin2004' on page 5 undefined on input line 163.
+LaTeX Warning: Citation 'Sarkar2018' on page 4 undefined on input line 130.
 
 
-Overfull \hbox (6.00322pt too wide) in paragraph at lines 158--164
+Overfull \hbox (18.14728pt too wide) in paragraph at lines 124--141
+\T1/cmr/m/n/12 Multivariable Re-gres-sions Meth-o-d-en wer-den für Prob-leme mi
+t mehreren input-Variablen
+ []
+
+
+Overfull \hbox (19.05333pt too wide) in paragraph at lines 124--141
+\T1/cmr/m/n/12 Beziehung auf Ba-sis ein-er Kom-bi-na-tion aus nicht-linearen Fu
+nk-tio-nen her. [[]] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--141
+
+ []
+
+[4 <./Bilder/Regression.png>]
+
+LaTeX Warning: Citation 'Sarkar2018' on page 5 undefined on input line 145.
+
+
+LaTeX Warning: Citation 'Mueller2016' on page 5 undefined on input line 145.
+
+
+LaTeX Warning: Citation 'Sarkar2018' on page 5 undefined on input line 146.
+
+
+LaTeX Warning: Citation 'Kirk2014' on page 5 undefined on input line 146.
+
+
+LaTeX Warning: Citation 'Sarkar2018' on page 5 undefined on input line 146.
+
+
+LaTeX Warning: Citation 'Mueller2016' on page 5 undefined on input line 146.
+
+
+LaTeX Warning: Citation 'Sarkar2018' on page 5 undefined on input line 147.
+
+
+LaTeX Warning: Citation 'Mueller2016' on page 5 undefined on input line 150.
+
+
+LaTeX Warning: Citation 'Sarkar2018' on page 5 undefined on input line 150.
+
+
+LaTeX Warning: Citation 'Sarkar2018' on page 5 undefined on input line 150.
+
+<Bilder/Cluster.png, id=37, 453.94594pt x 357.58594pt>
+File: Bilder/Cluster.png Graphic file (type png)
+<use Bilder/Cluster.png>
+Package pdftex.def Info: Bilder/Cluster.png  used on input line 154.
+(pdftex.def)             Requested size: 142.26378pt x 112.06178pt.
+
+Overfull \hbox (10.22758pt too wide) in paragraph at lines 150--158
+\T1/cmr/m/n/12 befind-en, dies sich zu den Dat-en, auÿer-halb des Clus-ters un-
+ter-schei-den. [[]]
+ []
+
+
+LaTeX Warning: Citation 'Kirk2014' on page 5 undefined on input line 160.
+
+
+LaTeX Warning: Citation 'Muller2016' on page 5 undefined on input line 160.
+
+
+LaTeX Warning: Citation 'Kirk2014' on page 5 undefined on input line 160.
+
+
+LaTeX Warning: Citation 'Kirk2014' on page 5 undefined on input line 161.
+
+
+LaTeX Warning: Citation 'Muller2016' on page 5 undefined on input line 161.
+
+
+LaTeX Warning: Citation 'Kirk2014' on page 5 undefined on input line 161.
+
+[5 <./Bilder/Cluster.png>]
+
+LaTeX Warning: Citation 'Muller2016' on page 6 undefined on input line 176.
+
+
+LaTeX Warning: Citation 'Alpaydin2004' on page 6 undefined on input line 181.
+
+
+LaTeX Warning: Citation 'Sarkar2018' on page 6 undefined on input line 181.
+
+
+LaTeX Warning: Citation 'Alpaydin2004' on page 6 undefined on input line 181.
+
+
+LaTeX Warning: Citation 'Sarkar2018' on page 6 undefined on input line 181.
+
+
+LaTeX Warning: Citation 'Alpaydin2004' on page 6 undefined on input line 183.
+
+
+LaTeX Warning: Citation 'Alpaydin2004' on page 6 undefined on input line 185.
+
+
+LaTeX Warning: Citation 'Sarkar2018' on page 6 undefined on input line 185.
+
+
+LaTeX Warning: Citation 'Alpaydin2004' on page 6 undefined on input line 186.
+
+
+Overfull \hbox (6.00322pt too wide) in paragraph at lines 181--187
 \T1/cmr/m/n/12 Fea-tures oder Attribute($[]$ Di-men-sio-nen) für je-den Daten-s
 atz re-duziert. [[]]
  []
 
 
-LaTeX Warning: Citation 'Sarkar2018' on page 5 undefined on input line 167.
+LaTeX Warning: Citation 'Sarkar2018' on page 6 undefined on input line 190.
 
-<Bilder/Anomalie.png, id=33, 515.67656pt x 406.51875pt>
+<Bilder/Anomalie.png, id=43, 515.67656pt x 406.51875pt>
 File: Bilder/Anomalie.png Graphic file (type png)
 <use Bilder/Anomalie.png>
-Package pdftex.def Info: Bilder/Anomalie.png  used on input line 170.
+Package pdftex.def Info: Bilder/Anomalie.png  used on input line 193.
 (pdftex.def)             Requested size: 142.26378pt x 112.14966pt.
-[5]
+[6]
 
-LaTeX Warning: Citation 'Sarkar2018' on page 6 undefined on input line 176.
+LaTeX Warning: Citation 'Sarkar2018' on page 7 undefined on input line 199.
 
-<Bilder/rulemining.png, id=45, 556.32843pt x 338.76563pt>
+<Bilder/rulemining.png, id=51, 556.32843pt x 338.76563pt>
 File: Bilder/rulemining.png Graphic file (type png)
 <use Bilder/rulemining.png>
-Package pdftex.def Info: Bilder/rulemining.png  used on input line 181.
+Package pdftex.def Info: Bilder/rulemining.png  used on input line 204.
 (pdftex.def)             Requested size: 142.26378pt x 86.62962pt.
 
-Overfull \hbox (18.37766pt too wide) in paragraph at lines 176--184
-\T1/cmr/m/n/12 In Ab-bil-dung 5[] wer-den die ver-schiede-nen For-men mit As-so
+Overfull \hbox (18.37766pt too wide) in paragraph at lines 199--207
+\T1/cmr/m/n/12 In Ab-bil-dung 6[] wer-den die ver-schiede-nen For-men mit As-so
 -ci-a-tion rule-mining analysiert.
  []
 
 
-Overfull \hbox (5.45586pt too wide) in paragraph at lines 176--184
+Overfull \hbox (5.45586pt too wide) in paragraph at lines 199--207
 \T1/cmr/m/n/12 Anhand von Ergeb-nis-sen dieser Art kön-nen zum Beispiel Pro-duk
 -tvorschläge basierend
  []
 
-[6 <./Bilder/Anomalie.png> <./Bilder/rulemining.png>]
+[7 <./Bilder/Anomalie.png> <./Bilder/rulemining.png>]
 
-LaTeX Warning: Citation 'Nandy2018' on page 7 undefined on input line 188.
-
-
-LaTeX Warning: Citation 'Sarkar2018' on page 7 undefined on input line 188.
+LaTeX Warning: Citation 'Nandy2018' on page 8 undefined on input line 211.
 
 
-LaTeX Warning: Citation 'Alpaydin2004' on page 7 undefined on input line 189.
+LaTeX Warning: Citation 'Sarkar2018' on page 8 undefined on input line 211.
 
 
-LaTeX Warning: Citation 'Nandy2018' on page 7 undefined on input line 191.
+LaTeX Warning: Citation 'Alpaydin2004' on page 8 undefined on input line 212.
 
 
-LaTeX Warning: Citation 'Sarkar2018' on page 7 undefined on input line 191.
+LaTeX Warning: Citation 'Nandy2018' on page 8 undefined on input line 214.
 
 
-LaTeX Warning: Citation 'Nandy2018' on page 7 undefined on input line 192.
+LaTeX Warning: Citation 'Sarkar2018' on page 8 undefined on input line 214.
 
 
-LaTeX Warning: Citation 'Sarkar2018' on page 7 undefined on input line 192.
+LaTeX Warning: Citation 'Nandy2018' on page 8 undefined on input line 215.
 
-<Bilder/Reinforcement.png, id=51, 483.30562pt x 134.00063pt>
+
+LaTeX Warning: Citation 'Sarkar2018' on page 8 undefined on input line 215.
+
+<Bilder/Reinforcement.png, id=57, 483.30562pt x 134.00063pt>
 File: Bilder/Reinforcement.png Graphic file (type png)
 <use Bilder/Reinforcement.png>
-Package pdftex.def Info: Bilder/Reinforcement.png  used on input line 195.
+Package pdftex.def Info: Bilder/Reinforcement.png  used on input line 218.
 (pdftex.def)             Requested size: 142.26378pt x 39.44395pt.
 
-Overfull \hbox (9.50632pt too wide) in paragraph at lines 188--198
+Overfull \hbox (9.50632pt too wide) in paragraph at lines 211--221
 \T1/cmr/m/n/12 Agent trainiert um sich sein-er Umge-bung anzu-passen und seine 
 Leis-tung zu verbessern.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--198
+Underfull \hbox (badness 10000) in paragraph at lines 211--221
 
  []
 
 
-LaTeX Warning: Citation 'Alpaydin2004' on page 7 undefined on input line 199.
+LaTeX Warning: Citation 'Alpaydin2004' on page 8 undefined on input line 222.
 
 
-LaTeX Warning: Citation 'Nandy2018' on page 7 undefined on input line 202.
+LaTeX Warning: Citation 'Nandy2018' on page 8 undefined on input line 225.
 
 
-LaTeX Warning: Citation 'Nandy2018' on page 7 undefined on input line 203.
+LaTeX Warning: Citation 'Nandy2018' on page 8 undefined on input line 226.
 
 
-LaTeX Warning: Citation 'Nandy2018' on page 7 undefined on input line 204.
+LaTeX Warning: Citation 'Nandy2018' on page 8 undefined on input line 227.
 
 
-LaTeX Warning: Citation 'Nandy2018' on page 7 undefined on input line 205.
+LaTeX Warning: Citation 'Nandy2018' on page 8 undefined on input line 228.
 
-<Bilder/Umgebung.png, id=52, 597.17842pt x 105.74242pt>
+<Bilder/Umgebung.png, id=58, 597.17842pt x 105.74242pt>
 File: Bilder/Umgebung.png Graphic file (type png)
 <use Bilder/Umgebung.png>
-Package pdftex.def Info: Bilder/Umgebung.png  used on input line 208.
+Package pdftex.def Info: Bilder/Umgebung.png  used on input line 231.
 (pdftex.def)             Requested size: 142.26378pt x 25.18991pt.
 
-LaTeX Warning: Citation 'Nandy2018' on page 7 undefined on input line 212.
+LaTeX Warning: Citation 'Nandy2018' on page 8 undefined on input line 235.
 
-<Bilder/multiagent.png, id=53, 483.30562pt x 460.72125pt>
+<Bilder/multiagent.png, id=59, 483.30562pt x 460.72125pt>
 File: Bilder/multiagent.png Graphic file (type png)
 <use Bilder/multiagent.png>
-Package pdftex.def Info: Bilder/multiagent.png  used on input line 215.
+Package pdftex.def Info: Bilder/multiagent.png  used on input line 238.
 (pdftex.def)             Requested size: 142.26378pt x 135.61632pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[7 <./Bilder/Reinforcement.png>]
+[8 <./Bilder/Reinforcement.png>]
 
-LaTeX Warning: Citation 'Nandy2018' on page 8 undefined on input line 221.
+LaTeX Warning: Citation 'Nandy2018' on page 9 undefined on input line 244.
 
-[8 <./Bilder/Umgebung.png> <./Bilder/multiagent.png>] [9]
+[9 <./Bilder/Umgebung.png> <./Bilder/multiagent.png>] [10]
 
-LaTeX Warning: Empty bibliography on input line 227.
+LaTeX Warning: Empty bibliography on input line 250.
 
 (Seminararbeit.aux)
 
@@ -1073,10 +1104,10 @@ Package logreq Info: Writing requests to 'Seminararbeit.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 12864 strings out of 495204
- 210241 string characters out of 3180427
- 662876 words of memory out of 3000000
- 15974 multiletter control sequences out of 15000+200000
+ 12876 strings out of 495204
+ 210404 string characters out of 3180427
+ 662989 words of memory out of 3000000
+ 15985 multiletter control sequences out of 15000+200000
  17047 words of font info for 51 fonts, out of 3000000 for 9000
  16 hyphenation exceptions out of 8191
  36i,7n,42p,906b,2180s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1095,10 +1126,11 @@ Documents/portyTeX/MiKTeX_Portable/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
 ic/amsfonts/cm/cmmi8.pfb><C:/Users/Laura/Documents/portyTeX/MiKTeX_Portable/fon
 ts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Laura/Documents/portyTeX/MiKTeX
 _Portable/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Laura/Documents/por
-tyTeX/MiKTeX_Portable/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Seminararbeit.pdf (11 pages, 304548 bytes).
+tyTeX/MiKTeX_Portable/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Laura
+/Documents/portyTeX/MiKTeX_Portable/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
+Output written on Seminararbeit.pdf (12 pages, 324422 bytes).
 PDF statistics:
- 362 PDF objects out of 1000 (max. 8388607)
+ 379 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
