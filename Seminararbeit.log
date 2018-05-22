@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600) (preloaded format=pdflatex 2018.4.16)  22 MAY 2018 12:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600) (preloaded format=pdflatex 2018.4.16)  22 MAY 2018 18:19
 entering extended mode
 **./Seminararbeit.tex
 (Seminararbeit.tex
@@ -834,6 +834,11 @@ Package pdftex.def Info: Bilder/SVM.png  used on input line 96.
 sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
+Overfull \hbox (19.40324pt too wide) in paragraph at lines 101--103
+\T1/cmr/m/n/12 mit der Funk-tion fit trainiert. X_train und y_train bein-hal-te
+n die Trainings-Datensätze.
+ []
+
 
 LaTeX Warning: Citation 'Sarkar2018' on page 3 undefined on input line 108.
 
@@ -1070,7 +1075,7 @@ LaTeX Warning: Citation 'Nandy2018' on page 8 undefined on input line 228.
 File: Bilder/Umgebung.png Graphic file (type png)
 <use Bilder/Umgebung.png>
 Package pdftex.def Info: Bilder/Umgebung.png  used on input line 231.
-(pdftex.def)             Requested size: 142.26378pt x 25.18991pt.
+(pdftex.def)             Requested size: 227.62204pt x 40.30516pt.
 
 LaTeX Warning: Citation 'Nandy2018' on page 8 undefined on input line 235.
 
@@ -1128,7 +1133,7 @@ ts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Laura/Documents/portyTeX/MiKTeX
 _Portable/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Laura/Documents/por
 tyTeX/MiKTeX_Portable/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Laura
 /Documents/portyTeX/MiKTeX_Portable/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-Output written on Seminararbeit.pdf (12 pages, 324422 bytes).
+Output written on Seminararbeit.pdf (12 pages, 324470 bytes).
 PDF statistics:
  379 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
