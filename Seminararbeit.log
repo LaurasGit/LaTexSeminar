@@ -1,24 +1,109 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600) (preloaded format=pdflatex 2018.4.16)  22 MAY 2018 18:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600) (preloaded format=pdflatex 2018.4.16)  23 MAY 2018 08:19
 entering extended mode
 **./Seminararbeit.tex
 (Seminararbeit.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
-(C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\base\article.cls
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\base\size12.clo
-File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+
+(C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\koma-script\scrart
+cl.cls
+Document Class: scrartcl 2018/03/30 v3.25 KOMA-Script document class (article)
+
+(C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\koma-script\scrkba
+se.sty
+Package: scrkbase 2018/03/30 v3.25 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+(C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\koma-script\scrbas
+e.sty
+Package: scrbase 2018/03/30 v3.25 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\graphics\keyval.st
+y
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
 )
-\c@part=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
-\abovecaptionskip=\skip41
-\belowcaptionskip=\skip42
+(C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\koma-script\scrlfi
+le.sty
+Package: scrlfile 2018/03/30 v3.25 KOMA-Script package (loading files)
+)))
+(C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\koma-script\tocbas
+ic.sty
+Package: tocbasic 2018/03/30 v3.25 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip41
+\scr@dte@tocline@numbox=\box26
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 134.
+Package scrartcl Info: You've used standard option `12pt'.
+(scrartcl)             This is correct!
+(scrartcl)             Internally I'm using `fontsize=12pt'.
+(scrartcl)             If you'd like to set the option with \KOMAoptions,
+(scrartcl)             you'd have to use `fontsize=12pt' there
+(scrartcl)             instead of `12pt', too.
+Class scrartcl Info: File `scrsize12pt.clo' used to setup font sizes on input l
+ine 2114.
+
+(C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\koma-script\scrsiz
+e12pt.clo
+File: scrsize12pt.clo 2018/03/30 v3.25 KOMA-Script font size class option (12pt
+)
+)
+(C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\koma-script\typear
+ea.sty
+Package: typearea 2018/03/30 v3.25 KOMA-Script package (type area)
+\ta@bcor=\skip42
+\ta@div=\count79
+\ta@hblk=\skip43
+\ta@vblk=\skip44
+\ta@temp=\skip45
+\footheight=\skip46
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 12
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 448.13095pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 2.4185pt
+(typearea)              \oddsidemargin  = 2.4185pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 635.5pt
+(typearea)              \topmargin      = -41.72441pt
+(typearea)              \headheight     = 18.125pt
+(typearea)              \headsep        = 21.75pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 50.75pt
+(typearea)              \baselineskip   = 14.5pt
+(typearea)              on input line 1706.
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\scr@dte@part@maxnumwidth=\skip47
+\scr@dte@section@maxnumwidth=\skip48
+\scr@dte@subsection@maxnumwidth=\skip49
+\scr@dte@subsubsection@maxnumwidth=\skip50
+\scr@dte@paragraph@maxnumwidth=\skip51
+\scr@dte@subparagraph@maxnumwidth=\skip52
+\abovecaptionskip=\skip53
+\belowcaptionskip=\skip54
+\c@pti@nb@sid@b@x=\box27
+\scr@dte@figure@maxnumwidth=\skip55
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 5439.
+\c@figure=\count86
+\scr@dte@table@maxnumwidth=\skip56
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 5451.
+\c@table=\count87
+Class scrartcl Info: Redefining `\numberline' on input line 5615.
 \bibindent=\dimen102
 )
 (C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\generic\babel\babel.sty
@@ -44,12 +129,12 @@ Language: ngermanb 2016/11/02 v2.9 German support for babel (new orthography)
 
 (C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\generic\babel\babel.def
 File: babel.def 2018/02/14 3.18 Babel common definitions
-\babel@savecnt=\count87
+\babel@savecnt=\count88
 \U@D=\dimen103
 
 (C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\generic\babel\txtbabel.d
 ef)
-\bbl@dirlevel=\count88
+\bbl@dirlevel=\count89
 )
 
 Package babel Warning: No hyphenation patterns were preloaded for
@@ -64,8 +149,8 @@ Package babel Info: Making " an active character on input line 125.
 )))
 (C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\base\inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks14
-\inpenc@posthook=\toks15
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
 
 (C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\base\latin1.def
 File: latin1.def 2015/03/17 v1.2c Input encoding file
@@ -87,11 +172,6 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\graphics\keyval.st
-y
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
-)
 (C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\generic\oberdiek\ifpdf.s
 ty
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
@@ -105,9 +185,9 @@ Package ifvtex Info: VTeX not detected.
 sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count89
-\Gm@cntv=\count90
-\c@Gm@tempcnt=\count91
+\Gm@cnth=\count90
+\Gm@cntv=\count91
+\c@Gm@tempcnt=\count92
 \Gm@bindingoffset=\dimen104
 \Gm@wd@mp=\dimen105
 \Gm@odd@mp=\dimen106
@@ -120,6 +200,10 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 
 (C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\geometry\geometry.
 cfg))
+(C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\setspace\setspace.
+sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
 (C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\amsfonts\amssymb.s
 ty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -140,32 +224,32 @@ Package: amsthm 2017/10/31 v2.20.4
 \thm@headfont=\toks21
 \thm@notefont=\toks22
 \thm@headpunct=\toks23
-\thm@preskip=\skip43
-\thm@postskip=\skip44
-\thm@headsep=\skip45
+\thm@preskip=\skip57
+\thm@postskip=\skip58
+\thm@headsep=\skip59
 \dth@everypar=\toks24
 )
 (C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\listings\listings.
 sty
-\lst@mode=\count92
-\lst@gtempboxa=\box26
+\lst@mode=\count93
+\lst@gtempboxa=\box28
 \lst@token=\toks25
-\lst@length=\count93
+\lst@length=\count94
 \lst@currlwidth=\dimen112
-\lst@column=\count94
-\lst@pos=\count95
+\lst@column=\count95
+\lst@pos=\count96
 \lst@lostspace=\dimen113
 \lst@width=\dimen114
-\lst@newlines=\count96
-\lst@lineno=\count97
+\lst@newlines=\count97
+\lst@lineno=\count98
 \lst@maxwidth=\dimen115
 
 (C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\listings\lstmisc.s
 ty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count98
-\lst@skipnumbers=\count99
-\lst@framebox=\box27
+\c@lstnumber=\count99
+\lst@skipnumbers=\count100
+\lst@framebox=\box29
 )
 (C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\listings\listings.
 cfg
@@ -176,7 +260,7 @@ Package: listings 2015/06/04 1.6 (Carsten Heinz)
 (C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\amsmath\amsmath.st
 y
 Package: amsmath 2017/09/02 v2.17a AMS math features
-\@mathmargin=\skip46
+\@mathmargin=\skip60
 
 For additional information on amsmath, use the `?' option.
 
@@ -196,30 +280,30 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count100
+\inf@bad=\count101
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count101
-\leftroot@=\count102
+\uproot@=\count102
+\leftroot@=\count103
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count103
-\DOTSCASE@=\count104
+\classnum@=\count104
+\DOTSCASE@=\count105
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box28
-\strutbox@=\box29
+\Mathstrutbox@=\box30
+\strutbox@=\box31
 \big@size=\dimen118
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count105
-\c@MaxMatrixCols=\count106
+\macc@depth=\count106
+\c@MaxMatrixCols=\count107
 \dotsspace@=\muskip10
-\c@parentequation=\count107
-\dspbrk@lvl=\count108
+\c@parentequation=\count108
+\dspbrk@lvl=\count109
 \tag@help=\toks27
-\row@=\count109
-\column@=\count110
-\maxfields@=\count111
+\row@=\count110
+\column@=\count111
+\maxfields@=\count112
 \andhelp@=\toks28
 \eqnshift@=\dimen119
 \alignsep@=\dimen120
@@ -228,8 +312,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \totwidth@=\dimen123
 \lineht@=\dimen124
 \@envbody=\toks29
-\multlinegap=\skip47
-\multlinetaggap=\skip48
+\multlinegap=\skip61
+\multlinetaggap=\skip62
 \mathdisplay@stack=\toks30
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
@@ -256,11 +340,11 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 )
 (C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count112
+\c@float@type=\count113
 \float@exts=\toks31
-\float@box=\box30
+\float@box=\box32
 \@float@everytoks=\toks32
-\@floatcapt=\box31
+\@floatcapt=\box33
 )
 (C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\biblatex\biblatex.
 sty
@@ -292,7 +376,7 @@ Package pdftexcmds Info: \pdfdraftmode found.
 (C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\etoolbox\etoolbox.
 sty
 Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count113
+\etb@tempcnta=\count114
 )
 (C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\oberdiek\kvoptions
 .sty
@@ -312,7 +396,7 @@ Package etexcmds Info: Could not find \expanded.
 )))
 (C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count114
+\lrq@indent=\count115
 
 (C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -327,62 +411,62 @@ y
 (C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\generic\xstring\xstring.
 tex
 \@xs@message=\write3
-\integerpart=\count115
-\decimalpart=\count116
+\integerpart=\count116
+\decimalpart=\count117
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\c@tabx@nest=\count117
-\c@listtotal=\count118
-\c@listcount=\count119
-\c@liststart=\count120
-\c@liststop=\count121
-\c@citecount=\count122
-\c@citetotal=\count123
-\c@multicitecount=\count124
-\c@multicitetotal=\count125
-\c@instcount=\count126
-\c@maxnames=\count127
-\c@minnames=\count128
-\c@maxitems=\count129
-\c@minitems=\count130
-\c@citecounter=\count131
-\c@savedcitecounter=\count132
-\c@uniquelist=\count133
-\c@uniquename=\count134
-\c@refsection=\count135
-\c@refsegment=\count136
-\c@maxextratitle=\count137
-\c@maxextratitleyear=\count138
-\c@maxextradate=\count139
-\c@maxextraalpha=\count140
-\c@abbrvpenalty=\count141
-\c@highnamepenalty=\count142
-\c@lownamepenalty=\count143
-\c@maxparens=\count144
-\c@parenlevel=\count145
-\blx@tempcnta=\count146
-\blx@tempcntb=\count147
-\blx@tempcntc=\count148
-\blx@maxsection=\count149
-\blx@maxsegment@0=\count150
-\blx@notetype=\count151
-\blx@parenlevel@text=\count152
-\blx@parenlevel@foot=\count153
-\blx@sectionciteorder@0=\count154
-\labelnumberwidth=\skip49
-\labelalphawidth=\skip50
-\biblabelsep=\skip51
-\bibitemsep=\skip52
-\bibnamesep=\skip53
-\bibinitsep=\skip54
-\bibparsep=\skip55
-\bibhang=\skip56
+\c@tabx@nest=\count118
+\c@listtotal=\count119
+\c@listcount=\count120
+\c@liststart=\count121
+\c@liststop=\count122
+\c@citecount=\count123
+\c@citetotal=\count124
+\c@multicitecount=\count125
+\c@multicitetotal=\count126
+\c@instcount=\count127
+\c@maxnames=\count128
+\c@minnames=\count129
+\c@maxitems=\count130
+\c@minitems=\count131
+\c@citecounter=\count132
+\c@savedcitecounter=\count133
+\c@uniquelist=\count134
+\c@uniquename=\count135
+\c@refsection=\count136
+\c@refsegment=\count137
+\c@maxextratitle=\count138
+\c@maxextratitleyear=\count139
+\c@maxextradate=\count140
+\c@maxextraalpha=\count141
+\c@abbrvpenalty=\count142
+\c@highnamepenalty=\count143
+\c@lownamepenalty=\count144
+\c@maxparens=\count145
+\c@parenlevel=\count146
+\blx@tempcnta=\count147
+\blx@tempcntb=\count148
+\blx@tempcntc=\count149
+\blx@maxsection=\count150
+\blx@maxsegment@0=\count151
+\blx@notetype=\count152
+\blx@parenlevel@text=\count153
+\blx@parenlevel@foot=\count154
+\blx@sectionciteorder@0=\count155
+\labelnumberwidth=\skip63
+\labelalphawidth=\skip64
+\biblabelsep=\skip65
+\bibitemsep=\skip66
+\bibnamesep=\skip67
+\bibinitsep=\skip68
+\bibparsep=\skip69
+\bibhang=\skip70
 \blx@bcfin=\read1
 \blx@bcfout=\write4
-\c@mincomprange=\count155
-\c@maxcomprange=\count156
-\c@mincompwidth=\count157
+\c@mincomprange=\count156
+\c@maxcomprange=\count157
+\c@mincompwidth=\count158
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -394,88 +478,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric-comp.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count158
-\c@savedafterword=\count159
-\c@annotator=\count160
-\c@savedannotator=\count161
-\c@author=\count162
-\c@savedauthor=\count163
-\c@bookauthor=\count164
-\c@savedbookauthor=\count165
-\c@commentator=\count166
-\c@savedcommentator=\count167
-\c@editor=\count168
-\c@savededitor=\count169
-\c@editora=\count170
-\c@savededitora=\count171
-\c@editorb=\count172
-\c@savededitorb=\count173
-\c@editorc=\count174
-\c@savededitorc=\count175
-\c@foreword=\count176
-\c@savedforeword=\count177
-\c@holder=\count178
-\c@savedholder=\count179
-\c@introduction=\count180
-\c@savedintroduction=\count181
-\c@namea=\count182
-\c@savednamea=\count183
-\c@nameb=\count184
-\c@savednameb=\count185
-\c@namec=\count186
-\c@savednamec=\count187
-\c@translator=\count188
-\c@savedtranslator=\count189
-\c@shortauthor=\count190
-\c@savedshortauthor=\count191
-\c@shorteditor=\count192
-\c@savedshorteditor=\count193
-\c@labelname=\count194
-\c@savedlabelname=\count195
-\c@institution=\count196
-\c@savedinstitution=\count197
-\c@lista=\count198
-\c@savedlista=\count199
-\c@listb=\count266
-\c@savedlistb=\count267
-\c@listc=\count268
-\c@savedlistc=\count269
-\c@listd=\count270
-\c@savedlistd=\count271
-\c@liste=\count272
-\c@savedliste=\count273
-\c@listf=\count274
-\c@savedlistf=\count275
-\c@location=\count276
-\c@savedlocation=\count277
-\c@organization=\count278
-\c@savedorganization=\count279
-\c@origlocation=\count280
-\c@savedoriglocation=\count281
-\c@origpublisher=\count282
-\c@savedorigpublisher=\count283
-\c@publisher=\count284
-\c@savedpublisher=\count285
-\c@language=\count286
-\c@savedlanguage=\count287
-\c@origlanguage=\count288
-\c@savedoriglanguage=\count289
-\c@pageref=\count290
-\c@savedpageref=\count291
-\shorthandwidth=\skip57
-\shortjournalwidth=\skip58
-\shortserieswidth=\skip59
-\shorttitlewidth=\skip60
-\shortauthorwidth=\skip61
-\shorteditorwidth=\skip62
-\locallabelnumberwidth=\skip63
-\locallabelalphawidth=\skip64
-\localshorthandwidth=\skip65
-\localshortjournalwidth=\skip66
-\localshortserieswidth=\skip67
-\localshorttitlewidth=\skip68
-\localshortauthorwidth=\skip69
-\localshorteditorwidth=\skip70
+\c@afterword=\count159
+\c@savedafterword=\count160
+\c@annotator=\count161
+\c@savedannotator=\count162
+\c@author=\count163
+\c@savedauthor=\count164
+\c@bookauthor=\count165
+\c@savedbookauthor=\count166
+\c@commentator=\count167
+\c@savedcommentator=\count168
+\c@editor=\count169
+\c@savededitor=\count170
+\c@editora=\count171
+\c@savededitora=\count172
+\c@editorb=\count173
+\c@savededitorb=\count174
+\c@editorc=\count175
+\c@savededitorc=\count176
+\c@foreword=\count177
+\c@savedforeword=\count178
+\c@holder=\count179
+\c@savedholder=\count180
+\c@introduction=\count181
+\c@savedintroduction=\count182
+\c@namea=\count183
+\c@savednamea=\count184
+\c@nameb=\count185
+\c@savednameb=\count186
+\c@namec=\count187
+\c@savednamec=\count188
+\c@translator=\count189
+\c@savedtranslator=\count190
+\c@shortauthor=\count191
+\c@savedshortauthor=\count192
+\c@shorteditor=\count193
+\c@savedshorteditor=\count194
+\c@labelname=\count195
+\c@savedlabelname=\count196
+\c@institution=\count197
+\c@savedinstitution=\count198
+\c@lista=\count199
+\c@savedlista=\count266
+\c@listb=\count267
+\c@savedlistb=\count268
+\c@listc=\count269
+\c@savedlistc=\count270
+\c@listd=\count271
+\c@savedlistd=\count272
+\c@liste=\count273
+\c@savedliste=\count274
+\c@listf=\count275
+\c@savedlistf=\count276
+\c@location=\count277
+\c@savedlocation=\count278
+\c@organization=\count279
+\c@savedorganization=\count280
+\c@origlocation=\count281
+\c@savedoriglocation=\count282
+\c@origpublisher=\count283
+\c@savedorigpublisher=\count284
+\c@publisher=\count285
+\c@savedpublisher=\count286
+\c@language=\count287
+\c@savedlanguage=\count288
+\c@origlanguage=\count289
+\c@savedoriglanguage=\count290
+\c@pageref=\count291
+\c@savedpageref=\count292
+\shorthandwidth=\skip71
+\shortjournalwidth=\skip72
+\shortserieswidth=\skip73
+\shorttitlewidth=\skip74
+\shortauthorwidth=\skip75
+\shorteditorwidth=\skip76
+\locallabelnumberwidth=\skip77
+\locallabelalphawidth=\skip78
+\localshorthandwidth=\skip79
+\localshortjournalwidth=\skip80
+\localshortserieswidth=\skip81
+\localshorttitlewidth=\skip82
+\localshortauthorwidth=\skip83
+\localshorteditorwidth=\skip84
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -489,13 +573,13 @@ Package biblatex Info: ... file 'biblatex.def' found.
 (C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\biblatex\biblatex.
 def
 File: biblatex.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
-\c@textcitecount=\count292
-\c@textcitetotal=\count293
-\c@textcitemaxnames=\count294
-\c@biburlnumpenalty=\count295
-\c@biburlucpenalty=\count296
-\c@biburllcpenalty=\count297
-\c@smartand=\count298
+\c@textcitecount=\count293
+\c@textcitetotal=\count294
+\c@textcitemaxnames=\count295
+\c@biburlnumpenalty=\count296
+\c@biburlucpenalty=\count297
+\c@biburllcpenalty=\count298
+\c@smartand=\count299
 )
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
@@ -515,8 +599,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 (C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\biblatex\bbx\stand
 ard.bbx
 File: standard.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count299
-\c@bbx:relatedtotal=\count300
+\c@bbx:relatedcount=\count300
+\c@bbx:relatedtotal=\count301
 )))
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
@@ -524,8 +608,8 @@ Package biblatex Info: ... file 'numeric-comp.cbx' found.
 (C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\biblatex\cbx\numer
 ic-comp.cbx
 File: numeric-comp.cbx 2018/03/04 v3.11 biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count301
-\c@cbx@tempcntb=\count302
+\c@cbx@tempcnta=\count302
+\c@cbx@tempcntb=\count303
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -555,12 +639,12 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 (C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\csquotes\csquotes.
 sty
 Package: csquotes 2018/04/13 v5.2d context-sensitive quotations (JAW)
-\csq@reset=\count303
-\csq@gtype=\count304
-\csq@glevel=\count305
-\csq@qlevel=\count306
-\csq@maxlvl=\count307
-\csq@tshold=\count308
+\csq@reset=\count304
+\csq@gtype=\count305
+\csq@glevel=\count306
+\csq@qlevel=\count307
+\csq@maxlvl=\count308
+\csq@tshold=\count309
 \csq@ltx@everypar=\toks33
 
 (C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\csquotes\csquotes.
@@ -620,16 +704,16 @@ LaTeX Font Info:    ... okay on input line 40.
 (C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\context\base\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count309
+\scratchcounter=\count310
 \scratchdimen=\dimen127
-\scratchbox=\box32
-\nofMPsegments=\count310
-\nofMParguments=\count311
+\scratchbox=\box34
+\nofMPsegments=\count311
+\nofMParguments=\count312
 \everyMPshowfont=\toks34
-\MPscratchCnt=\count312
+\MPscratchCnt=\count313
 \MPscratchDim=\dimen128
-\MPnumerator=\count313
-\makeMPintoPDFobject=\count314
+\MPnumerator=\count314
+\makeMPintoPDFobject=\count315
 \everyMPtoPDFconversion=\toks35
 )
 (C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\oberdiek\epstopdf-
@@ -659,21 +743,21 @@ G,.JBIG2,.JB2,.eps]
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(113.81102pt, 426.79135pt, 56.9055pt)
-* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* h-part:(L,W,R)=(113.81102pt, 398.3386pt, 85.35826pt)
+* v-part:(T,H,B)=(56.9055pt, 717.00946pt, 71.13188pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=426.79135pt
-* \textheight=702.78308pt
+* \textwidth=398.3386pt
+* \textheight=717.00946pt
 * \oddsidemargin=41.54103pt
 * \evensidemargin=41.54103pt
-* \topmargin=-38.1381pt
-* \headheight=12.0pt
-* \headsep=25.0pt
+* \topmargin=-55.23949pt
+* \headheight=18.125pt
+* \headsep=21.75pt
 * \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=44.0pt
-* \marginparsep=10.0pt
+* \footskip=50.75pt
+* \marginparwidth=49.79233pt
+* \marginparsep=12.8401pt
 * \columnsep=10.0pt
 * \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
@@ -685,7 +769,7 @@ G,.JBIG2,.JB2,.eps]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count315
+\c@lstlisting=\count316
 Package biblatex Info: Input encoding 'latin1' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'latin1'.
@@ -696,12 +780,17 @@ Package biblatex Info: ... file 'Seminararbeit.bbl' found.
 (Seminararbeit.bbl)
 Package biblatex Info: Reference section=0 on input line 40.
 Package biblatex Info: Reference segment=0 on input line 40.
-LaTeX Font Info:    Try loading font information for U+msa on input line 47.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 48.
+
+(C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\base\t1cmss.fd
+File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 48.
 
 (C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 47.
+LaTeX Font Info:    Try loading font information for U+msb on input line 48.
 
 (C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -713,7 +802,7 @@ Seminararbeit.toc)
 \tf@toc=\write5
 \openout5 = `Seminararbeit.toc'.
 
- [1]
+ [2]
 
 LaTeX Warning: Citation 'Mueller2016' on page 1 undefined on input line 56.
 
@@ -738,44 +827,68 @@ LaTeX Warning: Citation 'Geron2017' on page 1 undefined on input line 64.
 
 LaTeX Warning: Citation 'Kirk2014' on page 1 undefined on input line 65.
 
-[1]
 
-LaTeX Warning: Citation 'Mueller2016' on page 2 undefined on input line 69.
+Overfull \hbox (4.99905pt too wide) in paragraph at lines 56--66
+\T1/cmr/m/n/12 Filter ohne Ma-chine Learn-ing pro-gram-mieren, müssten Regeln f
+ür die Absender-
+ []
 
+[1] [2]
 
-LaTeX Warning: Citation 'Sarkar2018' on page 2 undefined on input line 70.
-
-
-LaTeX Warning: Citation 'Suthaharan2016' on page 2 undefined on input line 70.
-
-
-LaTeX Warning: Citation 'Mueller2016' on page 2 undefined on input line 70.
+LaTeX Warning: Citation 'Mueller2016' on page 3 undefined on input line 69.
 
 
-LaTeX Warning: Citation 'Sarkar2018' on page 2 undefined on input line 70.
+LaTeX Warning: Citation 'Sarkar2018' on page 3 undefined on input line 70.
 
 
-LaTeX Warning: Citation 'Suthaharan2016' on page 2 undefined on input line 71.
+LaTeX Warning: Citation 'Suthaharan2016' on page 3 undefined on input line 70.
 
 
-LaTeX Warning: Citation 'Kirk2014' on page 2 undefined on input line 71.
+LaTeX Warning: Citation 'Mueller2016' on page 3 undefined on input line 70.
 
 
-LaTeX Warning: Citation 'Geron2017' on page 2 undefined on input line 71.
+LaTeX Warning: Citation 'Sarkar2018' on page 3 undefined on input line 70.
 
 
-LaTeX Warning: Citation 'Kirk2014' on page 2 undefined on input line 71.
+LaTeX Warning: Citation 'Suthaharan2016' on page 3 undefined on input line 71.
 
 
-LaTeX Warning: Citation 'Sarkar2018' on page 2 undefined on input line 72.
+LaTeX Warning: Citation 'Kirk2014' on page 3 undefined on input line 71.
 
 
-LaTeX Warning: Citation 'Mueller2016' on page 2 undefined on input line 76.
+LaTeX Warning: Citation 'Geron2017' on page 3 undefined on input line 71.
 
 
-LaTeX Warning: Citation 'Mueller2016' on page 2 undefined on input line 76.
+LaTeX Warning: Citation 'Kirk2014' on page 3 undefined on input line 71.
 
-<Bilder/Label.png, id=16, 320.69812pt x 442.65375pt>
+
+LaTeX Warning: Citation 'Sarkar2018' on page 3 undefined on input line 72.
+
+
+Overfull \hbox (0.43777pt too wide) in paragraph at lines 69--73
+\T1/cmr/m/n/12 Supervised Learn-ing gehört zu den er-fol-gre-ich-sten und meist
+ ver-bre-it-eten Arten
+ []
+
+
+Overfull \hbox (23.13843pt too wide) in paragraph at lines 69--73
+\T1/cmr/m/n/12 ells genutzt, welche auch Trainings-Daten und La-bel genan-nt we
+r-den. [[]]
+ []
+
+
+Overfull \hbox (29.04129pt too wide) in paragraph at lines 69--73
+\T1/cmr/m/n/12 das zu ver-hin-dern muss das Train-ing früh genug been-det wer-d
+en. [[]]
+ []
+
+
+LaTeX Warning: Citation 'Mueller2016' on page 3 undefined on input line 76.
+
+
+LaTeX Warning: Citation 'Mueller2016' on page 3 undefined on input line 76.
+
+<Bilder/Label.png, id=20, 320.69812pt x 442.65375pt>
 File: Bilder/Label.png Graphic file (type png)
 <use Bilder/Label.png>
 Package pdftex.def Info: Bilder/Label.png  used on input line 79.
@@ -785,38 +898,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--82
 
  []
 
+[3]
 
-LaTeX Warning: Citation 'Mueller2016' on page 2 undefined on input line 84.
-
-
-LaTeX Warning: Citation 'Suthaharan2016' on page 2 undefined on input line 84.
+LaTeX Warning: Citation 'Mueller2016' on page 4 undefined on input line 84.
 
 
-Overfull \hbox (26.65562pt too wide) in paragraph at lines 84--85
-\T1/cmr/m/n/12 La-bels er-stellt, die später dabei helfen Test-Daten La-bels zu
- zuweisen. [[]] 
+LaTeX Warning: Citation 'Suthaharan2016' on page 4 undefined on input line 84.
+
+
+LaTeX Warning: Citation 'Geron2017' on page 4 undefined on input line 87.
+
+
+LaTeX Warning: Citation 'Suthaharan.2016' on page 4 undefined on input line 87.
+
+
+
+LaTeX Warning: Citation 'Geron2017' on page 4 undefined on input line 88.
+
+
+Overfull \hbox (4.96828pt too wide) in paragraph at lines 87--89
+\T1/cmr/m/n/12 sich für lin-eare und nicht-lineare Klas-si-fika-tion, Re-gres-s
+ion und Anoma-lie Erken-
  []
 
-[2 <./Bilder/Label.png>]
 
-LaTeX Warning: Citation 'Geron2017' on page 3 undefined on input line 87.
-
-
-LaTeX Warning: Citation 'Suthaharan.2016' on page 3 undefined on input line 87.
+LaTeX Warning: Citation 'Suthaharan.2016' on page 4 undefined on input line 92.
 
 
 
-LaTeX Warning: Citation 'Geron2017' on page 3 undefined on input line 88.
+LaTeX Warning: Citation 'Geron2017' on page 4 undefined on input line 92.
 
 
-LaTeX Warning: Citation 'Suthaharan.2016' on page 3 undefined on input line 92.
-
-
-
-LaTeX Warning: Citation 'Geron2017' on page 3 undefined on input line 92.
-
-
-LaTeX Warning: Citation 'Suthaharan.2016' on page 3 undefined on input line 92.
+LaTeX Warning: Citation 'Suthaharan.2016' on page 4 undefined on input line 92.
 
 
 
@@ -824,70 +937,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--93
 
  []
 
-<Bilder/SVM.png, id=23, 175.73021pt x 169.64432pt>
+<Bilder/SVM.png, id=26, 175.73021pt x 169.64432pt>
 File: Bilder/SVM.png Graphic file (type png)
 <use Bilder/SVM.png>
 Package pdftex.def Info: Bilder/SVM.png  used on input line 96.
 (pdftex.def)             Requested size: 142.26378pt x 137.34383pt.
-
+[4 <./Bilder/Label.png>]
 (C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\listings\lstlang1.
 sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-Overfull \hbox (19.40324pt too wide) in paragraph at lines 101--103
-\T1/cmr/m/n/12 mit der Funk-tion fit trainiert. X_train und y_train bein-hal-te
-n die Trainings-Datensätze.
+Overfull \hbox (10.10414pt too wide) in paragraph at lines 101--103
+\T1/cmr/m/n/12 und mit der Funk-tion fit trainiert. X_train und y_train bein-ha
+l-ten die Trainings-
  []
 
 
-LaTeX Warning: Citation 'Sarkar2018' on page 3 undefined on input line 108.
+LaTeX Warning: Citation 'Sarkar2018' on page 5 undefined on input line 108.
 
 
-LaTeX Warning: Citation 'Sarkar2018' on page 3 undefined on input line 112.
+LaTeX Warning: Citation 'Sarkar2018' on page 5 undefined on input line 112.
 
 
-LaTeX Warning: Citation 'Sarkar2018' on page 3 undefined on input line 114.
-
-
-Overfull \hbox (19.33168pt too wide) in paragraph at lines 112--116
-\T1/cmr/m/n/12 Eingangs- und Aus-gangs-dat-en, um für neue Dat-en den passenden
- Out-put vorherzusagen.
- []
+LaTeX Warning: Citation 'Sarkar2018' on page 5 undefined on input line 114.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 112--116
 
  []
 
-[3 <./Bilder/SVM.png>]
-<Bilder/Regression.png, id=32, 505.89pt x 680.5425pt>
+<Bilder/Regression.png, id=34, 505.89pt x 680.5425pt>
 File: Bilder/Regression.png Graphic file (type png)
 <use Bilder/Regression.png>
 Package pdftex.def Info: Bilder/Regression.png  used on input line 119.
 (pdftex.def)             Requested size: 142.26378pt x 191.38133pt.
+[5 <./Bilder/SVM.png>]
+
+LaTeX Warning: Citation 'Sarkar2018' on page 6 undefined on input line 124.
 
 
-LaTeX Warning: Citation 'Sarkar2018' on page 4 undefined on input line 124.
+LaTeX Warning: Citation 'Sarkar2018' on page 6 undefined on input line 126.
 
 
-LaTeX Warning: Citation 'Sarkar2018' on page 4 undefined on input line 126.
+LaTeX Warning: Citation 'Sarkar2018' on page 6 undefined on input line 128.
 
 
-LaTeX Warning: Citation 'Sarkar2018' on page 4 undefined on input line 128.
+LaTeX Warning: Citation 'Sarkar2018' on page 6 undefined on input line 130.
 
 
-LaTeX Warning: Citation 'Sarkar2018' on page 4 undefined on input line 130.
-
-
-Overfull \hbox (18.14728pt too wide) in paragraph at lines 124--141
-\T1/cmr/m/n/12 Multivariable Re-gres-sions Meth-o-d-en wer-den für Prob-leme mi
-t mehreren input-Variablen
- []
-
-
-Overfull \hbox (19.05333pt too wide) in paragraph at lines 124--141
-\T1/cmr/m/n/12 Beziehung auf Ba-sis ein-er Kom-bi-na-tion aus nicht-linearen Fu
-nk-tio-nen her. [[]] 
+Overfull \hbox (10.96368pt too wide) in paragraph at lines 124--141
+\T1/cmr/m/n/12 Variable y zu bes-tim-men und kön-nen somit lin-eare Prob-leme l
+ösen. [[]] 
  []
 
 
@@ -895,160 +995,166 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--141
 
  []
 
-[4 <./Bilder/Regression.png>]
+[6 <./Bilder/Regression.png>]
 
-LaTeX Warning: Citation 'Sarkar2018' on page 5 undefined on input line 145.
-
-
-LaTeX Warning: Citation 'Mueller2016' on page 5 undefined on input line 145.
+LaTeX Warning: Citation 'Sarkar2018' on page 7 undefined on input line 145.
 
 
-LaTeX Warning: Citation 'Sarkar2018' on page 5 undefined on input line 146.
+LaTeX Warning: Citation 'Mueller2016' on page 7 undefined on input line 145.
 
 
-LaTeX Warning: Citation 'Kirk2014' on page 5 undefined on input line 146.
+LaTeX Warning: Citation 'Sarkar2018' on page 7 undefined on input line 146.
 
 
-LaTeX Warning: Citation 'Sarkar2018' on page 5 undefined on input line 146.
+LaTeX Warning: Citation 'Kirk2014' on page 7 undefined on input line 146.
 
 
-LaTeX Warning: Citation 'Mueller2016' on page 5 undefined on input line 146.
+LaTeX Warning: Citation 'Sarkar2018' on page 7 undefined on input line 146.
 
 
-LaTeX Warning: Citation 'Sarkar2018' on page 5 undefined on input line 147.
+LaTeX Warning: Citation 'Mueller2016' on page 7 undefined on input line 146.
 
 
-LaTeX Warning: Citation 'Mueller2016' on page 5 undefined on input line 150.
+LaTeX Warning: Citation 'Sarkar2018' on page 7 undefined on input line 147.
 
 
-LaTeX Warning: Citation 'Sarkar2018' on page 5 undefined on input line 150.
+Overfull \hbox (12.09949pt too wide) in paragraph at lines 145--148
+\T1/cmr/m/n/12 Bei Un-su-per-vised Learn-ing haben die Trainings-Daten keine La
+-bel. [[]]
+ []
 
 
-LaTeX Warning: Citation 'Sarkar2018' on page 5 undefined on input line 150.
+Overfull \hbox (50.36325pt too wide) in paragraph at lines 145--148
+\T1/cmr/m/n/12 Daten. Er muss an-hand dieser Entschei-dun-gen tr-e-f-fen und ka
+t-e-gorisieren. [[]] 
+ []
 
-<Bilder/Cluster.png, id=37, 453.94594pt x 357.58594pt>
+
+LaTeX Warning: Citation 'Mueller2016' on page 7 undefined on input line 150.
+
+
+LaTeX Warning: Citation 'Sarkar2018' on page 7 undefined on input line 150.
+
+
+LaTeX Warning: Citation 'Sarkar2018' on page 7 undefined on input line 150.
+
+<Bilder/Cluster.png, id=45, 453.94594pt x 357.58594pt>
 File: Bilder/Cluster.png Graphic file (type png)
 <use Bilder/Cluster.png>
 Package pdftex.def Info: Bilder/Cluster.png  used on input line 154.
 (pdftex.def)             Requested size: 142.26378pt x 112.06178pt.
 
-Overfull \hbox (10.22758pt too wide) in paragraph at lines 150--158
-\T1/cmr/m/n/12 befind-en, dies sich zu den Dat-en, auÿer-halb des Clus-ters un-
-ter-schei-den. [[]]
+LaTeX Warning: Citation 'Kirk2014' on page 7 undefined on input line 160.
+
+
+LaTeX Warning: Citation 'Muller2016' on page 7 undefined on input line 160.
+
+
+LaTeX Warning: Citation 'Kirk2014' on page 7 undefined on input line 160.
+
+
+LaTeX Warning: Citation 'Kirk2014' on page 7 undefined on input line 161.
+
+
+LaTeX Warning: Citation 'Muller2016' on page 7 undefined on input line 161.
+
+
+LaTeX Warning: Citation 'Kirk2014' on page 7 undefined on input line 161.
+
+
+Overfull \hbox (17.9092pt too wide) in paragraph at lines 160--162
+\T1/cmr/m/n/12 und kugelför-mig sind und der Al-go-rith-mus sich ein-er Lö-sung
+ an-nähert. [[]] 
  []
 
+[7 <./Bilder/Cluster.png>]
 
-LaTeX Warning: Citation 'Kirk2014' on page 5 undefined on input line 160.
-
-
-LaTeX Warning: Citation 'Muller2016' on page 5 undefined on input line 160.
+LaTeX Warning: Citation 'Muller2016' on page 8 undefined on input line 176.
 
 
-LaTeX Warning: Citation 'Kirk2014' on page 5 undefined on input line 160.
+LaTeX Warning: Citation 'Alpaydin2004' on page 8 undefined on input line 181.
 
 
-LaTeX Warning: Citation 'Kirk2014' on page 5 undefined on input line 161.
+LaTeX Warning: Citation 'Sarkar2018' on page 8 undefined on input line 181.
 
 
-LaTeX Warning: Citation 'Muller2016' on page 5 undefined on input line 161.
+LaTeX Warning: Citation 'Alpaydin2004' on page 8 undefined on input line 181.
 
 
-LaTeX Warning: Citation 'Kirk2014' on page 5 undefined on input line 161.
-
-[5 <./Bilder/Cluster.png>]
-
-LaTeX Warning: Citation 'Muller2016' on page 6 undefined on input line 176.
+LaTeX Warning: Citation 'Sarkar2018' on page 8 undefined on input line 181.
 
 
-LaTeX Warning: Citation 'Alpaydin2004' on page 6 undefined on input line 181.
+LaTeX Warning: Citation 'Alpaydin2004' on page 8 undefined on input line 183.
 
 
-LaTeX Warning: Citation 'Sarkar2018' on page 6 undefined on input line 181.
+LaTeX Warning: Citation 'Alpaydin2004' on page 8 undefined on input line 185.
 
 
-LaTeX Warning: Citation 'Alpaydin2004' on page 6 undefined on input line 181.
+LaTeX Warning: Citation 'Sarkar2018' on page 8 undefined on input line 185.
 
 
-LaTeX Warning: Citation 'Sarkar2018' on page 6 undefined on input line 181.
+LaTeX Warning: Citation 'Alpaydin2004' on page 8 undefined on input line 186.
 
+[8]
 
-LaTeX Warning: Citation 'Alpaydin2004' on page 6 undefined on input line 183.
+LaTeX Warning: Citation 'Sarkar2018' on page 9 undefined on input line 190.
 
-
-LaTeX Warning: Citation 'Alpaydin2004' on page 6 undefined on input line 185.
-
-
-LaTeX Warning: Citation 'Sarkar2018' on page 6 undefined on input line 185.
-
-
-LaTeX Warning: Citation 'Alpaydin2004' on page 6 undefined on input line 186.
-
-
-Overfull \hbox (6.00322pt too wide) in paragraph at lines 181--187
-\T1/cmr/m/n/12 Fea-tures oder Attribute($[]$ Di-men-sio-nen) für je-den Daten-s
-atz re-duziert. [[]]
- []
-
-
-LaTeX Warning: Citation 'Sarkar2018' on page 6 undefined on input line 190.
-
-<Bilder/Anomalie.png, id=43, 515.67656pt x 406.51875pt>
+<Bilder/Anomalie.png, id=57, 515.67656pt x 406.51875pt>
 File: Bilder/Anomalie.png Graphic file (type png)
 <use Bilder/Anomalie.png>
 Package pdftex.def Info: Bilder/Anomalie.png  used on input line 193.
 (pdftex.def)             Requested size: 142.26378pt x 112.14966pt.
-[6]
 
-LaTeX Warning: Citation 'Sarkar2018' on page 7 undefined on input line 199.
+LaTeX Warning: Citation 'Sarkar2018' on page 9 undefined on input line 199.
 
-<Bilder/rulemining.png, id=51, 556.32843pt x 338.76563pt>
+<Bilder/rulemining.png, id=58, 556.32843pt x 338.76563pt>
 File: Bilder/rulemining.png Graphic file (type png)
 <use Bilder/rulemining.png>
 Package pdftex.def Info: Bilder/rulemining.png  used on input line 204.
 (pdftex.def)             Requested size: 142.26378pt x 86.62962pt.
 
-Overfull \hbox (18.37766pt too wide) in paragraph at lines 199--207
-\T1/cmr/m/n/12 In Ab-bil-dung 6[] wer-den die ver-schiede-nen For-men mit As-so
--ci-a-tion rule-mining analysiert.
+Overfull \hbox (21.84341pt too wide) in paragraph at lines 199--207
+\T1/cmr/m/n/12 Beim As-so-ci-a-tion rule-mining wer-den Transak-tions-dat-en un
+-ter-sucht und analysiert,
  []
 
+[9 <./Bilder/Anomalie.png>] [10 <./Bilder/rulemining.png>]
 
-Overfull \hbox (5.45586pt too wide) in paragraph at lines 199--207
-\T1/cmr/m/n/12 Anhand von Ergeb-nis-sen dieser Art kön-nen zum Beispiel Pro-duk
--tvorschläge basierend
- []
-
-[7 <./Bilder/Anomalie.png> <./Bilder/rulemining.png>]
-
-LaTeX Warning: Citation 'Nandy2018' on page 8 undefined on input line 211.
+LaTeX Warning: Citation 'Nandy2018' on page 11 undefined on input line 211.
 
 
-LaTeX Warning: Citation 'Sarkar2018' on page 8 undefined on input line 211.
+LaTeX Warning: Citation 'Sarkar2018' on page 11 undefined on input line 211.
 
 
-LaTeX Warning: Citation 'Alpaydin2004' on page 8 undefined on input line 212.
+LaTeX Warning: Citation 'Alpaydin2004' on page 11 undefined on input line 212.
 
 
-LaTeX Warning: Citation 'Nandy2018' on page 8 undefined on input line 214.
+LaTeX Warning: Citation 'Nandy2018' on page 11 undefined on input line 214.
 
 
-LaTeX Warning: Citation 'Sarkar2018' on page 8 undefined on input line 214.
+LaTeX Warning: Citation 'Sarkar2018' on page 11 undefined on input line 214.
 
 
-LaTeX Warning: Citation 'Nandy2018' on page 8 undefined on input line 215.
+LaTeX Warning: Citation 'Nandy2018' on page 11 undefined on input line 215.
 
 
-LaTeX Warning: Citation 'Sarkar2018' on page 8 undefined on input line 215.
+LaTeX Warning: Citation 'Sarkar2018' on page 11 undefined on input line 215.
 
-<Bilder/Reinforcement.png, id=57, 483.30562pt x 134.00063pt>
+<Bilder/Reinforcement.png, id=67, 483.30562pt x 134.00063pt>
 File: Bilder/Reinforcement.png Graphic file (type png)
 <use Bilder/Reinforcement.png>
 Package pdftex.def Info: Bilder/Reinforcement.png  used on input line 218.
 (pdftex.def)             Requested size: 142.26378pt x 39.44395pt.
 
-Overfull \hbox (9.50632pt too wide) in paragraph at lines 211--221
-\T1/cmr/m/n/12 Agent trainiert um sich sein-er Umge-bung anzu-passen und seine 
-Leis-tung zu verbessern.
+Overfull \hbox (18.6446pt too wide) in paragraph at lines 211--221
+\T1/cmr/m/n/12 Agen-ten genan-nt wer-den, ein. Hi-er-bei gibt es keine Training
+s-Daten. [[]]
+ []
+
+
+Overfull \hbox (17.43295pt too wide) in paragraph at lines 211--221
+\T1/cmr/m/n/12 Start- bis zu einem Endzu-s-tand nen-nt man Episode oder Prozess
+. [[]] 
  []
 
 
@@ -1057,41 +1163,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 211--221
  []
 
 
-LaTeX Warning: Citation 'Alpaydin2004' on page 8 undefined on input line 222.
+LaTeX Warning: Citation 'Alpaydin2004' on page 11 undefined on input line 222.
 
 
-LaTeX Warning: Citation 'Nandy2018' on page 8 undefined on input line 225.
+LaTeX Warning: Citation 'Nandy2018' on page 11 undefined on input line 225.
 
 
-LaTeX Warning: Citation 'Nandy2018' on page 8 undefined on input line 226.
+LaTeX Warning: Citation 'Nandy2018' on page 11 undefined on input line 226.
 
 
-LaTeX Warning: Citation 'Nandy2018' on page 8 undefined on input line 227.
+LaTeX Warning: Citation 'Nandy2018' on page 11 undefined on input line 227.
 
 
-LaTeX Warning: Citation 'Nandy2018' on page 8 undefined on input line 228.
+LaTeX Warning: Citation 'Nandy2018' on page 11 undefined on input line 228.
 
-<Bilder/Umgebung.png, id=58, 597.17842pt x 105.74242pt>
+<Bilder/Umgebung.png, id=68, 597.17842pt x 105.74242pt>
 File: Bilder/Umgebung.png Graphic file (type png)
 <use Bilder/Umgebung.png>
 Package pdftex.def Info: Bilder/Umgebung.png  used on input line 231.
 (pdftex.def)             Requested size: 227.62204pt x 40.30516pt.
 
-LaTeX Warning: Citation 'Nandy2018' on page 8 undefined on input line 235.
+LaTeX Warning: Citation 'Nandy2018' on page 11 undefined on input line 235.
 
-<Bilder/multiagent.png, id=59, 483.30562pt x 460.72125pt>
+<Bilder/multiagent.png, id=69, 483.30562pt x 460.72125pt>
 File: Bilder/multiagent.png Graphic file (type png)
 <use Bilder/multiagent.png>
 Package pdftex.def Info: Bilder/multiagent.png  used on input line 238.
 (pdftex.def)             Requested size: 142.26378pt x 135.61632pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Overfull \hbox (3.79382pt too wide) in paragraph at lines 225--241
+\T1/cmr/m/n/12 Es gibt multi-agent Umge-bun-gen, die für Prob-lem-stel-lun-gen 
+mit mehrere Umge-
+ []
 
-[8 <./Bilder/Reinforcement.png>]
+[11 <./Bilder/Reinforcement.png>]
 
-LaTeX Warning: Citation 'Nandy2018' on page 9 undefined on input line 244.
+LaTeX Warning: Citation 'Nandy2018' on page 12 undefined on input line 244.
 
-[9 <./Bilder/Umgebung.png> <./Bilder/multiagent.png>] [10]
+[12 <./Bilder/Umgebung.png> <./Bilder/multiagent.png>] [13]
 
 LaTeX Warning: Empty bibliography on input line 250.
 
@@ -1109,33 +1218,35 @@ Package logreq Info: Writing requests to 'Seminararbeit.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 12876 strings out of 495204
- 210404 string characters out of 3180427
- 662989 words of memory out of 3000000
- 15985 multiletter control sequences out of 15000+200000
- 17047 words of font info for 51 fonts, out of 3000000 for 9000
+ 15191 strings out of 495204
+ 258909 string characters out of 3180427
+ 802336 words of memory out of 3000000
+ 18277 multiletter control sequences out of 15000+200000
+ 17157 words of font info for 49 fonts, out of 3000000 for 9000
  16 hyphenation exceptions out of 8191
- 36i,7n,42p,906b,2180s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,8n,51p,9094b,2180s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\fonts\pk\ljfour\jknappen\
 ec\dpi600\ecrm1000.pk> <C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\fonts
-\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Laura\Documents\portyTeX\M
-iKTeX_Portable\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Laura\
-Documents\portyTeX\MiKTeX_Portable\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.
+\pk\ljfour\jknappen\ec\dpi600\ecsx1440.pk> <C:\Users\Laura\Documents\portyTeX\M
+iKTeX_Portable\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Laura\
+Documents\portyTeX\MiKTeX_Portable\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.
 pk> <C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\fonts\pk\ljfour\jknappen
-\ec\dpi600\ecbx1728.pk> <C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\font
-s\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\Laura\Documents\portyTeX\
-MiKTeX_Portable\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk><C:/Users/Laura/
-Documents/portyTeX/MiKTeX_Portable/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
-:/Users/Laura/Documents/portyTeX/MiKTeX_Portable/fonts/type1/public/amsfonts/cm
-/cmmi12.pfb><C:/Users/Laura/Documents/portyTeX/MiKTeX_Portable/fonts/type1/publ
-ic/amsfonts/cm/cmmi8.pfb><C:/Users/Laura/Documents/portyTeX/MiKTeX_Portable/fon
-ts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Laura/Documents/portyTeX/MiKTeX
-_Portable/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Laura/Documents/por
-tyTeX/MiKTeX_Portable/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Laura
-/Documents/portyTeX/MiKTeX_Portable/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-Output written on Seminararbeit.pdf (12 pages, 324470 bytes).
+\ec\dpi600\ecsx1200.pk> <C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\font
+s\pk\ljfour\jknappen\ec\dpi600\ecsx1728.pk> <C:\Users\Laura\Documents\portyTeX\
+MiKTeX_Portable\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk> <C:\Users\Laura
+\Documents\portyTeX\MiKTeX_Portable\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx2488
+.pk><C:/Users/Laura/Documents/portyTeX/MiKTeX_Portable/fonts/type1/public/amsfo
+nts/cm/cmex10.pfb><C:/Users/Laura/Documents/portyTeX/MiKTeX_Portable/fonts/type
+1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Laura/Documents/portyTeX/MiKTeX_Porta
+ble/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Laura/Documents/portyTeX
+/MiKTeX_Portable/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Laura/Docum
+ents/portyTeX/MiKTeX_Portable/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users
+/Laura/Documents/portyTeX/MiKTeX_Portable/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb><C:/Users/Laura/Documents/portyTeX/MiKTeX_Portable/fonts/type1/public/amsf
+onts/cm/cmsy6.pfb>
+Output written on Seminararbeit.pdf (15 pages, 336351 bytes).
 PDF statistics:
- 379 PDF objects out of 1000 (max. 8388607)
+ 419 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
