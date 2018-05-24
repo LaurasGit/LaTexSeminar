@@ -81,7 +81,7 @@
       <file>Seminararbeit.bcf</file>
     </requires>
     <requires type="editable">
-      <file>./Quellen.bib</file>
+      <file>Quellen.bib</file>
     </requires>
   </external>
 </requests>

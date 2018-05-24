@@ -4,7 +4,7 @@
 \usepackage[ngerman]{babel}
 \usepackage[latin1]{inputenc}
 \usepackage{color}
-\usepackage[a4paper,lmargin={4cm},rmargin={3cm},
+\usepackage[a4paper,lmargin={3cm},rmargin={2.5cm},
 tmargin={2cm},bmargin = {2.5cm}]{geometry}
 \usepackage[onehalfspacing]{setspace}
 \usepackage{amssymb}
@@ -13,10 +13,13 @@ tmargin={2cm},bmargin = {2.5cm}]{geometry}
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{float} %für bild platzierung H
-\usepackage[style = numeric - comp, 
-			backend = biber,
-			sorting =nty ]{ biblatex }
-\addbibresource{./Quellen.bib} % Quellen laden
+\usepackage[style = numeric - comp]{ biblatex }
+			%backend = biber,
+		%	sorting =nty, style=alphabetic,
+		%	citestyle=authoryear, bibencoding=latin1 ]{ biblatex }
+\addbibresource{Quellen.bib} % Quellen laden
+%\usepackage[utf8]{inputenc}
+%\usepackage[ansinew]{inputenc}
 
 %für zitieren 
 \usepackage[T1]{fontenc}
@@ -244,7 +247,9 @@ tmargin={2cm},bmargin = {2.5cm}]{geometry}
 	Reinforcement Learning wird in der Produktion von Robotern genutzt, um Objekte von einer Box in eine andere zu befördern. In der Lagerverwaltung werden Transportzeiten zwischen Lagern verringert und die Platznutzung im Lager durch Reinforcement Learning optimiert. Die Fahrzeugnutzung in der Lieferverwaltung kann damit ebenfalls optimiert werden. Im Finanzbereich wird unter Verwendung von Handelsstrategien die Buchhaltung unterstützt. \cite{Nandy2018}
 	
 	\newpage
-	\section{Schluss}
+	\section{Fazit}
+	Abschließend lässt sich sagen, dass die drei Machine Learning Arten sehr unterschiedliche Nutzen haben.
+	Supervised Learning eignet sich zur Zuordnung von Daten in bestimmte Kategorien und zur Abschätzung von Funktionen aus Datensätzen und damit Voraussagen von Ergebnissen für neue Werte. Beim Unsupervised Learning gibt es oft keine Eindeutigen oder sofort zu Problemlösung verwertbaren Ergebnisse. Diese Art des Machine Learnings eignet sich zu Unterstützung von Supervised Algorithmen. Reinforcement Learning unterscheidet sich drastisch von den anderen Methoden. Hier werden nicht aus Datenmengen Informationen gesammelt, sondern durch Belohnungen Verhaltensmuster optimiert. Diese Vorgehensweise ermöglicht völlig andere Problemstellungen als bei Supervised und Unspuervised Learning. Aufgrund der Vielfalt der Machine Learning Arten sind alle sehr bedeutend, da sie auf sich stark unterscheidende Problemstellungen angewandt werden können.
 	
 	\newpage
 	\printbibliography
