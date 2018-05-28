@@ -1,0 +1,260 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Alpaydin2004}{book}{}
+      \name{author}{1}{}{%
+        {{hash=8351b0b43ad4aed68fb279505ebd7d01}{%
+           family={Alpaydin},
+           familyi={A\bibinitperiod},
+           given={Ethem},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{8351b0b43ad4aed68fb279505ebd7d01}
+      \strng{fullhash}{8351b0b43ad4aed68fb279505ebd7d01}
+      \strng{bibnamehash}{8351b0b43ad4aed68fb279505ebd7d01}
+      \strng{authorbibnamehash}{8351b0b43ad4aed68fb279505ebd7d01}
+      \strng{authornamehash}{8351b0b43ad4aed68fb279505ebd7d01}
+      \strng{authorfullhash}{8351b0b43ad4aed68fb279505ebd7d01}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to Machine Learning}
+      \field{year}{2004}
+    \endentry
+    \entry{Geron2017}{book}{}
+      \name{author}{1}{}{%
+        {{hash=7757299fb85e73df5dcdf0249c368ef9}{%
+           family={G{é}ron},
+           familyi={G\bibinitperiod},
+           given={Aur{é}lien},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{7757299fb85e73df5dcdf0249c368ef9}
+      \strng{fullhash}{7757299fb85e73df5dcdf0249c368ef9}
+      \strng{bibnamehash}{7757299fb85e73df5dcdf0249c368ef9}
+      \strng{authorbibnamehash}{7757299fb85e73df5dcdf0249c368ef9}
+      \strng{authornamehash}{7757299fb85e73df5dcdf0249c368ef9}
+      \strng{authorfullhash}{7757299fb85e73df5dcdf0249c368ef9}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Hands-on machine learning with Scikit-Learn and TensorFlow : concepts, tools, and techniques to build intelligent systems}
+      \field{year}{2017}
+    \endentry
+    \entry{Kirk2014}{book}{}
+      \name{author}{1}{}{%
+        {{hash=2c96b0da262873e7803af31c6c8f6017}{%
+           family={Kirk},
+           familyi={K\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {Sebastopol}%
+      }
+      \list{publisher}{1}{%
+        {O'Reilly {\&} Associates}%
+      }
+      \strng{namehash}{2c96b0da262873e7803af31c6c8f6017}
+      \strng{fullhash}{2c96b0da262873e7803af31c6c8f6017}
+      \strng{bibnamehash}{2c96b0da262873e7803af31c6c8f6017}
+      \strng{authorbibnamehash}{2c96b0da262873e7803af31c6c8f6017}
+      \strng{authornamehash}{2c96b0da262873e7803af31c6c8f6017}
+      \strng{authorfullhash}{2c96b0da262873e7803af31c6c8f6017}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1. Aufl.}
+      \field{isbn}{1449374069}
+      \field{note}{Kirk, Matthew (Verfasser)}
+      \field{pagetotal}{200 S}
+      \field{subtitle}{A Test-Driven Approach}
+      \field{title}{Thoughtful Machine Learning}
+      \field{year}{2014}
+      \verb{file}
+      \verb http://d-nb.info/1054021007
+      \endverb
+    \endentry
+    \entry{Muller2016}{book}{}
+      \name{author}{2}{}{%
+        {{hash=2cac20e3dc995972ecfe2c49c71be023}{%
+           family={M{ü}ller},
+           familyi={M\bibinitperiod},
+           given={Andreas\bibnamedelima C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=529c7671a0173ff25261c1f04363a982}{%
+           family={Guido},
+           familyi={G\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{d99a684396b603799a519d3c98b31995}
+      \strng{fullhash}{d99a684396b603799a519d3c98b31995}
+      \strng{bibnamehash}{d99a684396b603799a519d3c98b31995}
+      \strng{authorbibnamehash}{d99a684396b603799a519d3c98b31995}
+      \strng{authornamehash}{d99a684396b603799a519d3c98b31995}
+      \strng{authorfullhash}{d99a684396b603799a519d3c98b31995}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{subtitle}{A Guide for Data Scientists}
+      \field{title}{Introduction to Machine Learning with Python}
+      \field{year}{2016}
+    \endentry
+    \entry{Nandy2018}{book}{}
+      \name{author}{2}{}{%
+        {{hash=c985676d0ac7f49ff80ff03499bda3df}{%
+           family={Nandy},
+           familyi={N\bibinitperiod},
+           given={Abhishek},
+           giveni={A\bibinitperiod}}}%
+        {{hash=596cbfca3a12d20c63cc1e9157069852}{%
+           family={Biswas},
+           familyi={B\bibinitperiod},
+           given={Manisha},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{organization}{1}{%
+        {Apress L.P.}%
+      }
+      \list{publisher}{1}{%
+        {APRESS}%
+      }
+      \strng{namehash}{1f2170a6dae062749776ec403cf5d526}
+      \strng{fullhash}{1f2170a6dae062749776ec403cf5d526}
+      \strng{bibnamehash}{1f2170a6dae062749776ec403cf5d526}
+      \strng{authorbibnamehash}{1f2170a6dae062749776ec403cf5d526}
+      \strng{authornamehash}{1f2170a6dae062749776ec403cf5d526}
+      \strng{authorfullhash}{1f2170a6dae062749776ec403cf5d526}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1st edition}
+      \field{isbn}{1484232844}
+      \field{note}{Nandy, Abhishek (Verfasser) Biswas, Manisha (Verfasser)}
+      \field{pagetotal}{V, 10 Seiten in 1 Teil}
+      \field{subtitle}{With Open AI, TensorFlow and Keras Using Python}
+      \field{title}{Reinforcement Learning}
+      \field{year}{2018}
+      \verb{file}
+      \verb http://www.springer.com/
+      \endverb
+      \keyw{Artificial Intelligence;Deep Learning;Keras;Machine Learning;Python;Reinforcement Learning;TensorFlow}
+    \endentry
+    \entry{Sarkar2018}{book}{}
+      \name{author}{3}{}{%
+        {{hash=19620e2d7ebdec18c9c7f5c60d155d33}{%
+           family={Sarkar},
+           familyi={S\bibinitperiod},
+           given={Dipanjan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=5e572ef8822bcf4c8cf39aaa5ee12860}{%
+           family={Bali},
+           familyi={B\bibinitperiod},
+           given={Raghav},
+           giveni={R\bibinitperiod}}}%
+        {{hash=be5448e80e0e1a8b1646c7287a044c68}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Tushar},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{organization}{1}{%
+        {Apress L.P.}%
+      }
+      \list{publisher}{1}{%
+        {APRESS}%
+      }
+      \strng{namehash}{63f573cefefed96b2de075960ba912e0}
+      \strng{fullhash}{63f573cefefed96b2de075960ba912e0}
+      \strng{bibnamehash}{63f573cefefed96b2de075960ba912e0}
+      \strng{authorbibnamehash}{63f573cefefed96b2de075960ba912e0}
+      \strng{authornamehash}{63f573cefefed96b2de075960ba912e0}
+      \strng{authorfullhash}{63f573cefefed96b2de075960ba912e0}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1st edition}
+      \field{isbn}{1484232062}
+      \field{note}{Sarkar, Dipanjan (Verfasser) Bali, Raghav (Verfasser) Sharma, Tushar (Verfasser)}
+      \field{pagetotal}{XV, 485 Seiten in 1 Teil}
+      \field{subtitle}{A Problem-Solver's Guide to Building Real-World Intelligent Systems}
+      \field{title}{Practical Machine Learning with Python}
+      \field{year}{2018}
+      \verb{file}
+      \verb http://www.springer.com/
+      \endverb
+      \keyw{bike Sharing Trends;Deep Learning;image processing;Machine Learning;Natural Language Processing;Python;recommender systems;Social network analysis;trend analysis}
+    \endentry
+    \entry{Suthaharan2016}{book}{}
+      \name{author}{1}{}{%
+        {{hash=acb894e631644e72f00d2dded6cacf1f}{%
+           family={Suthaharan},
+           familyi={S\bibinitperiod},
+           given={Shan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{acb894e631644e72f00d2dded6cacf1f}
+      \strng{fullhash}{acb894e631644e72f00d2dded6cacf1f}
+      \strng{bibnamehash}{acb894e631644e72f00d2dded6cacf1f}
+      \strng{authorbibnamehash}{acb894e631644e72f00d2dded6cacf1f}
+      \strng{authornamehash}{acb894e631644e72f00d2dded6cacf1f}
+      \strng{authorfullhash}{acb894e631644e72f00d2dded6cacf1f}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Machine Learning Models and Algorithms for Big Data Classification : Thinking with Examples for Effective Learning}
+      \field{year}{2016}
+    \endentry
+  \enddatalist
+  \missing{Mueller2016}
+  \missing{Suthaharan.2016}
+\endrefsection
+\endinput
+

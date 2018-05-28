@@ -3,30 +3,30 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}Einleitung}{1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Supervised Learning}{3}
+\contentsline {section}{\numberline {2}Supervised Learning}{2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}Klassifikation}{3}
+\contentsline {subsection}{\numberline {2.1}Klassifikation}{2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.1}Support Vector Machines}{4}
+\contentsline {subsubsection}{\numberline {2.1.1}Support Vector Machines}{3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Regression}{5}
+\contentsline {subsection}{\numberline {2.2}Regression}{4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Unsupervised Learning}{7}
+\contentsline {section}{\numberline {3}Unsupervised Learning}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Clusterbildung}{7}
+\contentsline {subsection}{\numberline {3.1}Clusterbildung}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.1}K-Means Algorithmus}{7}
+\contentsline {subsubsection}{\numberline {3.1.1}K-Means Algorithmus}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Dimensionsreduktion}{8}
+\contentsline {subsection}{\numberline {3.2}Dimensionsreduktion}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}Anomalie Erkennung}{9}
+\contentsline {subsection}{\numberline {3.3}Anomalie Erkennung}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4}Association rule-mining}{9}
+\contentsline {subsection}{\numberline {3.4}Association rule-mining}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Reinforcement Learning}{11}
+\contentsline {section}{\numberline {4}Reinforcement Learning}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Umgebung}{11}
+\contentsline {subsection}{\numberline {4.1}Umgebung}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Einsatzbereiche}{12}
+\contentsline {subsection}{\numberline {4.2}Einsatzbereiche}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Fazit}{13}
+\contentsline {section}{\numberline {5}Fazit}{12}
