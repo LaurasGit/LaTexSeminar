@@ -15,18 +15,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1}Clusterbildung}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.1}K-Means Algorithmus}{6}
+\contentsline {subsubsection}{\numberline {3.1.1}K-Means Algorithmus}{7}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2}Dimensionsreduktion}{7}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3}Anomalie Erkennung}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4}Association rule-mining}{8}
+\contentsline {subsection}{\numberline {3.4}Association rule-mining}{9}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4}Reinforcement Learning}{10}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1}Umgebung}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Einsatzbereiche}{11}
+\contentsline {subsection}{\numberline {4.2}Einsatzbereiche}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Fazit}{12}
+\contentsline {section}{\numberline {5}Fazit}{13}

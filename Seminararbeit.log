@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600) (preloaded format=pdflatex 2018.4.16)  28 MAY 2018 13:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600) (preloaded format=pdflatex 2018.4.16)  28 MAY 2018 14:12
 entering extended mode
 **./Seminararbeit.tex
 (Seminararbeit.tex
@@ -807,11 +807,11 @@ Seminararbeit.toc)
 \openout5 = `Seminararbeit.toc'.
 
  [2] [1]
-<Bilder/Label.png, id=17, 320.69812pt x 442.65375pt>
-File: Bilder/Label.png Graphic file (type png)
-<use Bilder/Label.png>
-Package pdftex.def Info: Bilder/Label.png  used on input line 80.
-(pdftex.def)             Requested size: 99.58464pt x 137.45088pt.
+<Bilder/Label.pdf, id=17, 597.50786pt x 845.04686pt>
+File: Bilder/Label.pdf Graphic file (type pdf)
+<use Bilder/Label.pdf>
+Package pdftex.def Info: Bilder/Label.pdf  used on input line 80.
+(pdftex.def)             Requested size: 99.58464pt x 140.8322pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 77--83
 
@@ -828,12 +828,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--94
 
  []
 
-<Bilder/SVM.png, id=23, 175.73021pt x 169.64432pt>
-File: Bilder/SVM.png Graphic file (type png)
-<use Bilder/SVM.png>
-Package pdftex.def Info: Bilder/SVM.png  used on input line 97.
-(pdftex.def)             Requested size: 142.26378pt x 137.34383pt.
-[3 <./Bilder/Label.png>]
+<Bilder/SVM.pdf, id=22, 597.50786pt x 845.04686pt>
+File: Bilder/SVM.pdf Graphic file (type pdf)
+<use Bilder/SVM.pdf>
+Package pdftex.def Info: Bilder/SVM.pdf  used on input line 97.
+(pdftex.def)             Requested size: 142.26378pt x 201.2036pt.
+[3 <./Bilder/Label.pdf>]
 (C:\Users\Laura\Documents\portyTeX\MiKTeX_Portable\tex\latex\listings\lstlang1.
 sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
@@ -842,12 +842,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--117
 
  []
 
-<Bilder/Regression.png, id=31, 505.89pt x 680.5425pt>
-File: Bilder/Regression.png Graphic file (type png)
-<use Bilder/Regression.png>
-Package pdftex.def Info: Bilder/Regression.png  used on input line 120.
-(pdftex.def)             Requested size: 142.26378pt x 191.38133pt.
-[4 <./Bilder/SVM.png>]
+<Bilder/Regression.pdf, id=37, 597.50786pt x 845.04686pt>
+File: Bilder/Regression.pdf Graphic file (type pdf)
+<use Bilder/Regression.pdf>
+Package pdftex.def Info: Bilder/Regression.pdf  used on input line 120.
+(pdftex.def)             Requested size: 142.26378pt x 201.2036pt.
+[4 <./Bilder/SVM.pdf>]
 Overfull \hbox (3.9209pt too wide) in paragraph at lines 125--142
 \T1/cmr/m/n/12 Multivariable Re-gres-sions Meth-o-d-en wer-den für Prob-leme mi
 t mehreren input-Variablen
@@ -858,72 +858,66 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--142
 
  []
 
-[5 <./Bilder/Regression.png>]
-<Bilder/Cluster.png, id=42, 453.94594pt x 357.58594pt>
-File: Bilder/Cluster.png Graphic file (type png)
-<use Bilder/Cluster.png>
-Package pdftex.def Info: Bilder/Cluster.png  used on input line 155.
-(pdftex.def)             Requested size: 142.26378pt x 112.06178pt.
- [6 <./Bilder/Cluster.png>] [7]
-<Bilder/Anomalie.png, id=54, 515.67656pt x 406.51875pt>
-File: Bilder/Anomalie.png Graphic file (type png)
-<use Bilder/Anomalie.png>
-Package pdftex.def Info: Bilder/Anomalie.png  used on input line 194.
-(pdftex.def)             Requested size: 142.26378pt x 112.14966pt.
-<Bilder/rulemining.png, id=55, 556.32843pt x 338.76563pt>
-File: Bilder/rulemining.png Graphic file (type png)
-<use Bilder/rulemining.png>
-Package pdftex.def Info: Bilder/rulemining.png  used on input line 205.
-(pdftex.def)             Requested size: 142.26378pt x 86.62962pt.
+[5 <./Bilder/Regression.pdf>]
+<Bilder/Cluster.pdf, id=56, 597.50786pt x 845.04686pt>
+File: Bilder/Cluster.pdf Graphic file (type pdf)
+<use Bilder/Cluster.pdf>
+Package pdftex.def Info: Bilder/Cluster.pdf  used on input line 155.
+(pdftex.def)             Requested size: 142.26378pt x 201.2036pt.
+ [6 <./Bilder/Cluster.pdf>] [7]
+<Bilder/Anomalie.pdf, id=69, 597.50786pt x 845.04686pt>
+File: Bilder/Anomalie.pdf Graphic file (type pdf)
+<use Bilder/Anomalie.pdf>
+Package pdftex.def Info: Bilder/Anomalie.pdf  used on input line 194.
+(pdftex.def)             Requested size: 142.26378pt x 201.2036pt.
+<Bilder/rule-mining.pdf, id=70, 597.50786pt x 845.04686pt>
+File: Bilder/rule-mining.pdf Graphic file (type pdf)
+<use Bilder/rule-mining.pdf>
+Package pdftex.def Info: Bilder/rule-mining.pdf  used on input line 205.
+(pdftex.def)             Requested size: 142.26378pt x 201.2036pt.
 
 Overfull \hbox (4.15128pt too wide) in paragraph at lines 200--208
 \T1/cmr/m/n/12 In Ab-bil-dung 6[] wer-den die ver-schiede-nen For-men mit As-so
 -ci-a-tion rule-mining analysiert.
  []
 
-[8 <./Bilder/Anomalie.png>] [9 <./Bilder/rulemining.png>]
-<Bilder/Reinforcement.png, id=64, 483.30562pt x 134.00063pt>
-File: Bilder/Reinforcement.png Graphic file (type png)
-<use Bilder/Reinforcement.png>
-Package pdftex.def Info: Bilder/Reinforcement.png  used on input line 219.
-(pdftex.def)             Requested size: 142.26378pt x 39.44395pt.
+[8 <./Bilder/Anomalie.pdf>] [9 <./Bilder/rule-mining.pdf>]
+<Bilder/Reinforcement.pdf, id=87, 597.50786pt x 845.04686pt>
+File: Bilder/Reinforcement.pdf Graphic file (type pdf)
+<use Bilder/Reinforcement.pdf>
+Package pdftex.def Info: Bilder/Reinforcement.pdf  used on input line 219.
+(pdftex.def)             Requested size: 142.26378pt x 201.2036pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 212--222
 
  []
 
-<Bilder/Umgebung.png, id=65, 597.17842pt x 105.74242pt>
-File: Bilder/Umgebung.png Graphic file (type png)
-<use Bilder/Umgebung.png>
-Package pdftex.def Info: Bilder/Umgebung.png  used on input line 232.
-(pdftex.def)             Requested size: 227.62204pt x 40.30516pt.
-<Bilder/multiagent.png, id=66, 483.30562pt x 460.72125pt>
-File: Bilder/multiagent.png Graphic file (type png)
-<use Bilder/multiagent.png>
-Package pdftex.def Info: Bilder/multiagent.png  used on input line 239.
-(pdftex.def)             Requested size: 142.26378pt x 135.61632pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[10 <./Bilder/Reinforcement.png>] [11 <./Bilder/Umgebung.png> <./Bilder/multiag
-ent.png>]
+<Bilder/Umgebung.pdf, id=88, 845.04686pt x 597.50786pt>
+File: Bilder/Umgebung.pdf Graphic file (type pdf)
+<use Bilder/Umgebung.pdf>
+Package pdftex.def Info: Bilder/Umgebung.pdf  used on input line 232.
+(pdftex.def)             Requested size: 227.62204pt x 160.94635pt.
+<Bilder/multiagent.pdf, id=89, 597.50786pt x 845.04686pt>
+File: Bilder/multiagent.pdf Graphic file (type pdf)
+<use Bilder/multiagent.pdf>
+Package pdftex.def Info: Bilder/multiagent.pdf  used on input line 239.
+(pdftex.def)             Requested size: 142.26378pt x 201.2036pt.
+[10 <./Bilder/Reinforcement.pdf>] [11 <./Bilder/Umgebung.pdf>] [12 <./Bilder/mu
+ltiagent.pdf>]
 Overfull \hbox (5.13153pt too wide) in paragraph at lines 249--251
 \T1/cmr/m/n/12 Abschlieÿend lässt sich sagen, dass die drei Ma-chine Learn-ing 
 Arten sehr un-ter-schiedliche
  []
 
-[12] [13] (Seminararbeit.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+[13] [14] (Seminararbeit.aux)
 Package logreq Info: Writing requests to 'Seminararbeit.run.xml'.
 \openout1 = `Seminararbeit.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 15205 strings out of 495204
- 259682 string characters out of 3180427
- 800189 words of memory out of 3000000
+ 15204 strings out of 495204
+ 259899 string characters out of 3180427
+ 800377 words of memory out of 3000000
  18293 multiletter control sequences out of 15000+200000
  18516 words of font info for 51 fonts, out of 3000000 for 9000
  16 hyphenation exceptions out of 8191
@@ -949,9 +943,9 @@ fonts/cm/cmr12.pfb><C:/Users/Laura/Documents/portyTeX/MiKTeX_Portable/fonts/typ
 e1/public/amsfonts/cm/cmr8.pfb><C:/Users/Laura/Documents/portyTeX/MiKTeX_Portab
 le/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Laura/Documents/portyTeX
 /MiKTeX_Portable/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-Output written on Seminararbeit.pdf (15 pages, 355574 bytes).
+Output written on Seminararbeit.pdf (16 pages, 269516 bytes).
 PDF statistics:
- 476 PDF objects out of 1000 (max. 8388607)
+ 524 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
