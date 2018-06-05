@@ -18,48 +18,33 @@
 
 
 \refsection{0}
-  \datalist[entry]{nty/global//global/global}
-    \entry{Alpaydin2004}{book}{}
-      \name{author}{1}{}{%
-        {{hash=8351b0b43ad4aed68fb279505ebd7d01}{%
-           family={Alpaydin},
-           familyi={A\bibinitperiod},
-           given={Ethem},
-           giveni={E\bibinitperiod}}}%
-      }
-      \strng{namehash}{8351b0b43ad4aed68fb279505ebd7d01}
-      \strng{fullhash}{8351b0b43ad4aed68fb279505ebd7d01}
-      \strng{bibnamehash}{8351b0b43ad4aed68fb279505ebd7d01}
-      \strng{authorbibnamehash}{8351b0b43ad4aed68fb279505ebd7d01}
-      \strng{authornamehash}{8351b0b43ad4aed68fb279505ebd7d01}
-      \strng{authorfullhash}{8351b0b43ad4aed68fb279505ebd7d01}
-      \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Introduction to Machine Learning}
-      \field{year}{2004}
-    \endentry
-    \entry{Geron2017}{book}{}
-      \name{author}{1}{}{%
-        {{hash=7757299fb85e73df5dcdf0249c368ef9}{%
-           family={G{é}ron},
+  \datalist[entry]{none/global//global/global}
+    \entry{Mueller2016}{book}{}
+      \name{author}{2}{}{%
+        {{hash=2cac20e3dc995972ecfe2c49c71be023}{%
+           family={M{Ã¼}ller},
+           familyi={M\bibinitperiod},
+           given={Andreas\bibnamedelima C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=529c7671a0173ff25261c1f04363a982}{%
+           family={Guido},
            familyi={G\bibinitperiod},
-           given={Aur{é}lien},
-           giveni={A\bibinitperiod}}}%
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
       }
-      \strng{namehash}{7757299fb85e73df5dcdf0249c368ef9}
-      \strng{fullhash}{7757299fb85e73df5dcdf0249c368ef9}
-      \strng{bibnamehash}{7757299fb85e73df5dcdf0249c368ef9}
-      \strng{authorbibnamehash}{7757299fb85e73df5dcdf0249c368ef9}
-      \strng{authornamehash}{7757299fb85e73df5dcdf0249c368ef9}
-      \strng{authorfullhash}{7757299fb85e73df5dcdf0249c368ef9}
-      \field{sortinit}{G}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \strng{namehash}{d99a684396b603799a519d3c98b31995}
+      \strng{fullhash}{d99a684396b603799a519d3c98b31995}
+      \strng{bibnamehash}{d99a684396b603799a519d3c98b31995}
+      \strng{authorbibnamehash}{d99a684396b603799a519d3c98b31995}
+      \strng{authornamehash}{d99a684396b603799a519d3c98b31995}
+      \strng{authorfullhash}{d99a684396b603799a519d3c98b31995}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Hands-on machine learning with Scikit-Learn and TensorFlow : concepts, tools, and techniques to build intelligent systems}
-      \field{year}{2017}
+      \field{subtitle}{A Guide for Data Scientists}
+      \field{title}{Introduction to Machine Learning with Python}
+      \field{year}{2016}
     \endentry
     \entry{Kirk2014}{book}{}
       \name{author}{1}{}{%
@@ -84,8 +69,8 @@
       \strng{authorbibnamehash}{2c96b0da262873e7803af31c6c8f6017}
       \strng{authornamehash}{2c96b0da262873e7803af31c6c8f6017}
       \strng{authorfullhash}{2c96b0da262873e7803af31c6c8f6017}
-      \field{sortinit}{K}
-      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{1. Aufl.}
@@ -99,79 +84,26 @@
       \verb http://d-nb.info/1054021007
       \endverb
     \endentry
-    \entry{Muller2016}{book}{}
-      \name{author}{2}{}{%
-        {{hash=2cac20e3dc995972ecfe2c49c71be023}{%
-           family={M{ü}ller},
-           familyi={M\bibinitperiod},
-           given={Andreas\bibnamedelima C.},
-           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=529c7671a0173ff25261c1f04363a982}{%
-           family={Guido},
+    \entry{Geron2017}{book}{}
+      \name{author}{1}{}{%
+        {{hash=7757299fb85e73df5dcdf0249c368ef9}{%
+           family={G{Ã©}ron},
            familyi={G\bibinitperiod},
-           given={Sarah},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{d99a684396b603799a519d3c98b31995}
-      \strng{fullhash}{d99a684396b603799a519d3c98b31995}
-      \strng{bibnamehash}{d99a684396b603799a519d3c98b31995}
-      \strng{authorbibnamehash}{d99a684396b603799a519d3c98b31995}
-      \strng{authornamehash}{d99a684396b603799a519d3c98b31995}
-      \strng{authorfullhash}{d99a684396b603799a519d3c98b31995}
-      \field{sortinit}{M}
-      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{subtitle}{A Guide for Data Scientists}
-      \field{title}{Introduction to Machine Learning with Python}
-      \field{year}{2016}
-    \endentry
-    \entry{Nandy2018}{book}{}
-      \name{author}{2}{}{%
-        {{hash=c985676d0ac7f49ff80ff03499bda3df}{%
-           family={Nandy},
-           familyi={N\bibinitperiod},
-           given={Abhishek},
+           given={Aur{Ã©}lien},
            giveni={A\bibinitperiod}}}%
-        {{hash=596cbfca3a12d20c63cc1e9157069852}{%
-           family={Biswas},
-           familyi={B\bibinitperiod},
-           given={Manisha},
-           giveni={M\bibinitperiod}}}%
       }
-      \list{language}{1}{%
-        {eng}%
-      }
-      \list{location}{1}{%
-        {New York}%
-      }
-      \list{organization}{1}{%
-        {Apress L.P.}%
-      }
-      \list{publisher}{1}{%
-        {APRESS}%
-      }
-      \strng{namehash}{1f2170a6dae062749776ec403cf5d526}
-      \strng{fullhash}{1f2170a6dae062749776ec403cf5d526}
-      \strng{bibnamehash}{1f2170a6dae062749776ec403cf5d526}
-      \strng{authorbibnamehash}{1f2170a6dae062749776ec403cf5d526}
-      \strng{authornamehash}{1f2170a6dae062749776ec403cf5d526}
-      \strng{authorfullhash}{1f2170a6dae062749776ec403cf5d526}
-      \field{sortinit}{N}
-      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \strng{namehash}{7757299fb85e73df5dcdf0249c368ef9}
+      \strng{fullhash}{7757299fb85e73df5dcdf0249c368ef9}
+      \strng{bibnamehash}{7757299fb85e73df5dcdf0249c368ef9}
+      \strng{authorbibnamehash}{7757299fb85e73df5dcdf0249c368ef9}
+      \strng{authornamehash}{7757299fb85e73df5dcdf0249c368ef9}
+      \strng{authorfullhash}{7757299fb85e73df5dcdf0249c368ef9}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{1st edition}
-      \field{isbn}{1484232844}
-      \field{note}{Nandy, Abhishek (Verfasser) Biswas, Manisha (Verfasser)}
-      \field{pagetotal}{V, 10 Seiten in 1 Teil}
-      \field{subtitle}{With Open AI, TensorFlow and Keras Using Python}
-      \field{title}{Reinforcement Learning}
-      \field{year}{2018}
-      \verb{file}
-      \verb http://www.springer.com/
-      \endverb
-      \keyw{Artificial Intelligence;Deep Learning;Keras;Machine Learning;Python;Reinforcement Learning;TensorFlow}
+      \field{title}{Hands-on machine learning with Scikit-Learn and TensorFlow : concepts, tools, and techniques to build intelligent systems}
+      \field{year}{2017}
     \endentry
     \entry{Sarkar2018}{book}{}
       \name{author}{3}{}{%
@@ -209,8 +141,8 @@
       \strng{authorbibnamehash}{63f573cefefed96b2de075960ba912e0}
       \strng{authornamehash}{63f573cefefed96b2de075960ba912e0}
       \strng{authorfullhash}{63f573cefefed96b2de075960ba912e0}
-      \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{1st edition}
@@ -221,7 +153,7 @@
       \field{title}{Practical Machine Learning with Python}
       \field{year}{2018}
       \verb{file}
-      \verb http://www.springer.com/
+      \verb http://d-nb.info/1140010786
       \endverb
       \keyw{bike Sharing Trends;Deep Learning;image processing;Machine Learning;Natural Language Processing;Python;recommender systems;Social network analysis;trend analysis}
     \endentry
@@ -245,16 +177,82 @@
       \strng{authorbibnamehash}{acb894e631644e72f00d2dded6cacf1f}
       \strng{authornamehash}{acb894e631644e72f00d2dded6cacf1f}
       \strng{authorfullhash}{acb894e631644e72f00d2dded6cacf1f}
-      \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Machine Learning Models and Algorithms for Big Data Classification : Thinking with Examples for Effective Learning}
       \field{year}{2016}
     \endentry
+    \entry{Alpaydin2004}{book}{}
+      \name{author}{1}{}{%
+        {{hash=8351b0b43ad4aed68fb279505ebd7d01}{%
+           family={Alpaydin},
+           familyi={A\bibinitperiod},
+           given={Ethem},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{8351b0b43ad4aed68fb279505ebd7d01}
+      \strng{fullhash}{8351b0b43ad4aed68fb279505ebd7d01}
+      \strng{bibnamehash}{8351b0b43ad4aed68fb279505ebd7d01}
+      \strng{authorbibnamehash}{8351b0b43ad4aed68fb279505ebd7d01}
+      \strng{authornamehash}{8351b0b43ad4aed68fb279505ebd7d01}
+      \strng{authorfullhash}{8351b0b43ad4aed68fb279505ebd7d01}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to Machine Learning}
+      \field{year}{2004}
+    \endentry
+    \entry{Nandy2018}{book}{}
+      \name{author}{2}{}{%
+        {{hash=c985676d0ac7f49ff80ff03499bda3df}{%
+           family={Nandy},
+           familyi={N\bibinitperiod},
+           given={Abhishek},
+           giveni={A\bibinitperiod}}}%
+        {{hash=596cbfca3a12d20c63cc1e9157069852}{%
+           family={Biswas},
+           familyi={B\bibinitperiod},
+           given={Manisha},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{organization}{1}{%
+        {Apress L.P.}%
+      }
+      \list{publisher}{1}{%
+        {APRESS}%
+      }
+      \strng{namehash}{1f2170a6dae062749776ec403cf5d526}
+      \strng{fullhash}{1f2170a6dae062749776ec403cf5d526}
+      \strng{bibnamehash}{1f2170a6dae062749776ec403cf5d526}
+      \strng{authorbibnamehash}{1f2170a6dae062749776ec403cf5d526}
+      \strng{authornamehash}{1f2170a6dae062749776ec403cf5d526}
+      \strng{authorfullhash}{1f2170a6dae062749776ec403cf5d526}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1st edition}
+      \field{isbn}{1484232844}
+      \field{note}{Nandy, Abhishek (Verfasser) Biswas, Manisha (Verfasser)}
+      \field{pagetotal}{V, 10 Seiten in 1 Teil}
+      \field{subtitle}{With Open AI, TensorFlow and Keras Using Python}
+      \field{title}{Reinforcement Learning}
+      \field{year}{2018}
+      \verb{file}
+      \verb http://www.springer.com/
+      \endverb
+      \keyw{Artificial Intelligence;Deep Learning;Keras;Machine Learning;Python;Reinforcement Learning;TensorFlow}
+    \endentry
   \enddatalist
-  \missing{Mueller2016}
-  \missing{Suthaharan.2016}
 \endrefsection
 \endinput
 

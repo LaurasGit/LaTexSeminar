@@ -1,19 +1,15 @@
 [0] Config.pm:302> INFO - This is Biber 2.10
 [0] Config.pm:305> INFO - Logfile is 'Seminararbeit.blg'
-[31] biber-MSWIN32:313> INFO - === 
-[57] Biber.pm:371> INFO - Reading 'Seminararbeit.bcf'
-[161] Biber.pm:857> INFO - Found 9 citekeys in bib section 0
-[174] Biber.pm:3976> INFO - Processing section 0
-[187] Biber.pm:4136> INFO - Looking for bibtex format file 'ref/Quellen.bib' for section 0
-[189] bibtex.pm:1490> INFO - LaTeX decoding ...
-[210] bibtex.pm:1306> INFO - Found BibTeX data source 'ref/Quellen.bib'
-[272] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laura\AppData\Local\Temp\PYtt4Xw8VG\Quellen.bib_5240.utf8, line 3, warning: 42 characters of junk seen at toplevel
-[273] Utils.pm:193> WARN - I didn't find a database entry for 'Mueller2016' (section 0)
-[273] Utils.pm:193> WARN - I didn't find a database entry for 'Suthaharan.2016' (section 0)
-[292] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[292] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[292] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
-[292] Biber.pm:3810> INFO - No sort tailoring available for locale 'de-DE'
-[302] bbl.pm:617> INFO - Writing 'Seminararbeit.bbl' with encoding 'latin1'
-[306] bbl.pm:720> INFO - Output to Seminararbeit.bbl
-[306] Biber.pm:110> INFO - WARNINGS: 3
+[38] biber-MSWIN32:313> INFO - === 
+[70] Biber.pm:371> INFO - Reading 'Seminararbeit.bcf'
+[242] Biber.pm:857> INFO - Found 7 citekeys in bib section 0
+[267] Biber.pm:3976> INFO - Processing section 0
+[292] Biber.pm:4136> INFO - Looking for bibtex format file 'ref/Quellen.bib' for section 0
+[295] bibtex.pm:1490> INFO - LaTeX decoding ...
+[324] bibtex.pm:1306> INFO - Found BibTeX data source 'ref/Quellen.bib'
+[416] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[416] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[416] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[416] Biber.pm:3810> INFO - No sort tailoring available for locale 'de-DE'
+[421] bbl.pm:617> INFO - Writing 'Seminararbeit.bbl' with encoding 'UTF-8'
+[424] bbl.pm:720> INFO - Output to Seminararbeit.bbl
