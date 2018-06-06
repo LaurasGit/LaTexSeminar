@@ -19,6 +19,12 @@ tmargin={2cm},bmargin = {2.5cm}]{geometry}
 		%	citestyle=authoryear, bibencoding=latin1 ]{ biblatex }
 \addbibresource{ref/Quellen.bib} % Quellen laden
 
+\usepackage{xcolor} %Farbe überschriften
+\definecolor{blue}{RGB}{24,116,190}
+\addtokomafont{section}{\color{blue}}
+\addtokomafont{subsection}{\color{blue}}
+\addtokomafont{subsubsection}{\color{blue}}
+
 %fÃ¼r zitieren 
 \usepackage[T1]{fontenc}
 \usepackage[babel , german = quotes ]{csquotes}
@@ -42,10 +48,29 @@ tmargin={2cm},bmargin = {2.5cm}]{geometry}
 	
 	%Titelseite
 	\begin{titlepage}
-		\title{Arten des Machine Learnings - Supervised, Unsupervised und Reinforcement Learning}
-		\date{2018}
-		\author{Laura Hartzheim}
-		\maketitle
+		\centering
+		
+		%{Technische Hochschule Ingolstadt \par}
+		%\vspace{0.5cm}
+		{\includegraphics[width=6cm]{bilder/thi_FEI_logo_wbh_RGB.jpg}}\par
+		
+		\vspace{2cm}
+		
+		{\Huge\bfseries Arten des Machine Learnings - Supervised, Unsupervised und Reinforcement Learning\par}
+		
+		\vspace{2cm}
+		
+		{\Large Laura Hartzheim\par}
+		
+		\vfill
+		
+		{Pr\"ufer: Dr.-Ing. Paul Spannaus}
+		
+		{Abgabe: 18.Juni 2018}
+				
+		
+		\vfill
+		
 	\end{titlepage}
 	
 	%Inhaltsverzeichnis
