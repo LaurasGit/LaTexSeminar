@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600) (preloaded format=pdflatex 2018.4.16)  7 JUN 2018 08:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600) (preloaded format=pdflatex 2018.4.16)  7 JUN 2018 10:32
 entering extended mode
 **./Seminararbeit.tex
 (Seminararbeit.tex
@@ -1240,9 +1240,6 @@ Arten sehr un-ter-schiedliche
  []
 
 ) [12] [13] (Seminararbeit.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package logreq Info: Writing requests to 'Seminararbeit.run.xml'.
 \openout1 = `Seminararbeit.run.xml'.
 
@@ -1276,7 +1273,7 @@ fonts/cm/cmr12.pfb><C:/Users/Laura/Documents/portyTeX/MiKTeX_Portable/fonts/typ
 e1/public/amsfonts/cm/cmr8.pfb><C:/Users/Laura/Documents/portyTeX/MiKTeX_Portab
 le/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Laura/Documents/portyTeX
 /MiKTeX_Portable/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-Output written on Seminararbeit.pdf (15 pages, 873787 bytes).
+Output written on Seminararbeit.pdf (15 pages, 873786 bytes).
 PDF statistics:
  511 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
