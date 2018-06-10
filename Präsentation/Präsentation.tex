@@ -135,26 +135,82 @@
 	\begin{frame}
 		\frametitle{Dimensionsreduktion}
 		\begin{itemize}
-			\item 
-		\end{itemize}
-		Die Komplexität des Machine Learning Modells ist abhängig von der Anzahl der Inputs. Sie bestimmen die Zeit- und Speicherkomplexität, sowie die Anzahl der zum Training benötigten Daten. [6] Dimensionsreduktion wird genutzt um den überladenen InputSpace zu verkleinern. Somit wird die Anzahl der relevanten Features oder Attribute(b = Dimensionen) für jeden Datensatz reduziert. [4] Wenn die Modelle einfach gehalten werden, sind sie, aufgrund ihrer geringeren Varianz, bei kleinen Datensätzen robuster. [6] Die Reduktion der Dimensionen erfolgt durch die Auswahl von Hauptfeatures und bedarfsgesteuerten Features. Für diese gibt es zwei Methoden. [4] Für die Feature Extraction werden neue Features, die Kombinationen aus der origni
-		7
-		nalen Featureliste sind, gesucht. [6] Bei der Feature Selection werden von d Dimensionen k, mit Hilfe von Subset Selection, ausgewählt. [6] Die Features, die die meisten Informationen liefern, werden aus der originalen Featureliste ausgewählt, der Rest wird verworfen. Es kommen keine neuen Features hinzu. [4] Ziel der Subset Selection ist es, das beste Subset aus der Featureliste mit einer möglichst geringen Anzahl von Dimensionen und der besten Genauigkeit zu nden. Es gibt 2d mögliche Subsets aus denen ausgewählt werden kann. Aufgrund der groÿen Menge können nicht alle getestet werden, deswegen müssen geeignete Verfahren für die Auswahl genutzt werden. [6]
-		
+			\item Komplexität des Modells ist abhängig von der Anzahl der Inputs
+			\item Ziel: Input Space(= Anzahl der Features/Attribute) verkleinern
+			\item Feature Extraction: neue Features, die Kombinationen aus alten sind finden 
+			\item Feature Selection: 
+				\begin{itemize}
+					\item k Dimensionen aus d auswählen druch Subset Selection
+					\item Features die die meisten Informationen liefern werden ausgewählt, der Rest verworfen
+					\item keine neuen Features
+					\item Ziel Subset Selection: bestes Subset aus Features mit möglichst geringer Anzahl an Dimensionen und bester Genauigkeit
+				\end{itemize}
+		\end{itemize}  
 	\end{frame}
 	
 	\begin{frame}
-		\frametitle{}
+		\frametitle{Anomalie Erkennung}
 		\begin{itemize}
-			\item 
+			\item Ziel: seltene oder laut vorherigen Datensätzen untypische Ereignisse erkennen
+			\item Anomalien können nach bestimmten Mustern auftreten
+			\item in der Trainings-Phase haben alle Input-Daten keinen Anomalien
 		\end{itemize}
+		\includegraphics[width=170pt]{C:/Users/Laura/Documents/GitHub/LaTexSeminar/bilder/Anomalie.pdf}
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{ Association rule-mining}
+		\begin{itemize}
+			\item Untersuchen und Analysieren von Transaktionen um Muster oder Regeln zu bestimmen
+			\item wird auch "market basket analysis" genannt
+			\item Ergebnisse z.B. für Produktvorschläge basierend auf dem eigenen Warenkorb und Käufen anderer Nutzer 
+		\end{itemize} 
+		\includegraphics[width=170pt]{C:/Users/Laura/Documents/GitHub/LaTexSeminar/bilder/rule-mining.pdf}
 	\end{frame}
 	
 	\section{Reinforcement Learning}
 	
 	\begin{frame}
+		\frametitle{Reinforcement Learning}
+		\begin{itemize}
+			\item Einsatz von Agenten $\widehat{=}$ intelligente Programme
+			\item Agent trainiert um sich Umgebung anzupassen und seine Leistung zu verbessern
+			\item Agent kennt Zustand der Umgebung und führt Aktionen aus um diesen zu verändern
+			\item Agent hat Strategien und Richtlinien, die verbessert und angepasst werden
+			\item Abhängig von der Aktion erhält der Agent positive und negative Belohnungen
+		\end{itemize}
+		\centering
+		\includegraphics[width=150pt]{C:/Users/Laura/Documents/GitHub/LaTexSeminar/bilder/Reinforcement.pdf}
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{Umgebung}
+		\begin{itemize}
+			\item kann eine 2D oder 3D Simulation eines Szenarios aus der echten Welt oder aus einem Spiel sein
+			\item Eigenschaften:
+			\begin{itemize}
+				\item deterministisch: für jede Aktion nur ein Übergang anderem Zusatand möglich $\leftrightarrow$ nicht-deterministisch
+				\item beobachtbar: alle Informationen über die Umgebung sind bekannt/ können wahr genommen werden $\leftrightarrow$ teilweise beobachtbar %Poker und Schach bsp
+				\item fortlaufend: mehr als eine Aktion führt zum nächsten Zustand $\leftrightarrow$ beschränkt
+			\end{itemize}
+		\end{itemize}
+	\end{frame}
+	
+	\section{Fazit}
+	
+	\begin{frame}
+		\frametitle{Fazit}
+		\begin{itemize}
+			\item Machine Learning Arten haben sehr unterschiedliche Nutzen
+			\item Supervised Learning: Zuordnung in Kategorien und Abschätzung von Funktionen 
+			\item Unsupervised Learning: Ergebnisse sind nicht immer die Lösung des Problems, oft unterstützend für Supervised Algorithmen
+			\item Reinforcement Learning: großer Unterschied zu den anderen, Verhaltensmuster werden optimiert
+		\end{itemize}
+		$\Rightarrow$ Alle sind bedeutend, da sie sich für sehr verschiedene Problemstellungen eignen
 		
 	\end{frame}
+	
+	\subsection{Code}
 	
 
 \end{document}
