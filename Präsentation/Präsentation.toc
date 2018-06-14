@@ -1,6 +1,6 @@
 \beamer@sectionintoc {1}{Machine Learning}{3}{0}{1}
 \beamer@sectionintoc {2}{Supervised Learning}{6}{0}{2}
 \beamer@sectionintoc {3}{Unsupervised Learning}{11}{0}{3}
-\beamer@sectionintoc {4}{Reinforcement Learning}{17}{0}{4}
-\beamer@sectionintoc {5}{Fazit}{20}{0}{5}
-\beamer@sectionintoc {6}{Code}{22}{0}{6}
+\beamer@sectionintoc {4}{Reinforcement Learning}{15}{0}{4}
+\beamer@sectionintoc {5}{Fazit}{17}{0}{5}
+\beamer@sectionintoc {6}{Code}{19}{0}{6}
