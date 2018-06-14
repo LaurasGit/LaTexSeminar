@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600) (preloaded format=pdflatex 2018.4.16)  7 JUN 2018 10:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600) (preloaded format=pdflatex 2018.4.16)  14 JUN 2018 10:36
 entering extended mode
 **./Seminararbeit.tex
 (Seminararbeit.tex
@@ -1247,7 +1247,7 @@ Package logreq Info: Writing requests to 'Seminararbeit.run.xml'.
 Here is how much of TeX's memory you used:
  15975 strings out of 495204
  268759 string characters out of 3180427
- 812326 words of memory out of 3000000
+ 812348 words of memory out of 3000000
  19026 multiletter control sequences out of 15000+200000
  17337 words of font info for 44 fonts, out of 3000000 for 9000
  16 hyphenation exceptions out of 8191

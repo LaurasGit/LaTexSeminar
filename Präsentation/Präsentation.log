@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600) (preloaded format=pdflatex 2018.4.16)  10 JUN 2018 10:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600) (preloaded format=pdflatex 2018.4.16)  14 JUN 2018 10:47
 entering extended mode
 **./Präsentation.tex
 (Präsentation.tex
@@ -1505,7 +1505,7 @@ LaTeX Font Warning: Font shape `OMS/lmss/m/n' undefined
 ] [8
 
 ]
-<C:/Users/Laura/Documents/GitHub/LaTexSeminar/bilder/Label.pdf, id=89, 597.5078
+<C:/Users/Laura/Documents/GitHub/LaTexSeminar/bilder/Label.pdf, id=95, 597.5078
 6pt x 845.04686pt>
 File: C:/Users/Laura/Documents/GitHub/LaTexSeminar/bilder/Label.pdf Graphic fil
 e (type pdf)
@@ -1520,7 +1520,7 @@ Overfull \vbox (74.1045pt too high) detected at line 101
 [9
 
  <C:/Users/Laura/Documents/GitHub/LaTexSeminar/bilder/Label.pdf>]
-<C:/Users/Laura/Documents/GitHub/LaTexSeminar/bilder/Regression.pdf, id=103, 59
+<C:/Users/Laura/Documents/GitHub/LaTexSeminar/bilder/Regression.pdf, id=109, 59
 7.50786pt x 645.87753pt>
 File: C:/Users/Laura/Documents/GitHub/LaTexSeminar/bilder/Regression.pdf Graphi
 c file (type pdf)
@@ -1540,7 +1540,7 @@ Overfull \vbox (61.48827pt too high) detected at line 112
 ] [12
 
 ]
-<C:/Users/Laura/Documents/GitHub/LaTexSeminar/bilder/Cluster.pdf, id=127, 597.5
+<C:/Users/Laura/Documents/GitHub/LaTexSeminar/bilder/Cluster.pdf, id=133, 597.5
 0786pt x 549.13818pt>
 File: C:/Users/Laura/Documents/GitHub/LaTexSeminar/bilder/Cluster.pdf Graphic f
 ile (type pdf)
@@ -1557,7 +1557,7 @@ Overfull \vbox (1.43721pt too high) detected at line 149
 [14
 
 ]
-<C:/Users/Laura/Documents/GitHub/LaTexSeminar/bilder/Anomalie.pdf, id=141, 597.
+<C:/Users/Laura/Documents/GitHub/LaTexSeminar/bilder/Anomalie.pdf, id=147, 597.
 50786pt x 483.69685pt>
 File: C:/Users/Laura/Documents/GitHub/LaTexSeminar/bilder/Anomalie.pdf Graphic 
 file (type pdf)
@@ -1572,7 +1572,7 @@ Overfull \vbox (17.5473pt too high) detected at line 159
 [15
 
  <C:/Users/Laura/Documents/GitHub/LaTexSeminar/bilder/Anomalie.pdf>]
-<C:/Users/Laura/Documents/GitHub/LaTexSeminar/bilder/rule-mining.pdf, id=155, 8
+<C:/Users/Laura/Documents/GitHub/LaTexSeminar/bilder/rule-mining.pdf, id=161, 8
 45.04686pt x 554.82875pt>
 File: C:/Users/Laura/Documents/GitHub/LaTexSeminar/bilder/rule-mining.pdf Graph
 ic file (type pdf)
@@ -1587,16 +1587,16 @@ le-mining.pdf  used on input line 169.
 [17
 
 ]
-<C:/Users/Laura/Documents/GitHub/LaTexSeminar/bilder/Reinforcement.pdf, id=168,
+<C:/Users/Laura/Documents/GitHub/LaTexSeminar/bilder/Reinforcement.pdf, id=174,
  845.04686pt x 446.70827pt>
 File: C:/Users/Laura/Documents/GitHub/LaTexSeminar/bilder/Reinforcement.pdf Gra
 phic file (type pdf)
 <use C:/Users/Laura/Documents/GitHub/LaTexSeminar/bilder/Reinforcement.pdf>
 Package pdftex.def Info: C:/Users/Laura/Documents/GitHub/LaTexSeminar/bilder/Re
 inforcement.pdf  used on input line 184.
-(pdftex.def)             Requested size: 150.0pt x 79.29297pt.
+(pdftex.def)             Requested size: 180.0pt x 95.14748pt.
 
-Overfull \vbox (23.91025pt too high) detected at line 184
+Overfull \vbox (39.76476pt too high) detected at line 184
  []
 
 [18
@@ -1621,7 +1621,35 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
 
 ] [21
 
+] [22
+
 ]
+<Titelseite.png, id=211, 732.7375pt x 381.425pt>
+File: Titelseite.png Graphic file (type png)
+<use Titelseite.png>
+Package pdftex.def Info: Titelseite.png  used on input line 218.
+(pdftex.def)             Requested size: 350.0pt x 182.19144pt.
+
+Overfull \hbox (42.71013pt too wide) in paragraph at lines 218--218
+[][]  
+ []
+
+[23
+
+ <./Titelseite.png>]
+<PackageH.png, id=219, 125.97063pt x 13.55063pt>
+File: PackageH.png Graphic file (type png)
+<use PackageH.png>
+Package pdftex.def Info: PackageH.png  used on input line 224.
+(pdftex.def)             Requested size: 90.0pt x 9.68137pt.
+<BildH.png, id=220, 429.10312pt x 91.84312pt>
+File: BildH.png Graphic file (type png)
+<use BildH.png>
+Package pdftex.def Info: BildH.png  used on input line 224.
+(pdftex.def)             Requested size: 300.0pt x 64.21124pt.
+ [24
+
+ <./PackageH.png> <./BildH.png>]
 \tf@nav=\write6
 \openout6 = `Präsentation.nav'.
 
@@ -1631,23 +1659,22 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
 \tf@snm=\write8
 \openout8 = `Präsentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 216.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 216.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 227.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 227.
  (Präsentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 216.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 216.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 227.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 227.
 Package rerunfilecheck Info: File `Präsentation.out' has not changed.
-(rerunfilecheck)             Checksum: F9BC03E263AB8A004EAAE2E05A85E877;263.
-
+(rerunfilecheck)             Checksum: 1820B3280678DE7C2FDBD7C67C6BBD54;303.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 21106 strings out of 495204
- 426333 string characters out of 3180427
+ 21139 strings out of 495204
+ 426720 string characters out of 3180427
  473518 words of memory out of 3000000
- 23853 multiletter control sequences out of 15000+200000
+ 23875 multiletter control sequences out of 15000+200000
  75578 words of font info for 66 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  71i,13n,95p,1842b,693s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1662,9 +1689,9 @@ able/fonts/type1/public/lm/lmss10.pfb><C:/Users/Laura/Documents/portyTeX/MiKTeX
 _Portable/fonts/type1/public/lm/lmss8.pfb><C:/Users/Laura/Documents/portyTeX/Mi
 KTeX_Portable/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/Laura/Documents/port
 yTeX/MiKTeX_Portable/fonts/type1/public/lm/lmsy10.pfb>
-Output written on Präsentation.pdf (21 pages, 153629 bytes).
+Output written on Präsentation.pdf (24 pages, 198010 bytes).
 PDF statistics:
- 238 PDF objects out of 1000 (max. 8388607)
- 48 named destinations out of 1000 (max. 500000)
- 113 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 268 PDF objects out of 1000 (max. 8388607)
+ 55 named destinations out of 1000 (max. 500000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
 
